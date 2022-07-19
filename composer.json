@@ -89,11 +89,11 @@
         "store.shopware.com/maxialistingvariants6": "^1.2",
         "store.shopware.com/neon6configurator": "^1.0",
         "store.shopware.com/phpschmiedfromprice": "^1.2",
-        "store.shopware.com/pickwareerpstarter": "^2.29",
         "store.shopware.com/pickwaregls": "^1.1",
         "store.shopware.com/scopplatformredirecter": "^1.1",
         "store.shopware.com/stripeshopwarepayment": "^1.9",
-        "store.shopware.com/trustamiseller": "^1.0"
+        "store.shopware.com/trustamiseller": "^1.0",
+        "store.shopware.com/huebertdropshippingsw6": "^1.1"
     },
     "require-dev": {
         "ext-openssl": "*",
