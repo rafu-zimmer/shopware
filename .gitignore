@@ -51,3 +51,6 @@ custom/*
 !/var/cache/.gitkeep
 !/var/queue/.gitkeep
 !/var/test/.gitkeep
+
+install.lock
+public/.htaccess
