@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0ae621af01f120852e1b4e3c92690205",
+    "content-hash": "7666f88e45f88770654630e0fb6f9d08",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -6726,6 +6726,53 @@
             "description": "SEO URL Manager"
         },
         {
+            "name": "store.shopware.com/coeformcustomerfromsw6",
+            "version": "1.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FCoeFormCustomerFromSw6%2Fbinaries%2F1.0.0"
+            },
+            "require": {
+                "shopware/core": ">=6.4.10.0"
+            },
+            "replace": {
+                "coeenterprise/coe-form-customer-from-sw6": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "Kunde direkt als Absender im Kontaktformular",
+                    "en-GB": "Customer directly as sender in contact form"
+                },
+                "copyright": "Jeffry Block",
+                "description": {
+                    "de-DE": "Kunde direkt als Absender von Kontakt Formularen ",
+                    "en-GB": "Kunde direkt als Absender von Kontakt Formularen "
+                },
+                "supportLink": {
+                    "de-DE": "https://codeenterprise.de",
+                    "en-GB": "https://codeenterprise.de"
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://codeenterprise.de",
+                    "en-GB": "https://codeenterprise.de"
+                },
+                "shopware-plugin-class": "CoeFormCustomerFromSw6\\CoeFormCustomerFromSw6"
+            },
+            "autoload": {
+                "psr-4": {
+                    "CoeFormCustomerFromSw6\\": "src/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "Jeffry Block"
+                }
+            ],
+            "description": "Kunde direkt als Absender im Kontaktformular"
+        },
+        {
             "name": "store.shopware.com/dreiscseopro",
             "version": "6.9.5",
             "dist": {
@@ -7129,10 +7176,10 @@
         },
         {
             "name": "store.shopware.com/moorlforms",
-            "version": "1.1.13",
+            "version": "1.1.14",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlForms%2Fbinaries%2F1.1.13"
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlForms%2Fbinaries%2F1.1.14"
             },
             "require": {
                 "shopware/core": "6.4.*",
