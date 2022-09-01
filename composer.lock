@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6966ae51ad03fe8fec90eff4bcba7f80",
+    "content-hash": "0ae621af01f120852e1b4e3c92690205",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.234.6",
+            "version": "3.234.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "c0ae9fbc8295678502a8fde6a2ecc49f2bd39580"
+                "reference": "325931ead99e794657f88393c5b7cdf56723aadb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c0ae9fbc8295678502a8fde6a2ecc49f2bd39580",
-                "reference": "c0ae9fbc8295678502a8fde6a2ecc49f2bd39580",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/325931ead99e794657f88393c5b7cdf56723aadb",
+                "reference": "325931ead99e794657f88393c5b7cdf56723aadb",
                 "shasum": ""
             },
             "require": {
@@ -144,9 +144,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.234.6"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.234.7"
             },
-            "time": "2022-08-30T20:25:10+00:00"
+            "time": "2022-08-31T18:25:01+00:00"
         },
         {
             "name": "brick/math",
@@ -6770,55 +6770,6 @@
                 }
             ],
             "description": "SEO Professional"
-        },
-        {
-            "name": "store.shopware.com/elia1textcollapse",
-            "version": "1.0.2",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FElia1TextCollapse%2Fbinaries%2F1.0.2"
-            },
-            "require": {
-                "shopware/core": "*"
-            },
-            "replace": {
-                "elia1/text-collapse": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "Aufklappbarer Text für Erlebniswelten",
-                    "en-GB": "Collapsible Text for Shopping Experiences"
-                },
-                "copyright": "(c) 2022 Elias Somvi",
-                "description": {
-                    "de-DE": "Support von www.eliassomvi.com",
-                    "en-GB": "Support by www.eliassomvi.com"
-                },
-                "supportLink": {
-                    "de-DE": "https://eliassomvi.com/",
-                    "en-GB": "https://eliassomvi.com/"
-                },
-                "manufacturerLink": {
-                    "de-DE": "https://eliassomvi.com/",
-                    "en-GB": "https://eliassomvi.com/"
-                },
-                "shopware-plugin-class": "Elia1\\TextCollapse\\Elia1TextCollapse"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Elia1\\TextCollapse\\": "src/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "Elias Somvi",
-                    "email": "info@eliassomvi.com",
-                    "homepage": "https://eliassomvi.com"
-                }
-            ],
-            "description": "Collapsible Text CMS Element"
         },
         {
             "name": "store.shopware.com/emzplatformstagingenvironment",
@@ -15573,5 +15524,5 @@
     "platform-overrides": {
         "php": "8.0"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.2.0"
 }
