@@ -13,7 +13,7 @@ BIN_DIR="$(cd -P -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
 export PROJECT_ROOT="${PROJECT_ROOT:-"$(dirname "$BIN_DIR")"}"
 
 # Do the update!
-composer update -d "${PROJECT_ROOT}" --no-scripts --no-interaction --no-install
+composer update -d "${PROJECT_ROOT}" --no-interaction
 
 # Restore original permissions on ssh-auth-sock
 sudo chmod "$PERMISSIONS" "${SSH_AUTH_SOCK}"
