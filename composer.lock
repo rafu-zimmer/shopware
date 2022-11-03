@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.240.7",
+            "version": "3.240.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "afad16e102229de8da15f07cc48436955811ef7f"
+                "reference": "72a4381a59f42720b033865d265aa64c3190cc13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/afad16e102229de8da15f07cc48436955811ef7f",
-                "reference": "afad16e102229de8da15f07cc48436955811ef7f",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/72a4381a59f42720b033865d265aa64c3190cc13",
+                "reference": "72a4381a59f42720b033865d265aa64c3190cc13",
                 "shasum": ""
             },
             "require": {
@@ -146,9 +146,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.240.7"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.240.8"
             },
-            "time": "2022-11-01T18:23:34+00:00"
+            "time": "2022-11-02T18:44:20+00:00"
         },
         {
             "name": "brick/math",
@@ -5143,11 +5143,11 @@
         },
         {
             "name": "rafu/project-jupiter",
-            "version": "1.7.9",
+            "version": "1.7.10",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:rafu-zimmer/projectjupiter.git",
-                "reference": "6d1bdde5ee5fa0f0a3588a001081de3f52433400"
+                "reference": "8625ca53312f25c802ba3d074e41945a3b87a5e6"
             },
             "require": {
                 "php": "^8.0",
@@ -5176,7 +5176,7 @@
                 }
             ],
             "description": "Project Jupiter",
-            "time": "2022-11-02T10:54:47+00:00"
+            "time": "2022-11-03T08:57:03+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
