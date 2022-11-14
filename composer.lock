@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6f4d28689a9ce6658db916f7e8d7a8b8",
+    "content-hash": "283b64ad27b5eaa7e2f234e0b7c6f1c9",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.242.0",
+            "version": "3.242.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "cab6d4f830ce275a1742a3e35e2625917b006dd2"
+                "reference": "9bfd85f696fff6a9b7810f1361751ad33a9b23d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/cab6d4f830ce275a1742a3e35e2625917b006dd2",
-                "reference": "cab6d4f830ce275a1742a3e35e2625917b006dd2",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/9bfd85f696fff6a9b7810f1361751ad33a9b23d1",
+                "reference": "9bfd85f696fff6a9b7810f1361751ad33a9b23d1",
                 "shasum": ""
             },
             "require": {
@@ -146,9 +146,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.242.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.242.1"
             },
-            "time": "2022-11-10T19:15:37+00:00"
+            "time": "2022-11-11T19:59:24+00:00"
         },
         {
             "name": "brick/math",
@@ -3101,59 +3101,6 @@
                 }
             ],
             "time": "2022-06-20T21:43:03+00:00"
-        },
-        {
-            "name": "jawira/plantuml-encoding",
-            "version": "v1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jawira/plantuml-encoding.git",
-                "reference": "cec097dfc062e7e13655d9594eacce5f9df639ad"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jawira/plantuml-encoding/zipball/cec097dfc062e7e13655d9594eacce5f9df639ad",
-                "reference": "cec097dfc062e7e13655d9594eacce5f9df639ad",
-                "shasum": ""
-            },
-            "require": {
-                "ext-zlib": "*",
-                "php": ">=7.0"
-            },
-            "require-dev": {
-                "jawira/skeleton": "^2.14",
-                "phpstan/phpstan": "^1.0",
-                "vimeo/psalm": "^4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/plantuml_functions.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jawira Portugal",
-                    "homepage": "https://jawira.com"
-                }
-            ],
-            "description": "PlantUML encoding functions",
-            "keywords": [
-                "encodep",
-                "encoding",
-                "functions",
-                "plantuml",
-                "uml"
-            ],
-            "support": {
-                "issues": "https://github.com/jawira/plantuml-encoding/issues",
-                "source": "https://github.com/jawira/plantuml-encoding/tree/v1.1.0"
-            },
-            "time": "2022-05-31T18:58:21+00:00"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -6838,54 +6785,6 @@
             "description": "Plugin to create and manage multiple staging environments in no time!"
         },
         {
-            "name": "store.shopware.com/froshtools",
-            "version": "0.2.12",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FFroshTools%2Fbinaries%2F0.2.12"
-            },
-            "require": {
-                "jawira/plantuml-encoding": "~1.1.0",
-                "shopware/core": "~6.4.11"
-            },
-            "replace": {
-                "frosh/tools": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "Tools",
-                    "en-GB": "Tools"
-                },
-                "description": {
-                    "de-DE": "Die kostenlose Shopware 6 App beinhaltet mehrere Werkzeuge um den Shop besser zu verwalten. Optimierter Cache Manager, Log Viewer um die Logeinträge zu sehen oder Tasks auszuführen.",
-                    "en-GB": "The free Shopware 6 app include several tools to manage the store much better like a cache manager, log viewer to see the log entries, run the tasks or see the system status."
-                },
-                "supportLink": {
-                    "de-DE": "https://github.com/FriendsOfShopware/FroshTools/issues",
-                    "en-GB": "https://github.com/FriendsOfShopware/FroshTools/issues"
-                },
-                "manufacturerLink": {
-                    "de-DE": "https://github.com/FriendsOfShopware/FroshTools",
-                    "en-GB": "https://github.com/FriendsOfShopware/FroshTools"
-                },
-                "shopware-plugin-class": "Frosh\\Tools\\FroshTools"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Frosh\\Tools\\": "src/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "FriendsOfShopware",
-                    "homepage": "https://friendsofshopware.com"
-                }
-            ],
-            "description": "Provides some basic things for managing the Shopware Installation"
-        },
-        {
             "name": "store.shopware.com/ironmatomo",
             "version": "1.1.1",
             "dist": {
@@ -7146,10 +7045,10 @@
         },
         {
             "name": "store.shopware.com/moorlforms",
-            "version": "1.1.37",
+            "version": "1.1.38",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlForms%2Fbinaries%2F1.1.37"
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlForms%2Fbinaries%2F1.1.38"
             },
             "require": {
                 "shopware/core": "^6.4.14",
@@ -7194,10 +7093,10 @@
         },
         {
             "name": "store.shopware.com/moorlformsclassic",
-            "version": "1.2.4",
+            "version": "1.2.5",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlFormsClassic%2Fbinaries%2F1.2.4"
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlFormsClassic%2Fbinaries%2F1.2.5"
             },
             "require": {
                 "shopware/core": "6.4.*",
