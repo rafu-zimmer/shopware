@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5c63af9cb6208d3aabf016b1118b8e20",
+    "content-hash": "b32a8873424f9ffe0596bb6c146b6621",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.245.0",
+            "version": "3.246.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "8a561bf0eddee0b905153332cfcc899801d3722b"
+                "reference": "34c2e3d699d08bc8f212d57f0d7a374a7404c653"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/8a561bf0eddee0b905153332cfcc899801d3722b",
-                "reference": "8a561bf0eddee0b905153332cfcc899801d3722b",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/34c2e3d699d08bc8f212d57f0d7a374a7404c653",
+                "reference": "34c2e3d699d08bc8f212d57f0d7a374a7404c653",
                 "shasum": ""
             },
             "require": {
@@ -146,9 +146,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.245.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.246.1"
             },
-            "time": "2022-11-16T19:26:45+00:00"
+            "time": "2022-11-19T22:48:18+00:00"
         },
         {
             "name": "brick/math",
@@ -3271,16 +3271,16 @@
         },
         {
             "name": "laminas/laminas-code",
-            "version": "4.7.0",
+            "version": "4.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-code.git",
-                "reference": "0337d9265bc2e6376babad8c511500821620cb30"
+                "reference": "91aabc066d5620428120800c0eafc0411e441a62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-code/zipball/0337d9265bc2e6376babad8c511500821620cb30",
-                "reference": "0337d9265bc2e6376babad8c511500821620cb30",
+                "url": "https://api.github.com/repos/laminas/laminas-code/zipball/91aabc066d5620428120800c0eafc0411e441a62",
+                "reference": "91aabc066d5620428120800c0eafc0411e441a62",
                 "shasum": ""
             },
             "require": {
@@ -3333,7 +3333,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2022-09-13T10:33:30+00:00"
+            "time": "2022-11-21T01:32:31+00:00"
         },
         {
             "name": "lcobucci/clock",
@@ -6834,6 +6834,60 @@
             "description": "Matomo plugin for shopware 6"
         },
         {
+            "name": "store.shopware.com/kielcodingplatformtrailingslash",
+            "version": "1.5.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FKielCodingPlatformTrailingSlash%2Fbinaries%2F1.5.1"
+            },
+            "require": {
+                "php": ">= 7.4",
+                "shopware/core": "~6.4.0",
+                "shopware/storefront": "~6.4.0"
+            },
+            "replace": {
+                "kielcoding/trailing-slash": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "Trailing Slash Weiterleitung",
+                    "en-GB": "Trailing Slash Redirect"
+                },
+                "description": {
+                    "de-DE": "Automatische Weiterleitung von Kategorie-URLs auf die korrekte URL-Variante. Unterstützt URL-Schemata mit oder ohne \"/\" am Ende und korrigiert jeweils die andere Schreibweise.",
+                    "en-GB": "Automatic forwarding of category URLs to the correct URL variant. Supports URL schemes with or without \"/\" at the end and corrects the other spelling."
+                },
+                "supportLink": {
+                    "de-DE": "https://store.shopware.com/kielcoding-ug.html",
+                    "en-GB": "https://store.shopware.com/en/kielcoding-ug.html"
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://store.shopware.com/kielcoding-ug.html",
+                    "en-GB": "https://store.shopware.com/en/kielcoding-ug.html"
+                },
+                "shopware-plugin-class": "KielCodingPlatformTrailingSlash\\KielCodingPlatformTrailingSlash"
+            },
+            "autoload": {
+                "psr-4": {
+                    "KielCodingPlatformTrailingSlash\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "KielCodingPlatformTrailingSlash\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "KielCoding",
+                    "role": "Manufacturer"
+                }
+            ],
+            "description": "Trailing Slash Redirect"
+        },
+        {
             "name": "store.shopware.com/klarnapayment",
             "version": "1.7.0",
             "dist": {
@@ -7190,10 +7244,10 @@
         },
         {
             "name": "store.shopware.com/neon6configurator",
-            "version": "1.6.0",
+            "version": "1.6.2",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FNeon6Configurator%2Fbinaries%2F1.6.0"
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FNeon6Configurator%2Fbinaries%2F1.6.2"
             },
             "require": {
                 "jwadhams/json-logic-php": "^1.5",
