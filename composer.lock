@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1e261ef923144f9124f343820c54d0b2",
+    "content-hash": "a30b375240be229b3f19c6bc3b0748fc",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -7393,10 +7393,10 @@
         },
         {
             "name": "store.shopware.com/neon6configurator",
-            "version": "1.6.3",
+            "version": "1.6.2",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FNeon6Configurator%2Fbinaries%2F1.6.3"
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FNeon6Configurator%2Fbinaries%2F1.6.2"
             },
             "require": {
                 "jwadhams/json-logic-php": "^1.5",
@@ -7431,11 +7431,6 @@
             "autoload": {
                 "psr-4": {
                     "Neon\\Configurator\\": "src/"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "Neon\\Configurator\\Test\\": "tests/"
                 }
             },
             "notification-url": "https://packages.shopware.com/downloads/",
