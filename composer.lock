@@ -5244,11 +5244,11 @@
         },
         {
             "name": "rafu/project-jupiter",
-            "version": "1.8",
+            "version": "1.8.1",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:rafu-zimmer/projectjupiter.git",
-                "reference": "1477566614864d0179b8d938a588c1dab11e1368"
+                "reference": "3c8cfdee05d6a6cef54a1b4bb971c9c76c41a5c2"
             },
             "require": {
                 "php": "^8.0",
@@ -5277,7 +5277,7 @@
                 }
             ],
             "description": "Project Jupiter",
-            "time": "2022-12-29T12:16:09+00:00"
+            "time": "2022-12-29T12:40:44+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
