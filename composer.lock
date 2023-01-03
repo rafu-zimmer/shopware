@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9b87a3f0a867badae90435d4c9a7725c",
+    "content-hash": "6c6aed4a682cbc12c37e4980ee85f38c",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -7678,6 +7678,61 @@
                 }
             ],
             "description": "PayPal integration for Shopware 6"
+        },
+        {
+            "name": "store.shopware.com/swagpublisher",
+            "version": "1.1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FSwagPublisher%2Fbinaries%2F1.1.0"
+            },
+            "require": {
+                "shopware/administration": "~6.4.16",
+                "shopware/core": "~6.4.16",
+                "shopware/storefront": "~6.4.16"
+            },
+            "replace": {
+                "shopware/publisher": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "Shopware Publisher",
+                    "en-GB": "Shopware Publisher"
+                },
+                "copyright": "(c) by shopware AG",
+                "description": {
+                    "de-DE": "Benutzerdefinierter Veröffentlichung für Erlebniswelten: Speichere CMS-Seiten als Entwurf, rufe eine Storefront-Vorschau aus dem Modul heraus auf und veröffentliche sie später.",
+                    "en-GB": "Custom publishing workflow for Shopping Experiences: Save CMS page changes as drafts, get a Storefront preview from within the module and publish them later."
+                },
+                "supportLink": {
+                    "de-DE": "https://issues.shopware.com/",
+                    "en-GB": "https://issues.shopware.com/"
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://www.shopware.com/de/",
+                    "en-GB": "https://www.shopware.com/en/"
+                },
+                "shopware-plugin-class": "SwagPublisher\\SwagPublisher"
+            },
+            "autoload": {
+                "psr-4": {
+                    "SwagPublisher\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "SwagPublisherTest\\": "tests/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "shopware AG",
+                    "role": "Manufacturer"
+                }
+            ],
+            "description": "Publisher"
         },
         {
             "name": "store.shopware.com/trustamiseller",
