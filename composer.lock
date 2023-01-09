@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c6aed4a682cbc12c37e4980ee85f38c",
+    "content-hash": "ca0816a25d093e039058f4ee63bb2a58",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.255.7",
+            "version": "3.255.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "50585058d65fd676ba689783c437d341b1198554"
+                "reference": "e851af4d7d2d95b131db344430384ae7cc04758e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/50585058d65fd676ba689783c437d341b1198554",
-                "reference": "50585058d65fd676ba689783c437d341b1198554",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/e851af4d7d2d95b131db344430384ae7cc04758e",
+                "reference": "e851af4d7d2d95b131db344430384ae7cc04758e",
                 "shasum": ""
             },
             "require": {
@@ -146,9 +146,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.255.7"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.255.11"
             },
-            "time": "2022-12-30T19:22:02+00:00"
+            "time": "2023-01-06T19:22:07+00:00"
         },
         {
             "name": "brick/math",
@@ -7519,6 +7519,58 @@
             "description": "Shows the 'from' price on product listings"
         },
         {
+            "name": "store.shopware.com/premsindividualoffer6",
+            "version": "3.5.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FPremsIndividualOffer6%2Fbinaries%2F3.5.1"
+            },
+            "require": {
+                "shopware/administration": "*",
+                "shopware/core": ">=6.4.0",
+                "shopware/storefront": ">=6.4.0"
+            },
+            "replace": {
+                "prems/individual-offer6": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "Individuelles Angebot",
+                    "en-GB": "Individual Offer"
+                },
+                "copyright": "(c) by PremSoft",
+                "description": {
+                    "de-DE": "Individuelle Angebote in Shopware erstellen. Kunden können Anfragen im Warenkorb stellen, Angebote übersichtlich im Backend verwaltbar, individuelle Preise/ Mengen/ Artikel einstellbar.",
+                    "en-GB": "Create individual offers in Shopware. Customers can make inquiries in the shopping cart, offers can be managed in the backend, individual prices / quantities / items can be set."
+                },
+                "plugin-icon": "src/Resources/config/plugin.png",
+                "supportLink": {
+                    "de-DE": "https://premsoft.de/kontakt.html",
+                    "en-GB": "https://premsoft.de/kontakt.html"
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://store.shopware.com/premsoft.html",
+                    "en-GB": "https://store.shopware.com/en/premsoft.html"
+                },
+                "shopware-plugin-class": "Prems\\Plugin\\PremsIndividualOffer6\\PremsIndividualOffer6"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Prems\\Plugin\\PremsIndividualOffer6\\": "src/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "PremSoft",
+                    "role": "Manufacturer",
+                    "homepage": "https://premsoft.de"
+                }
+            ],
+            "description": "Individual offer for Shopware 6"
+        },
+        {
             "name": "store.shopware.com/scopplatformredirecter",
             "version": "1.2.0",
             "dist": {
@@ -13190,16 +13242,16 @@
         },
         {
             "name": "zircote/swagger-php",
-            "version": "3.3.6",
+            "version": "3.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zircote/swagger-php.git",
-                "reference": "5016342f966fca29dda84455de066c5c90d37941"
+                "reference": "e8c3bb316e385e93a0c7e8b2aa0681079244c381"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zircote/swagger-php/zipball/5016342f966fca29dda84455de066c5c90d37941",
-                "reference": "5016342f966fca29dda84455de066c5c90d37941",
+                "url": "https://api.github.com/repos/zircote/swagger-php/zipball/e8c3bb316e385e93a0c7e8b2aa0681079244c381",
+                "reference": "e8c3bb316e385e93a0c7e8b2aa0681079244c381",
                 "shasum": ""
             },
             "require": {
@@ -13257,9 +13309,9 @@
             ],
             "support": {
                 "issues": "https://github.com/zircote/swagger-php/issues",
-                "source": "https://github.com/zircote/swagger-php/tree/3.3.6"
+                "source": "https://github.com/zircote/swagger-php/tree/3.3.7"
             },
-            "time": "2022-05-21T01:52:14+00:00"
+            "time": "2023-01-03T21:17:10+00:00"
         }
     ],
     "packages-dev": [
