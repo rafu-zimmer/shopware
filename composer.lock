@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4b66cd9b055681cb7670e845833f86d7",
+    "content-hash": "bb0ce1c52755c17f9ce77830ef10fd4f",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.252.4",
+            "version": "3.256.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "ce0b006b73c6ea78eb570aa3fcd838d0df34ec1b"
+                "reference": "99d254413e0b4899feb53d4ad373fc630a9e089a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ce0b006b73c6ea78eb570aa3fcd838d0df34ec1b",
-                "reference": "ce0b006b73c6ea78eb570aa3fcd838d0df34ec1b",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/99d254413e0b4899feb53d4ad373fc630a9e089a",
+                "reference": "99d254413e0b4899feb53d4ad373fc630a9e089a",
                 "shasum": ""
             },
             "require": {
@@ -146,32 +146,32 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.252.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.256.0"
             },
-            "time": "2022-12-07T19:47:20+00:00"
+            "time": "2023-01-09T19:23:53+00:00"
         },
         {
             "name": "brick/math",
-            "version": "0.9.3",
+            "version": "0.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brick/math.git",
-                "reference": "ca57d18f028f84f777b2168cd1911b0dee2343ae"
+                "reference": "459f2781e1a08d52ee56b0b1444086e038561e3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brick/math/zipball/ca57d18f028f84f777b2168cd1911b0dee2343ae",
-                "reference": "ca57d18f028f84f777b2168cd1911b0dee2343ae",
+                "url": "https://api.github.com/repos/brick/math/zipball/459f2781e1a08d52ee56b0b1444086e038561e3f",
+                "reference": "459f2781e1a08d52ee56b0b1444086e038561e3f",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "php": "^7.1 || ^8.0"
+                "php": "^7.4 || ^8.0"
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "^2.2",
-                "phpunit/phpunit": "^7.5.15 || ^8.5 || ^9.0",
-                "vimeo/psalm": "4.9.2"
+                "phpunit/phpunit": "^9.0",
+                "vimeo/psalm": "4.25.0"
             },
             "type": "library",
             "autoload": {
@@ -196,19 +196,15 @@
             ],
             "support": {
                 "issues": "https://github.com/brick/math/issues",
-                "source": "https://github.com/brick/math/tree/0.9.3"
+                "source": "https://github.com/brick/math/tree/0.10.2"
             },
             "funding": [
                 {
                     "url": "https://github.com/BenMorel",
                     "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/brick/math",
-                    "type": "tidelift"
                 }
             ],
-            "time": "2021-08-15T20:50:18+00:00"
+            "time": "2022-08-10T22:54:19+00:00"
         },
         {
             "name": "cocur/slugify",
@@ -1546,16 +1542,16 @@
         },
         {
             "name": "doctrine/persistence",
-            "version": "2.5.5",
+            "version": "2.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/persistence.git",
-                "reference": "38670dd6ac8f2d997a0b5b6c98cb380ef0ba9bd3"
+                "reference": "7729fc2a7e5efc8bbfa408a3b8adeb8f5b84f5d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/persistence/zipball/38670dd6ac8f2d997a0b5b6c98cb380ef0ba9bd3",
-                "reference": "38670dd6ac8f2d997a0b5b6c98cb380ef0ba9bd3",
+                "url": "https://api.github.com/repos/doctrine/persistence/zipball/7729fc2a7e5efc8bbfa408a3b8adeb8f5b84f5d1",
+                "reference": "7729fc2a7e5efc8bbfa408a3b8adeb8f5b84f5d1",
                 "shasum": ""
             },
             "require": {
@@ -1567,18 +1563,18 @@
                 "psr/cache": "^1.0 || ^2.0 || ^3.0"
             },
             "conflict": {
-                "doctrine/annotations": "<1.0 || >=2.0",
+                "doctrine/annotations": "<1.0 || >=3.0",
                 "doctrine/common": "<2.10"
             },
             "require-dev": {
                 "composer/package-versions-deprecated": "^1.11",
-                "doctrine/annotations": "^1.0",
-                "doctrine/coding-standard": "^9 || ^10",
+                "doctrine/annotations": "^1 || ^2",
+                "doctrine/coding-standard": "^9 || ^11",
                 "doctrine/common": "^3.0",
-                "phpstan/phpstan": "~1.4.10 || 1.8.8",
+                "phpstan/phpstan": "~1.4.10 || 1.9.4",
                 "phpunit/phpunit": "^7.5.20 || ^8.5 || ^9.5",
                 "symfony/cache": "^4.4 || ^5.4 || ^6.0",
-                "vimeo/psalm": "4.29.0"
+                "vimeo/psalm": "4.30.0 || 5.3.0"
             },
             "type": "library",
             "autoload": {
@@ -1628,7 +1624,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/persistence/issues",
-                "source": "https://github.com/doctrine/persistence/tree/2.5.5"
+                "source": "https://github.com/doctrine/persistence/tree/2.5.6"
             },
             "funding": [
                 {
@@ -1644,29 +1640,28 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-13T07:17:40+00:00"
+            "time": "2023-01-01T18:11:10+00:00"
         },
         {
             "name": "egulias/email-validator",
-            "version": "3.2.1",
+            "version": "3.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "f88dcf4b14af14a98ad96b14b2b317969eab6715"
+                "reference": "b531a2311709443320c786feb4519cfaf94af796"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/f88dcf4b14af14a98ad96b14b2b317969eab6715",
-                "reference": "f88dcf4b14af14a98ad96b14b2b317969eab6715",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/b531a2311709443320c786feb4519cfaf94af796",
+                "reference": "b531a2311709443320c786feb4519cfaf94af796",
                 "shasum": ""
             },
             "require": {
-                "doctrine/lexer": "^1.2",
+                "doctrine/lexer": "^1.2|^2",
                 "php": ">=7.2",
                 "symfony/polyfill-intl-idn": "^1.15"
             },
             "require-dev": {
-                "php-coveralls/php-coveralls": "^2.2",
                 "phpunit/phpunit": "^8.5.8|^9.3.3",
                 "vimeo/psalm": "^4"
             },
@@ -1704,7 +1699,7 @@
             ],
             "support": {
                 "issues": "https://github.com/egulias/EmailValidator/issues",
-                "source": "https://github.com/egulias/EmailValidator/tree/3.2.1"
+                "source": "https://github.com/egulias/EmailValidator/tree/3.2.5"
             },
             "funding": [
                 {
@@ -1712,7 +1707,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-06-18T20:57:19+00:00"
+            "time": "2023-01-02T17:26:14+00:00"
         },
         {
             "name": "elasticsearch/elasticsearch",
@@ -2422,16 +2417,16 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v6.3.1",
+            "version": "v6.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "ddfaddcb520488b42bca3a75e17e9dd53c3667da"
+                "reference": "ea7dda77098b96e666c5ef382452f94841e439cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/ddfaddcb520488b42bca3a75e17e9dd53c3667da",
-                "reference": "ddfaddcb520488b42bca3a75e17e9dd53c3667da",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/ea7dda77098b96e666c5ef382452f94841e439cd",
+                "reference": "ea7dda77098b96e666c5ef382452f94841e439cd",
                 "shasum": ""
             },
             "require": {
@@ -2478,9 +2473,9 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v6.3.1"
+                "source": "https://github.com/firebase/php-jwt/tree/v6.3.2"
             },
-            "time": "2022-11-01T21:20:08+00:00"
+            "time": "2022-12-19T17:10:46+00:00"
         },
         {
             "name": "friendsofphp/proxy-manager-lts",
@@ -2624,16 +2619,16 @@
         },
         {
             "name": "google/cloud-core",
-            "version": "v1.48.0",
+            "version": "v1.48.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-cloud-php-core.git",
-                "reference": "83d1c896ab481ae647d536d017f4a5374f1bf094"
+                "reference": "07f275bb0b915e5671edda16506366a67eab0916"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-cloud-php-core/zipball/83d1c896ab481ae647d536d017f4a5374f1bf094",
-                "reference": "83d1c896ab481ae647d536d017f4a5374f1bf094",
+                "url": "https://api.github.com/repos/googleapis/google-cloud-php-core/zipball/07f275bb0b915e5671edda16506366a67eab0916",
+                "reference": "07f275bb0b915e5671edda16506366a67eab0916",
                 "shasum": ""
             },
             "require": {
@@ -2684,9 +2679,9 @@
             ],
             "description": "Google Cloud PHP shared dependency, providing functionality useful to all components.",
             "support": {
-                "source": "https://github.com/googleapis/google-cloud-php-core/tree/v1.48.0"
+                "source": "https://github.com/googleapis/google-cloud-php-core/tree/v1.48.1"
             },
-            "time": "2022-12-07T23:19:22+00:00"
+            "time": "2022-12-13T22:56:52+00:00"
         },
         {
             "name": "google/cloud-storage",
@@ -3107,6 +3102,59 @@
             "time": "2022-06-20T21:43:03+00:00"
         },
         {
+            "name": "jawira/plantuml-encoding",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jawira/plantuml-encoding.git",
+                "reference": "cec097dfc062e7e13655d9594eacce5f9df639ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jawira/plantuml-encoding/zipball/cec097dfc062e7e13655d9594eacce5f9df639ad",
+                "reference": "cec097dfc062e7e13655d9594eacce5f9df639ad",
+                "shasum": ""
+            },
+            "require": {
+                "ext-zlib": "*",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "jawira/skeleton": "^2.14",
+                "phpstan/phpstan": "^1.0",
+                "vimeo/psalm": "^4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/plantuml_functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jawira Portugal",
+                    "homepage": "https://jawira.com"
+                }
+            ],
+            "description": "PlantUML encoding functions",
+            "keywords": [
+                "encodep",
+                "encoding",
+                "functions",
+                "plantuml",
+                "uml"
+            ],
+            "support": {
+                "issues": "https://github.com/jawira/plantuml-encoding/issues",
+                "source": "https://github.com/jawira/plantuml-encoding/tree/v1.1.0"
+            },
+            "time": "2022-05-31T18:58:21+00:00"
+        },
+        {
             "name": "jdorn/sql-formatter",
             "version": "v1.2.17",
             "source": {
@@ -3231,6 +3279,49 @@
             "time": "2022-04-13T08:02:27+00:00"
         },
         {
+            "name": "jwadhams/json-logic-php",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jwadhams/json-logic-php.git",
+                "reference": "e4ea3a46f44d3d34740276f7a21f8f052b029743"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jwadhams/json-logic-php/zipball/e4ea3a46f44d3d34740276f7a21f8f052b029743",
+                "reference": "e4ea3a46f44d3d34740276f7a21f8f052b029743",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "JWadhams": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeremy Wadhams",
+                    "email": "jwadhams@dealerinspire.com"
+                }
+            ],
+            "description": "Build rules with complex comparisons and boolean operators, serialized as JSON, and execute them in PHP",
+            "support": {
+                "issues": "https://github.com/jwadhams/json-logic-php/issues",
+                "source": "https://github.com/jwadhams/json-logic-php/tree/1.5.0"
+            },
+            "time": "2022-03-02T21:44:10+00:00"
+        },
+        {
             "name": "laminas/laminas-code",
             "version": "4.7.1",
             "source": {
@@ -3298,31 +3389,31 @@
         },
         {
             "name": "lcobucci/clock",
-            "version": "2.0.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lcobucci/clock.git",
-                "reference": "353d83fe2e6ae95745b16b3d911813df6a05bfb3"
+                "reference": "fb533e093fd61321bfcbac08b131ce805fe183d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lcobucci/clock/zipball/353d83fe2e6ae95745b16b3d911813df6a05bfb3",
-                "reference": "353d83fe2e6ae95745b16b3d911813df6a05bfb3",
+                "url": "https://api.github.com/repos/lcobucci/clock/zipball/fb533e093fd61321bfcbac08b131ce805fe183d3",
+                "reference": "fb533e093fd61321bfcbac08b131ce805fe183d3",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.4 || ^8.0"
+                "php": "^8.0",
+                "stella-maris/clock": "^0.1.4"
             },
             "require-dev": {
-                "infection/infection": "^0.17",
-                "lcobucci/coding-standard": "^6.0",
-                "phpstan/extension-installer": "^1.0",
+                "infection/infection": "^0.26",
+                "lcobucci/coding-standard": "^8.0",
+                "phpstan/extension-installer": "^1.1",
                 "phpstan/phpstan": "^0.12",
                 "phpstan/phpstan-deprecation-rules": "^0.12",
                 "phpstan/phpstan-phpunit": "^0.12",
                 "phpstan/phpstan-strict-rules": "^0.12",
-                "phpunit/php-code-coverage": "9.1.4",
-                "phpunit/phpunit": "9.3.7"
+                "phpunit/phpunit": "^9.5"
             },
             "type": "library",
             "autoload": {
@@ -3343,7 +3434,7 @@
             "description": "Yet another clock abstraction",
             "support": {
                 "issues": "https://github.com/lcobucci/clock/issues",
-                "source": "https://github.com/lcobucci/clock/tree/2.0.x"
+                "source": "https://github.com/lcobucci/clock/tree/2.2.0"
             },
             "funding": [
                 {
@@ -3355,7 +3446,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-08-27T18:56:02+00:00"
+            "time": "2022-04-19T19:34:17+00:00"
         },
         {
             "name": "lcobucci/jwt",
@@ -4701,6 +4792,54 @@
             "time": "2016-08-06T20:24:11+00:00"
         },
         {
+            "name": "psr/clock",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/clock.git",
+                "reference": "e41a24703d4560fd0acb709162f73b8adfc3aa0d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/clock/zipball/e41a24703d4560fd0acb709162f73b8adfc3aa0d",
+                "reference": "e41a24703d4560fd0acb709162f73b8adfc3aa0d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0 || ^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Clock\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for reading the clock.",
+            "homepage": "https://github.com/php-fig/clock",
+            "keywords": [
+                "clock",
+                "now",
+                "psr",
+                "psr-20",
+                "time"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/clock/issues",
+                "source": "https://github.com/php-fig/clock/tree/1.0.0"
+            },
+            "time": "2022-11-25T14:36:26+00:00"
+        },
+        {
             "name": "psr/container",
             "version": "1.1.2",
             "source": {
@@ -5103,6 +5242,43 @@
             "time": "2020-12-21T13:14:51+00:00"
         },
         {
+            "name": "rafu/project-jupiter",
+            "version": "1.8.5",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:rafu-zimmer/projectjupiter.git",
+                "reference": "1b8c753ec044874530950ab1a04364ca26d86a9d"
+            },
+            "require": {
+                "php": "^8.0",
+                "shopware/core": "^6.4",
+                "shopware/storefront": "^6.4"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "shopware-plugin-class": "Rafu\\ProjectJupiter\\ProjectJupiter",
+                "label": {
+                    "de-DE": "Project Jupiter",
+                    "en-GB": "Project Jupiter"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Rafu\\ProjectJupiter\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "RAFU + ZIMMER OHG"
+                }
+            ],
+            "description": "Project Jupiter",
+            "time": "2023-01-03T13:56:18+00:00"
+        },
+        {
             "name": "ralouphie/getallheaders",
             "version": "3.0.3",
             "source": {
@@ -5148,42 +5324,53 @@
         },
         {
             "name": "ramsey/collection",
-            "version": "1.2.2",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/collection.git",
-                "reference": "cccc74ee5e328031b15640b51056ee8d3bb66c0a"
+                "reference": "ad7475d1c9e70b190ecffc58f2d989416af339b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/collection/zipball/cccc74ee5e328031b15640b51056ee8d3bb66c0a",
-                "reference": "cccc74ee5e328031b15640b51056ee8d3bb66c0a",
+                "url": "https://api.github.com/repos/ramsey/collection/zipball/ad7475d1c9e70b190ecffc58f2d989416af339b4",
+                "reference": "ad7475d1c9e70b190ecffc58f2d989416af339b4",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.3 || ^8",
+                "php": "^7.4 || ^8.0",
                 "symfony/polyfill-php81": "^1.23"
             },
             "require-dev": {
-                "captainhook/captainhook": "^5.3",
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
-                "ergebnis/composer-normalize": "^2.6",
-                "fakerphp/faker": "^1.5",
-                "hamcrest/hamcrest-php": "^2",
-                "jangregor/phpstan-prophecy": "^0.8",
-                "mockery/mockery": "^1.3",
+                "captainhook/plugin-composer": "^5.3",
+                "ergebnis/composer-normalize": "^2.28.3",
+                "fakerphp/faker": "^1.21",
+                "hamcrest/hamcrest-php": "^2.0",
+                "jangregor/phpstan-prophecy": "^1.0",
+                "mockery/mockery": "^1.5",
+                "php-parallel-lint/php-console-highlighter": "^1.0",
+                "php-parallel-lint/php-parallel-lint": "^1.3",
+                "phpcsstandards/phpcsutils": "^1.0.0-rc1",
                 "phpspec/prophecy-phpunit": "^2.0",
-                "phpstan/extension-installer": "^1",
-                "phpstan/phpstan": "^0.12.32",
-                "phpstan/phpstan-mockery": "^0.12.5",
-                "phpstan/phpstan-phpunit": "^0.12.11",
-                "phpunit/phpunit": "^8.5 || ^9",
-                "psy/psysh": "^0.10.4",
-                "slevomat/coding-standard": "^6.3",
-                "squizlabs/php_codesniffer": "^3.5",
-                "vimeo/psalm": "^4.4"
+                "phpstan/extension-installer": "^1.2",
+                "phpstan/phpstan": "^1.9",
+                "phpstan/phpstan-mockery": "^1.1",
+                "phpstan/phpstan-phpunit": "^1.3",
+                "phpunit/phpunit": "^9.5",
+                "psalm/plugin-mockery": "^1.1",
+                "psalm/plugin-phpunit": "^0.18.4",
+                "ramsey/coding-standard": "^2.0.3",
+                "ramsey/conventional-commits": "^1.3",
+                "vimeo/psalm": "^5.4"
             },
             "type": "library",
+            "extra": {
+                "captainhook": {
+                    "force-install": true
+                },
+                "ramsey/conventional-commits": {
+                    "configFile": "conventional-commits.json"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Ramsey\\Collection\\": "src/"
@@ -5211,7 +5398,7 @@
             ],
             "support": {
                 "issues": "https://github.com/ramsey/collection/issues",
-                "source": "https://github.com/ramsey/collection/tree/1.2.2"
+                "source": "https://github.com/ramsey/collection/tree/1.3.0"
             },
             "funding": [
                 {
@@ -5223,29 +5410,27 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-10-10T03:01:02+00:00"
+            "time": "2022-12-27T19:12:24+00:00"
         },
         {
             "name": "ramsey/uuid",
-            "version": "4.2.3",
+            "version": "4.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "fc9bb7fb5388691fd7373cd44dcb4d63bbcf24df"
+                "reference": "a1acf96007170234a8399586a6e2ab8feba109d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/fc9bb7fb5388691fd7373cd44dcb4d63bbcf24df",
-                "reference": "fc9bb7fb5388691fd7373cd44dcb4d63bbcf24df",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/a1acf96007170234a8399586a6e2ab8feba109d1",
+                "reference": "a1acf96007170234a8399586a6e2ab8feba109d1",
                 "shasum": ""
             },
             "require": {
-                "brick/math": "^0.8 || ^0.9",
+                "brick/math": "^0.8.8 || ^0.9 || ^0.10",
                 "ext-json": "*",
-                "php": "^7.2 || ^8.0",
-                "ramsey/collection": "^1.0",
-                "symfony/polyfill-ctype": "^1.8",
-                "symfony/polyfill-php80": "^1.14"
+                "php": "^8.0",
+                "ramsey/collection": "^1.2 || ^2.0"
             },
             "replace": {
                 "rhumsaa/uuid": "self.version"
@@ -5257,24 +5442,23 @@
                 "doctrine/annotations": "^1.8",
                 "ergebnis/composer-normalize": "^2.15",
                 "mockery/mockery": "^1.3",
-                "moontoast/math": "^1.1",
                 "paragonie/random-lib": "^2",
                 "php-mock/php-mock": "^2.2",
                 "php-mock/php-mock-mockery": "^1.3",
                 "php-parallel-lint/php-parallel-lint": "^1.1",
                 "phpbench/phpbench": "^1.0",
-                "phpstan/extension-installer": "^1.0",
-                "phpstan/phpstan": "^0.12",
-                "phpstan/phpstan-mockery": "^0.12",
-                "phpstan/phpstan-phpunit": "^0.12",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan": "^1.8",
+                "phpstan/phpstan-mockery": "^1.1",
+                "phpstan/phpstan-phpunit": "^1.1",
                 "phpunit/phpunit": "^8.5 || ^9",
-                "slevomat/coding-standard": "^7.0",
+                "ramsey/composer-repl": "^1.4",
+                "slevomat/coding-standard": "^8.4",
                 "squizlabs/php_codesniffer": "^3.5",
                 "vimeo/psalm": "^4.9"
             },
             "suggest": {
                 "ext-bcmath": "Enables faster math with arbitrary-precision integers using BCMath.",
-                "ext-ctype": "Enables faster processing of character classification using ctype functions.",
                 "ext-gmp": "Enables faster math with arbitrary-precision integers using GMP.",
                 "ext-uuid": "Enables the use of PeclUuidTimeGenerator and PeclUuidRandomGenerator.",
                 "paragonie/random-lib": "Provides RandomLib for use with the RandomLibAdapter",
@@ -5282,9 +5466,6 @@
             },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-main": "4.x-dev"
-                },
                 "captainhook": {
                     "force-install": true
                 }
@@ -5309,7 +5490,7 @@
             ],
             "support": {
                 "issues": "https://github.com/ramsey/uuid/issues",
-                "source": "https://github.com/ramsey/uuid/tree/4.2.3"
+                "source": "https://github.com/ramsey/uuid/tree/4.7.1"
             },
             "funding": [
                 {
@@ -5321,7 +5502,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-09-25T23:10:38+00:00"
+            "time": "2022-12-31T22:20:34+00:00"
         },
         {
             "name": "react/promise",
@@ -5908,19 +6089,20 @@
         },
         {
             "name": "shopware/conflicts",
-            "version": "0.0.1",
+            "version": "0.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/conflicts.git",
-                "reference": "a66242b05e7b25d538a1ab1cf568587be767fa33"
+                "reference": "b5414fb0e06ca91d32c896b21c55ad80e261477e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/conflicts/zipball/a66242b05e7b25d538a1ab1cf568587be767fa33",
-                "reference": "a66242b05e7b25d538a1ab1cf568587be767fa33",
+                "url": "https://api.github.com/repos/shopware/conflicts/zipball/b5414fb0e06ca91d32c896b21c55ad80e261477e",
+                "reference": "b5414fb0e06ca91d32c896b21c55ad80e261477e",
                 "shasum": ""
             },
             "conflict": {
+                "symfony/cache": "6.2.3 || 5.4.17",
                 "symfony/notifier": "v5.3.8",
                 "symfony/symfony": "*"
             },
@@ -5932,9 +6114,9 @@
             "description": "Shopware 6 conflicting packages",
             "support": {
                 "issues": "https://github.com/shopware/conflicts/issues",
-                "source": "https://github.com/shopware/conflicts/tree/0.0.1"
+                "source": "https://github.com/shopware/conflicts/tree/0.0.2"
             },
-            "time": "2021-12-20T12:19:56+00:00"
+            "time": "2022-12-29T08:29:43+00:00"
         },
         {
             "name": "shopware/core",
@@ -6489,6 +6671,1179 @@
             "time": "2020-01-22T14:45:26+00:00"
         },
         {
+            "name": "stella-maris/clock",
+            "version": "0.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stella-maris-solutions/clock.git",
+                "reference": "fa23ce16019289a18bb3446fdecd45befcdd94f8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stella-maris-solutions/clock/zipball/fa23ce16019289a18bb3446fdecd45befcdd94f8",
+                "reference": "fa23ce16019289a18bb3446fdecd45befcdd94f8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0|^8.0",
+                "psr/clock": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "StellaMaris\\Clock\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Heigl",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "A pre-release of the proposed PSR-20 Clock-Interface",
+            "homepage": "https://gitlab.com/stella-maris/clock",
+            "keywords": [
+                "clock",
+                "datetime",
+                "point in time",
+                "psr20"
+            ],
+            "support": {
+                "source": "https://github.com/stella-maris-solutions/clock/tree/0.1.7"
+            },
+            "time": "2022-11-25T16:15:06+00:00"
+        },
+        {
+            "name": "store.shopware.com/acriscountrytaxcs",
+            "version": "3.0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FAcrisCountryTaxCS%2Fbinaries%2F3.0.2"
+            },
+            "require": {
+                "shopware/core": ">=6.4.10.0"
+            },
+            "replace": {
+                "acris/country-tax": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "ACRIS MwSt. je Land in Preis berücksichtigen (Netto + Mwst des Landes)",
+                    "en-GB": " Tax - Consider VAT per country in price (net + VAT of the country)"
+                },
+                "copyright": "(c) by ACRIS E-Commerce GmbH",
+                "description": {
+                    "de-DE": "Es wird ermöglicht je nach Liefeland Bruttopreise ausgehend vom Nettopreis eines Artikels zu berechnen.",
+                    "en-GB": "Depending on the country of delivery, it is possible to calculate gross prices based on the net price of an product."
+                },
+                "plugin-icon": "src/Resources/config/plugin.png",
+                "supportLink": {
+                    "de-DE": "https://www.acris-ecommerce.at/kontakt/",
+                    "en-GB": "https://www.acris-ecommerce.at/kontakt/"
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://www.acris-ecommerce.at/",
+                    "en-GB": "https://www.acris-ecommerce.at/"
+                },
+                "shopware-plugin-class": "Acris\\CountryTax\\AcrisCountryTaxCS"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Acris\\CountryTax\\": "src/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "ACRIS E-Commerce GmbH",
+                    "homepage": "https://www.acris-ecommerce.at/"
+                }
+            ],
+            "description": "ACRIS Country Tax"
+        },
+        {
+            "name": "store.shopware.com/acrismailersaleschannelcs",
+            "version": "3.2.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FAcrisMailerSalesChannelCS%2Fbinaries%2F3.2.3"
+            },
+            "require": {
+                "shopware/core": ">=6.4.6.0"
+            },
+            "replace": {
+                "acris/mailer-sales-channel": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "ACRIS Mailer Verkaufskanäle",
+                    "en-GB": "ACRIS Mailer Sales Channel"
+                },
+                "copyright": "(c) by ACRIS E-Commerce GmbH",
+                "description": {
+                    "de-DE": "Das Plugin ermöglicht es für unterschiedliche Verkaufskanäle unterschiedliche Mailer Konfigurationen (z.B. SMTP-Einstellungen) zu wählen.",
+                    "en-GB": "The plugin allows you to select different mailer configurations (e.g. SMTP settings) for different sales channels."
+                },
+                "plugin-icon": "src/Resources/config/plugin.png",
+                "supportLink": {
+                    "de-DE": "https://www.acris-ecommerce.at/kontakt/",
+                    "en-GB": "https://www.acris-ecommerce.at/kontakt/"
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://www.acris-ecommerce.at/",
+                    "en-GB": "https://www.acris-ecommerce.at/"
+                },
+                "shopware-plugin-class": "Acris\\MailerSalesChannel\\AcrisMailerSalesChannelCS"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Acris\\MailerSalesChannel\\": "src/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "ACRIS E-Commerce GmbH",
+                    "homepage": "https://www.acris-ecommerce.at/"
+                }
+            ],
+            "description": "ACRIS Mailer Sales Channel"
+        },
+        {
+            "name": "store.shopware.com/atlseourlmanager",
+            "version": "1.2.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FAtlSeoUrlManager%2Fbinaries%2F1.2.0"
+            },
+            "require": {
+                "shopware/core": "~6.4.0"
+            },
+            "replace": {
+                "atl/seo-url-manager": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "SEO URL Manager",
+                    "en-GB": "SEO URL Manager"
+                },
+                "copyright": "(c) by Atloss",
+                "description": {
+                    "de-DE": "Verbessere deine SEO URL Basis in wenigen Klicks.",
+                    "en-GB": "Improve your SEO URL basis in a few clicks."
+                },
+                "plugin-icon": "src/Resources/config/plugin.png",
+                "shopware-plugin-class": "Atl\\SeoUrlManager\\AtlSeoUrlManager"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Atl\\SeoUrlManager\\": "src/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "Atloss GmbH",
+                    "role": "Agency"
+                }
+            ],
+            "description": "SEO URL Manager"
+        },
+        {
+            "name": "store.shopware.com/emzplatformstagingenvironment",
+            "version": "1.4.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FEmzPlatformStagingEnvironment%2Fbinaries%2F1.4.1"
+            },
+            "require": {
+                "shopware/core": "~6.4"
+            },
+            "replace": {
+                "emz/staging-environment": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "Staging Umgebung",
+                    "en-GB": "Staging environment"
+                },
+                "copyright": "(c) by 8mylez GmbH",
+                "description": {
+                    "de-DE": "Plugin um mehrere Staging Umgebungen zu erstellen und zu verwalten.",
+                    "en-GB": "Plugin to create and manage multiple staging environments in no time!"
+                },
+                "plugin-icon": "src/Resources/config/plugin.png",
+                "supportLink": {
+                    "de-DE": "https://8mylez.com",
+                    "en-GB": "https://8mylez.com"
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://store.shopware.com/8mylez.html",
+                    "en-GB": "https://store.shopware.com/en/8mylez.html"
+                },
+                "shopware-plugin-class": "Emz\\StagingEnvironment\\EmzPlatformStagingEnvironment"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Emz\\StagingEnvironment\\": "src/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "8mylez GmbH"
+                }
+            ],
+            "description": "Plugin to create and manage multiple staging environments in no time!"
+        },
+        {
+            "name": "store.shopware.com/froshtools",
+            "version": "0.2.13",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FFroshTools%2Fbinaries%2F0.2.13"
+            },
+            "require": {
+                "jawira/plantuml-encoding": "~1.1.0",
+                "shopware/core": "~6.4.11"
+            },
+            "replace": {
+                "frosh/tools": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "Tools",
+                    "en-GB": "Tools"
+                },
+                "description": {
+                    "de-DE": "Die kostenlose Shopware 6 App beinhaltet mehrere Werkzeuge um den Shop besser zu verwalten. Optimierter Cache Manager, Log Viewer um die Logeinträge zu sehen oder Tasks auszuführen.",
+                    "en-GB": "The free Shopware 6 app include several tools to manage the store much better like a cache manager, log viewer to see the log entries, run the tasks or see the system status."
+                },
+                "supportLink": {
+                    "de-DE": "https://github.com/FriendsOfShopware/FroshTools/issues",
+                    "en-GB": "https://github.com/FriendsOfShopware/FroshTools/issues"
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://github.com/FriendsOfShopware/FroshTools",
+                    "en-GB": "https://github.com/FriendsOfShopware/FroshTools"
+                },
+                "shopware-plugin-class": "Frosh\\Tools\\FroshTools"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Frosh\\Tools\\": "src/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "FriendsOfShopware",
+                    "homepage": "https://friendsofshopware.com"
+                }
+            ],
+            "description": "Provides some basic things for managing the Shopware Installation"
+        },
+        {
+            "name": "store.shopware.com/ironmatomo",
+            "version": "1.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FIronMatomo%2Fbinaries%2F1.1.1"
+            },
+            "require": {
+                "shopware/core": "*",
+                "shopware/storefront": "*"
+            },
+            "replace": {
+                "iron/matomo": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "Matomo Tracking",
+                    "en-GB": "Matomo Tracking"
+                },
+                "copyright": "(c) by Martin Eisenführer",
+                "description": {
+                    "de-DE": "Integration von Matomo Webanalytik in Ihrem Shop",
+                    "en-GB": "Integration of Matomo Webanalytics in your shop"
+                },
+                "plugin-icon": "src/Resources/config/plugin.png",
+                "supportLink": {
+                    "de-DE": "https://store.shopware.com/martin-eisenfuehrer.html",
+                    "en-GB": "https://store.shopware.com/martin-eisenfuehrer.html"
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://store.shopware.com/martin-eisenfuehrer.html",
+                    "en-GB": "https://store.shopware.com/martin-eisenfuehrer.html"
+                },
+                "shopware-plugin-class": "IronMatomo\\IronMatomo"
+            },
+            "autoload": {
+                "psr-4": {
+                    "IronMatomo\\": "src/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "Martin Eisenführer"
+                }
+            ],
+            "description": "Matomo plugin for shopware 6"
+        },
+        {
+            "name": "store.shopware.com/kielcodingplatformtrailingslash",
+            "version": "1.5.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FKielCodingPlatformTrailingSlash%2Fbinaries%2F1.5.1"
+            },
+            "require": {
+                "php": ">= 7.4",
+                "shopware/core": "~6.4.0",
+                "shopware/storefront": "~6.4.0"
+            },
+            "replace": {
+                "kielcoding/trailing-slash": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "Trailing Slash Weiterleitung",
+                    "en-GB": "Trailing Slash Redirect"
+                },
+                "description": {
+                    "de-DE": "Automatische Weiterleitung von Kategorie-URLs auf die korrekte URL-Variante. Unterstützt URL-Schemata mit oder ohne \"/\" am Ende und korrigiert jeweils die andere Schreibweise.",
+                    "en-GB": "Automatic forwarding of category URLs to the correct URL variant. Supports URL schemes with or without \"/\" at the end and corrects the other spelling."
+                },
+                "supportLink": {
+                    "de-DE": "https://store.shopware.com/kielcoding-ug.html",
+                    "en-GB": "https://store.shopware.com/en/kielcoding-ug.html"
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://store.shopware.com/kielcoding-ug.html",
+                    "en-GB": "https://store.shopware.com/en/kielcoding-ug.html"
+                },
+                "shopware-plugin-class": "KielCodingPlatformTrailingSlash\\KielCodingPlatformTrailingSlash"
+            },
+            "autoload": {
+                "psr-4": {
+                    "KielCodingPlatformTrailingSlash\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "KielCodingPlatformTrailingSlash\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "KielCoding",
+                    "role": "Manufacturer"
+                }
+            ],
+            "description": "Trailing Slash Redirect"
+        },
+        {
+            "name": "store.shopware.com/klarnapayment",
+            "version": "1.7.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FKlarnaPayment%2Fbinaries%2F1.7.0"
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=7.2 || <=8.1",
+                "shopware/administration": ">= 6.3.0.0",
+                "shopware/core": ">= 6.3.0.0",
+                "shopware/storefront": ">= 6.3.0.0"
+            },
+            "replace": {
+                "klarna/payment": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "Klarna Checkout und Klarna Payments",
+                    "en-GB": "Klarna Checkout and Klarna Payments"
+                },
+                "copyright": "(c) Klarna Bank AB (publ)",
+                "description": {
+                    "de-DE": "Nutzen Sie die Zahlungsarten von Klarna mit Jetzt bezahlen (Kreditkarte, Sofortüberweisung und Lastschrift), Rechnung und Finanzierung für Shopware 6.",
+                    "en-GB": "Use the payment methods from Klarna including Pay now (Credit card, Online bank transfer and direct debit), invoice and monthly financing for Shopware 6."
+                },
+                "supportLink": {
+                    "de-DE": "http://bit.ly/klarna-shopware-6-installationguide-de",
+                    "en-GB": "http://bit.ly/klarna-shopware-6-installationguide-en"
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://www.klarna.com/de/",
+                    "en-GB": "https://www.klarna.com/international/"
+                },
+                "shopware-plugin-class": "KlarnaPayment\\KlarnaPayment"
+            },
+            "autoload": {
+                "psr-4": {
+                    "KlarnaPayment\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "KlarnaPayment\\Test\\": "tests/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "Klarna Bank AB (publ)",
+                    "homepage": "https://www.klarna.com/"
+                },
+                {
+                    "name": "Kellerkinder GmbH",
+                    "role": "Contributor",
+                    "email": "hallo@kellerkinder.de",
+                    "homepage": "https://www.kellerkinder.de"
+                }
+            ],
+            "description": "Klarna Checkout and Klarna Payments for Shopware 6"
+        },
+        {
+            "name": "store.shopware.com/kplngiproductorder",
+            "version": "1.5.9",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FKplngiProductOrder%2Fbinaries%2F1.5.9"
+            },
+            "require": {
+                "shopware/core": "~6.4"
+            },
+            "replace": {
+                "kplngi/product-order": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "Produkte anordnen",
+                    "en-GB": "Product sorting"
+                },
+                "description": {
+                    "de-DE": "Die Reihenfolge von Produkten in einer Kategorie kann im Administrationsbereich sortiert werden. Die Artikel erscheinen dann in der sortierten Reihenfolge im Shop.",
+                    "en-GB": "The order of products in a category can be sorted in the administration area. The products then appear in the chosen order in the shop category to draw the customers attention."
+                },
+                "supportLink": {
+                    "de-DE": "https://www.kiplingi.de",
+                    "en-GB": "https://www.kiplingi.de"
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://www.kiplingi.de",
+                    "en-GB": "https://www.kiplingi.de"
+                },
+                "shopware-plugin-class": "Kplngi\\ProductOrder\\KplngiProductOrder"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Kplngi\\ProductOrder\\": "src/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "Kiplingi",
+                    "homepage": "https://www.kiplingi.de"
+                }
+            ],
+            "description": "Set productorder for categories"
+        },
+        {
+            "name": "store.shopware.com/maxialistingvariants6",
+            "version": "1.4.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMaxiaListingVariants6%2Fbinaries%2F1.4.8"
+            },
+            "require": {
+                "shopware/core": "~6.4",
+                "shopware/storefront": "~6.4"
+            },
+            "replace": {
+                "maxia/maxia-listing-variants-6": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "Varianten im Listing",
+                    "en-GB": "Variants in listing"
+                },
+                "copyright": "(c) 2020 Maxi Klaassen",
+                "description": {
+                    "de-DE": "Zeigt die Produktvarianten bereits im Kategorie-Listing an.\nOptional mit Schnellkauf-Funktion: Produkte können aus dem Listing heraus in den Warenkorb gelegt werden.",
+                    "en-GB": "Shows product variants in the category listing.\nOptionally with quick buy function: Products can be placed in the shopping cart from the listing."
+                },
+                "plugin-icon": "src/Resources/config/plugin.png",
+                "supportLink": {
+                    "de-DE": "https://metaroom.net",
+                    "en-GB": "https://metaroom.net"
+                },
+                "installer-name": "MaxiaListingVariants6",
+                "manufacturerLink": {
+                    "de-DE": "https://store.shopware.com/metaroom.html",
+                    "en-GB": "https://store.shopware.com/en/metaroom.html"
+                },
+                "shopware-plugin-class": "Maxia\\MaxiaListingVariants6\\MaxiaListingVariants6"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Maxia\\MaxiaListingVariants6\\": "src/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "Maxi Klaassen",
+                    "email": "info@metaroom.net"
+                }
+            ],
+            "description": "Shows variants in product listings."
+        },
+        {
+            "name": "store.shopware.com/moorlcmstwig",
+            "version": "1.4.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlCmsTwig%2Fbinaries%2F1.4.3"
+            },
+            "require": {
+                "shopware/core": "6.4.*"
+            },
+            "replace": {
+                "moorl/moorl-cms-twig": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "CMS Element - HTML/Twig",
+                    "en-GB": "CMS Element - HTML/Twig"
+                },
+                "copyright": "(c) by moori",
+                "description": {
+                    "de-DE": "CMS Element - HTML/Twig",
+                    "en-GB": "CMS Element - HTML/Twig"
+                },
+                "supportLink": {
+                    "de-DE": "https://docs.moori.net/",
+                    "en-GB": "https://docs.moori.net/"
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://docs.moori.net/",
+                    "en-GB": "https://docs.moori.net/"
+                },
+                "shopware-plugin-class": "MoorlCmsTwig\\MoorlCmsTwig"
+            },
+            "autoload": {
+                "psr-4": {
+                    "MoorlCmsTwig\\": "src/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "moori"
+                }
+            ],
+            "description": "CMS Element - HTML/Twig"
+        },
+        {
+            "name": "store.shopware.com/moorlforms",
+            "version": "1.1.40",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlForms%2Fbinaries%2F1.1.40"
+            },
+            "require": {
+                "shopware/core": "^6.4.14",
+                "store.shopware.com/moorlfoundation": "1.4.*"
+            },
+            "replace": {
+                "moorl/forms": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "Formular Baukasten 2 | Basis",
+                    "en-GB": "Form builder 2 | Base"
+                },
+                "copyright": "(c) by moori",
+                "description": {
+                    "de-DE": "Baue Formulare nach deinen Bedürfnissen",
+                    "en-GB": "Build forms according to your needs"
+                },
+                "supportLink": {
+                    "de-DE": "https://docs.moori.net/",
+                    "en-GB": "https://docs.moori.net/"
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://docs.moori.net/",
+                    "en-GB": "https://docs.moori.net/"
+                },
+                "shopware-plugin-class": "MoorlForms\\MoorlForms"
+            },
+            "autoload": {
+                "psr-4": {
+                    "MoorlForms\\": "src/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "moori"
+                }
+            ],
+            "description": "Form builder 2"
+        },
+        {
+            "name": "store.shopware.com/moorlformsclassic",
+            "version": "1.2.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlFormsClassic%2Fbinaries%2F1.2.6"
+            },
+            "require": {
+                "shopware/core": "6.4.*",
+                "store.shopware.com/moorlforms": "*",
+                "store.shopware.com/moorlfoundation": "1.4.*"
+            },
+            "replace": {
+                "moorl/forms-classic": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "Formular Baukasten 2 | Classic Add-On",
+                    "en-GB": "Form builder 2 | Classic Add-On"
+                },
+                "copyright": "(c) by moori",
+                "description": {
+                    "de-DE": "Formular Baukasten 2 | Classic Add-On",
+                    "en-GB": "Form builder 2 | Classic Add-On"
+                },
+                "supportLink": {
+                    "de-DE": "https://docs.moori.net/",
+                    "en-GB": "https://docs.moori.net/"
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://docs.moori.net/",
+                    "en-GB": "https://docs.moori.net/"
+                },
+                "shopware-plugin-class": "MoorlFormsClassic\\MoorlFormsClassic"
+            },
+            "autoload": {
+                "psr-4": {
+                    "MoorlFormsClassic\\": "src/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "moori"
+                }
+            ],
+            "description": "Form builder 2 | Classic Add-On"
+        },
+        {
+            "name": "store.shopware.com/moorlfoundation",
+            "version": "1.4.1082",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlFoundation%2Fbinaries%2F1.4.1082"
+            },
+            "require": {
+                "shopware/core": "^6.4.14"
+            },
+            "replace": {
+                "moorl/foundation": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "Foundation",
+                    "en-GB": "Foundation"
+                },
+                "copyright": "(c) by moori",
+                "description": {
+                    "de-DE": "Das moori Basis Plugin",
+                    "en-GB": "The moori basic plugin"
+                },
+                "supportLink": {
+                    "de-DE": "https://docs.moori.net/",
+                    "en-GB": "https://docs.moori.net/"
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://docs.moori.net/",
+                    "en-GB": "https://docs.moori.net/"
+                },
+                "shopware-plugin-class": "MoorlFoundation\\MoorlFoundation"
+            },
+            "autoload": {
+                "psr-4": {
+                    "DeepL\\": "libs/vendor/deeplcom/deepl-php/src/",
+                    "MoorlFoundation\\": "src/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "moori"
+                }
+            ],
+            "description": "Moorl Foundation"
+        },
+        {
+            "name": "store.shopware.com/neon6configurator",
+            "version": "1.7.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FNeon6Configurator%2Fbinaries%2F1.7.0"
+            },
+            "require": {
+                "jwadhams/json-logic-php": "^1.5",
+                "php": ">=7.4",
+                "shopware/core": ">=6.4.0.0"
+            },
+            "replace": {
+                "neon/configurator": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "neonlines Konfigurator",
+                    "en-GB": "neonlines Configurator"
+                },
+                "copyright": "(c) by neonlines GmbH",
+                "description": {
+                    "de-DE": "Verkaufe konfigurierbare Produkte, Produkte nach Maß, Maßanfertigungen, Meterware. Maximale Flexibilität dank durchdachter Preisberechnung und Validierungen.",
+                    "en-GB": "Allows to make customizable products"
+                },
+                "plugin-icon": "src/Resources/config/plugin.png",
+                "supportLink": {
+                    "de-DE": "https://neonlines.de",
+                    "en-GB": "https://neonlines.de"
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://store.shopware.com/neonlines-gmbh.html",
+                    "en-GB": "https://store.shopware.com/en/neonlines-gmbh.html"
+                },
+                "shopware-plugin-class": "Neon\\Configurator\\Neon6Configurator"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Neon\\Configurator\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Neon\\Configurator\\Test\\": "tests/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "neonlines GmbH",
+                    "role": "Manufacturer",
+                    "homepage": "https://neonlines.de"
+                }
+            ],
+            "description": "The product configurator by neonlines"
+        },
+        {
+            "name": "store.shopware.com/phpschmiedfromprice",
+            "version": "1.3.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FphpSchmiedFromPrice%2Fbinaries%2F1.3.2"
+            },
+            "require": {
+                "shopware/core": "*",
+                "shopware/storefront": "*"
+            },
+            "replace": {
+                "phpschmied/fromprice": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "Zeigt den 'ab' Preis von Varianten in Produktlisten",
+                    "en-GB": "Shows the 'from' price of variants in product lists"
+                },
+                "copyright": "(c) PHP-Schmiede",
+                "description": {
+                    "de-DE": "Dieses Plugin zeigt die 'ab' Preise in Produktlisten an.",
+                    "en-GB": "This plugin shows the 'from' prices in product lists."
+                },
+                "plugin-icon": "src/Resources/config/plugin.png",
+                "supportLink": {
+                    "de-DE": "https://www.php-schmide.com",
+                    "en-GB": "https://www.php-schmide.com"
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://store.shopware.com/php-schmiede.html",
+                    "en-GB": "https://store.shopware.com/en/php-schmiede.html"
+                },
+                "shopware-plugin-class": "phpSchmied\\FromPrice\\phpSchmiedFromPrice"
+            },
+            "autoload": {
+                "psr-4": {
+                    "phpSchmied\\FromPrice\\": "src/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "PHP-Schmiede",
+                    "role": "Manufacturer",
+                    "homepage": "https://www.php-schmiede.com"
+                }
+            ],
+            "description": "Shows the 'from' price on product listings"
+        },
+        {
+            "name": "store.shopware.com/scopplatformredirecter",
+            "version": "1.2.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FScopPlatformRedirecter%2Fbinaries%2F1.2.0"
+            },
+            "require": {
+                "shopware/core": "6.*"
+            },
+            "replace": {
+                "scop/scopplatformredirecter": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "SEO Redirect Plugin",
+                    "en-GB": "SEO Redirect plugin"
+                },
+                "copyright": "(c) scope01 GmbH",
+                "description": {
+                    "de-DE": "Administration von Weiterleitungen // scope01 // Shopware // Frankfurt // SEO Redirect Plugin von scope01. Infos & FAQ: https://scope01.com/shopware-redirect-plugin/",
+                    "en-GB": "Administration of redirects // scope01 // Shopware // Frankfurt // SEO Redirect Plugin from scope01. Information & FAQ at: https://scope01.com/shopware-redirect-plugin/"
+                },
+                "supportLink": {
+                    "de-DE": "https://scope01.com/internetagentur-frankfurt/",
+                    "en-GB": "https://scope01.com/internetagentur-frankfurt/"
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://scope01.com/",
+                    "en-GB": "https://scope01.com/"
+                },
+                "shopware-plugin-class": "Scop\\PlatformRedirecter\\ScopPlatformRedirecter"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Scop\\PlatformRedirecter\\": "src/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "scope01 GmbH",
+                    "role": "Manufacturer",
+                    "homepage": "https://scope01.com/"
+                }
+            ],
+            "description": "With the redirect plugin of the agency scope01 from frankfurt(m) (https://scope01.com/) you are able to create and manage redirects from the admin area of shopware 6"
+        },
+        {
+            "name": "store.shopware.com/stripeshopwarepayment",
+            "version": "1.10.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FStripeShopwarePayment%2Fbinaries%2F1.10.0"
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=7.4",
+                "shopware/core": "6.4.* >= 6.4.5",
+                "shopware/storefront": "6.4.*",
+                "stripe/stripe-php": "^9.9.0",
+                "symfony/config": "^5.2.3",
+                "symfony/dependency-injection": "^5.2.3",
+                "symfony/http-foundation": "^5.2.3"
+            },
+            "replace": {
+                "stripe/shopware-payment": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "Stripe Payment",
+                    "en-GB": "Stripe Payment"
+                },
+                "description": {
+                    "de-DE": "Das Plugin \"Stripe Payment\" ermöglicht die Zahlungsabwicklung über Stripe.",
+                    "en-GB": "The Plugin \"Stripe Payment\" enables payment processing via Stripe."
+                },
+                "supportLink": {
+                    "de-DE": "https://stripe.com/de",
+                    "en-GB": "https://stripe.com"
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://stripe.com/de",
+                    "en-GB": "https://stripe.com"
+                },
+                "shopware-plugin-class": "Stripe\\ShopwarePayment\\StripeShopwarePayment",
+                "ci-min-supported-shopware-version": "6.4.8.0"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Stripe\\ShopwarePayment\\": "src/"
+                },
+                "exclude-from-classmap": [
+                    "**.unit.php",
+                    "**.integration.php"
+                ]
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "Stripe Payments Europe, Ltd.",
+                    "email": "support@stripe.com"
+                }
+            ],
+            "description": "Stripe payment processing for Shopware 6"
+        },
+        {
+            "name": "store.shopware.com/swagpaypal",
+            "version": "5.4.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FSwagPayPal%2Fbinaries%2F5.4.2"
+            },
+            "require": {
+                "shopware/core": "~6.4.3 | 6.4.x-dev"
+            },
+            "replace": {
+                "swag/paypal": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "PayPal-Produkte für Shopware 6",
+                    "en-GB": "PayPal Products for Shopware 6"
+                },
+                "copyright": "(c) by shopware AG",
+                "description": {
+                    "de-DE": "Bieten Sie Ihren Kunden Deutschlands beliebteste Bezahlmöglichkeiten mit nur einer Integration: Das neue PayPal-Modul bietet PayPal PLUS, Kauf auf Rechnung, Ratenzahlung & den Expressbutton",
+                    "en-GB": "Get access to over 100 currencies and 200 markets worldwide with the payment module PayPal for your Shopware shop. Experience an easy and comfortable way of payment."
+                },
+                "supportLink": {
+                    "de-DE": "https://issues.shopware.com/",
+                    "en-GB": "https://issues.shopware.com/"
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://store.shopware.com/shopware-ag.html",
+                    "en-GB": "https://store.shopware.com/en/shopware-ag.html"
+                },
+                "shopware-plugin-class": "Swag\\PayPal\\SwagPayPal"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Swag\\PayPal\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Swag\\PayPal\\Test\\": "tests/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "Shopware"
+                }
+            ],
+            "description": "PayPal integration for Shopware 6"
+        },
+        {
+            "name": "store.shopware.com/swagpublisher",
+            "version": "1.1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FSwagPublisher%2Fbinaries%2F1.1.0"
+            },
+            "require": {
+                "shopware/administration": "~6.4.16",
+                "shopware/core": "~6.4.16",
+                "shopware/storefront": "~6.4.16"
+            },
+            "replace": {
+                "shopware/publisher": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "Shopware Publisher",
+                    "en-GB": "Shopware Publisher"
+                },
+                "copyright": "(c) by shopware AG",
+                "description": {
+                    "de-DE": "Benutzerdefinierter Veröffentlichung für Erlebniswelten: Speichere CMS-Seiten als Entwurf, rufe eine Storefront-Vorschau aus dem Modul heraus auf und veröffentliche sie später.",
+                    "en-GB": "Custom publishing workflow for Shopping Experiences: Save CMS page changes as drafts, get a Storefront preview from within the module and publish them later."
+                },
+                "supportLink": {
+                    "de-DE": "https://issues.shopware.com/",
+                    "en-GB": "https://issues.shopware.com/"
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://www.shopware.com/de/",
+                    "en-GB": "https://www.shopware.com/en/"
+                },
+                "shopware-plugin-class": "SwagPublisher\\SwagPublisher"
+            },
+            "autoload": {
+                "psr-4": {
+                    "SwagPublisher\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "SwagPublisherTest\\": "tests/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "shopware AG",
+                    "role": "Manufacturer"
+                }
+            ],
+            "description": "Publisher"
+        },
+        {
+            "name": "store.shopware.com/trustamiseller",
+            "version": "1.0.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FTrustamiSeller%2Fbinaries%2F1.0.6"
+            },
+            "require": {
+                "shopware/core": "*",
+                "shopware/storefront": "*"
+            },
+            "replace": {
+                "trustami/seller": "self.version"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "label": {
+                    "de-DE": "Siegel für Shop Bewertungen + Google Sterne | Trustami",
+                    "en-GB": "Badge for Shop Reviews + Google Stars | Trustami"
+                },
+                "copyright": "(c) by Trustami GmbH",
+                "description": {
+                    "de-DE": "Mit dem Vertrauenssiegel von Trustami sammeln Sie alle Ihre existierenden Bewertungen an einem Ort aus allen Quellen. Trustami bietet einen einzigartigen Service, bei dem die verstreuten Bewertungen eines Händlers automatisch verknüpft, aktualisiert und verifiziert werden.",
+                    "en-GB": "Trustami's trust badge enables users to collect ratings and reviews from all networks and display them in the form of trust badges. Trustami collects, analyzes and presents a user's distributed social media data in a standardized and user-friendly format to fill the need for trust in online interactions."
+                },
+                "supportLink": {
+                    "de-DE": "https://www.trustami.com/",
+                    "en-GB": "https://www.trustami.com/en/"
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://www.trustami.com/",
+                    "en-GB": "https://www.trustami.com/en/"
+                },
+                "shopware-plugin-class": "Trustami\\Seller\\TrustamiSeller"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Trustami\\Seller\\": "src/"
+                }
+            },
+            "notification-url": "https://packages.shopware.com/downloads/",
+            "authors": [
+                {
+                    "name": "Trustami GmbH"
+                }
+            ],
+            "description": "Mit dem Vertrauenssiegel von Trustami sammeln Sie alle Ihre existierenden Bewertungen an einem Ort aus allen Quellen."
+        },
+        {
+            "name": "stripe/stripe-php",
+            "version": "v9.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stripe/stripe-php.git",
+                "reference": "479b5c2136fde0debb93d290ceaf20dd161c358f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/479b5c2136fde0debb93d290ceaf20dd161c358f",
+                "reference": "479b5c2136fde0debb93d290ceaf20dd161c358f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "3.5.0",
+                "php-coveralls/php-coveralls": "^2.5",
+                "phpstan/phpstan": "^1.2",
+                "phpunit/phpunit": "^5.7 || ^9.0",
+                "squizlabs/php_codesniffer": "^3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Stripe\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stripe and contributors",
+                    "homepage": "https://github.com/stripe/stripe-php/contributors"
+                }
+            ],
+            "description": "Stripe PHP Library",
+            "homepage": "https://stripe.com/",
+            "keywords": [
+                "api",
+                "payment processing",
+                "stripe"
+            ],
+            "support": {
+                "issues": "https://github.com/stripe/stripe-php/issues",
+                "source": "https://github.com/stripe/stripe-php/tree/v9.9.0"
+            },
+            "time": "2022-11-08T20:25:52+00:00"
+        },
+        {
             "name": "superbalist/flysystem-google-storage",
             "version": "7.2.2",
             "source": {
@@ -6541,16 +7896,16 @@
         },
         {
             "name": "symfony/amqp-messenger",
-            "version": "v5.4.15",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/amqp-messenger.git",
-                "reference": "8775f97adc4f3dc8ce21f5d25c330d4081681bb6"
+                "reference": "df5601a7e1d379c13fc0e9e86219e071a370def0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/amqp-messenger/zipball/8775f97adc4f3dc8ce21f5d25c330d4081681bb6",
-                "reference": "8775f97adc4f3dc8ce21f5d25c330d4081681bb6",
+                "url": "https://api.github.com/repos/symfony/amqp-messenger/zipball/df5601a7e1d379c13fc0e9e86219e071a370def0",
+                "reference": "df5601a7e1d379c13fc0e9e86219e071a370def0",
                 "shasum": ""
             },
             "require": {
@@ -6590,7 +7945,7 @@
             "description": "Symfony AMQP extension Messenger Bridge",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/amqp-messenger/tree/v5.4.15"
+                "source": "https://github.com/symfony/amqp-messenger/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -6606,7 +7961,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-11T16:57:44+00:00"
+            "time": "2022-12-13T17:34:41+00:00"
         },
         {
             "name": "symfony/asset",
@@ -6684,16 +8039,16 @@
         },
         {
             "name": "symfony/cache",
-            "version": "v5.4.15",
+            "version": "v5.4.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
-                "reference": "60e87188abbacd29ccde44d69c5392a33e888e98"
+                "reference": "a33fa08a3f37bb44b90e60b9028796d6b811f9ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/60e87188abbacd29ccde44d69c5392a33e888e98",
-                "reference": "60e87188abbacd29ccde44d69c5392a33e888e98",
+                "url": "https://api.github.com/repos/symfony/cache/zipball/a33fa08a3f37bb44b90e60b9028796d6b811f9ef",
+                "reference": "a33fa08a3f37bb44b90e60b9028796d6b811f9ef",
                 "shasum": ""
             },
             "require": {
@@ -6761,7 +8116,7 @@
                 "psr6"
             ],
             "support": {
-                "source": "https://github.com/symfony/cache/tree/v5.4.15"
+                "source": "https://github.com/symfony/cache/tree/v5.4.18"
             },
             "funding": [
                 {
@@ -6777,7 +8132,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-27T07:55:40+00:00"
+            "time": "2022-12-29T16:06:09+00:00"
         },
         {
             "name": "symfony/cache-contracts",
@@ -6939,16 +8294,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v5.4.16",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "8e9b9c8dfb33af6057c94e1b44846bee700dc5ef"
+                "reference": "58422fdcb0e715ed05b385f70d3e8b5ed4bbd45f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/8e9b9c8dfb33af6057c94e1b44846bee700dc5ef",
-                "reference": "8e9b9c8dfb33af6057c94e1b44846bee700dc5ef",
+                "url": "https://api.github.com/repos/symfony/console/zipball/58422fdcb0e715ed05b385f70d3e8b5ed4bbd45f",
+                "reference": "58422fdcb0e715ed05b385f70d3e8b5ed4bbd45f",
                 "shasum": ""
             },
             "require": {
@@ -7018,7 +8373,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v5.4.16"
+                "source": "https://github.com/symfony/console/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -7034,7 +8389,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-25T14:09:27+00:00"
+            "time": "2022-12-28T14:15:31+00:00"
         },
         {
             "name": "symfony/debug-bundle",
@@ -7117,16 +8472,16 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v5.4.16",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "a93e1863500940780fc1235f52d54397be2d14b3"
+                "reference": "58f2988128d2d278280781db037677a32cf720db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/a93e1863500940780fc1235f52d54397be2d14b3",
-                "reference": "a93e1863500940780fc1235f52d54397be2d14b3",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/58f2988128d2d278280781db037677a32cf720db",
+                "reference": "58f2988128d2d278280781db037677a32cf720db",
                 "shasum": ""
             },
             "require": {
@@ -7186,7 +8541,7 @@
             "description": "Allows you to standardize and centralize the way objects are constructed in your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/dependency-injection/tree/v5.4.16"
+                "source": "https://github.com/symfony/dependency-injection/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -7202,7 +8557,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-25T07:33:13+00:00"
+            "time": "2022-12-28T13:55:51+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -7417,16 +8772,16 @@
         },
         {
             "name": "symfony/error-handler",
-            "version": "v5.4.15",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/error-handler.git",
-                "reference": "539cf1428b8442303c6e876ad7bf5a7babd91091"
+                "reference": "b900446552833ad2f91ca7dd52aa8ffe78f66cb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/error-handler/zipball/539cf1428b8442303c6e876ad7bf5a7babd91091",
-                "reference": "539cf1428b8442303c6e876ad7bf5a7babd91091",
+                "url": "https://api.github.com/repos/symfony/error-handler/zipball/b900446552833ad2f91ca7dd52aa8ffe78f66cb2",
+                "reference": "b900446552833ad2f91ca7dd52aa8ffe78f66cb2",
                 "shasum": ""
             },
             "require": {
@@ -7468,7 +8823,7 @@
             "description": "Provides tools to manage errors and ease debugging PHP code",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/error-handler/tree/v5.4.15"
+                "source": "https://github.com/symfony/error-handler/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -7484,20 +8839,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-27T06:32:25+00:00"
+            "time": "2022-12-13T09:43:00+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v5.4.9",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "8e6ce1cc0279e3ff3c8ff0f43813bc88d21ca1bc"
+                "reference": "8e18a9d559eb8ebc2220588f1faa726a2fcd31c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/8e6ce1cc0279e3ff3c8ff0f43813bc88d21ca1bc",
-                "reference": "8e6ce1cc0279e3ff3c8ff0f43813bc88d21ca1bc",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/8e18a9d559eb8ebc2220588f1faa726a2fcd31c9",
+                "reference": "8e18a9d559eb8ebc2220588f1faa726a2fcd31c9",
                 "shasum": ""
             },
             "require": {
@@ -7553,7 +8908,7 @@
             "description": "Provides tools that allow your application components to communicate with each other by dispatching events and listening to them",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/event-dispatcher/tree/v5.4.9"
+                "source": "https://github.com/symfony/event-dispatcher/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -7569,7 +8924,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-05T16:45:39+00:00"
+            "time": "2022-12-12T15:54:21+00:00"
         },
         {
             "name": "symfony/event-dispatcher-contracts",
@@ -7716,16 +9071,16 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v5.4.11",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "7872a66f57caffa2916a584db1aa7f12adc76f8c"
+                "reference": "40c08632019838dfb3350f18cf5563b8080055fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/7872a66f57caffa2916a584db1aa7f12adc76f8c",
-                "reference": "7872a66f57caffa2916a584db1aa7f12adc76f8c",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/40c08632019838dfb3350f18cf5563b8080055fc",
+                "reference": "40c08632019838dfb3350f18cf5563b8080055fc",
                 "shasum": ""
             },
             "require": {
@@ -7759,7 +9114,7 @@
             "description": "Finds files and directories via an intuitive fluent interface",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/finder/tree/v5.4.11"
+                "source": "https://github.com/symfony/finder/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -7775,20 +9130,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-29T07:37:50+00:00"
+            "time": "2022-12-22T10:31:03+00:00"
         },
         {
             "name": "symfony/framework-bundle",
-            "version": "v5.4.16",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/framework-bundle.git",
-                "reference": "70bfb2e76b8d97b2b19058bd65046b4cc1f04e3d"
+                "reference": "79dba90bd8a440488b63282ea27d2b30166e8841"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/framework-bundle/zipball/70bfb2e76b8d97b2b19058bd65046b4cc1f04e3d",
-                "reference": "70bfb2e76b8d97b2b19058bd65046b4cc1f04e3d",
+                "url": "https://api.github.com/repos/symfony/framework-bundle/zipball/79dba90bd8a440488b63282ea27d2b30166e8841",
+                "reference": "79dba90bd8a440488b63282ea27d2b30166e8841",
                 "shasum": ""
             },
             "require": {
@@ -7840,7 +9195,7 @@
                 "symfony/workflow": "<5.2"
             },
             "require-dev": {
-                "doctrine/annotations": "^1.13.1",
+                "doctrine/annotations": "^1.13.1|^2",
                 "doctrine/cache": "^1.11|^2.0",
                 "doctrine/persistence": "^1.3|^2|^3",
                 "phpdocumentor/reflection-docblock": "^3.0|^4.0|^5.0",
@@ -7910,7 +9265,7 @@
             "description": "Provides a tight integration between Symfony components and the Symfony full-stack framework",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/framework-bundle/tree/v5.4.16"
+                "source": "https://github.com/symfony/framework-bundle/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -7926,20 +9281,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-25T14:26:10+00:00"
+            "time": "2022-12-20T11:10:57+00:00"
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v5.4.16",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "5032c5849aef24741e1970cb03511b0dd131d838"
+                "reference": "b64a0e2df212d5849e4584cabff0cf09c5d6866a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/5032c5849aef24741e1970cb03511b0dd131d838",
-                "reference": "5032c5849aef24741e1970cb03511b0dd131d838",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/b64a0e2df212d5849e4584cabff0cf09c5d6866a",
+                "reference": "b64a0e2df212d5849e4584cabff0cf09c5d6866a",
                 "shasum": ""
             },
             "require": {
@@ -7986,7 +9341,7 @@
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-foundation/tree/v5.4.16"
+                "source": "https://github.com/symfony/http-foundation/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -8002,20 +9357,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-07T08:06:40+00:00"
+            "time": "2022-12-14T08:23:03+00:00"
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v5.4.16",
+            "version": "v5.4.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "b432c57c5de73634b1859093c1f58e3cd84455a1"
+                "reference": "5da6f57a13e5d7d77197443cf55697cdf65f1352"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/b432c57c5de73634b1859093c1f58e3cd84455a1",
-                "reference": "b432c57c5de73634b1859093c1f58e3cd84455a1",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/5da6f57a13e5d7d77197443cf55697cdf65f1352",
+                "reference": "5da6f57a13e5d7d77197443cf55697cdf65f1352",
                 "shasum": ""
             },
             "require": {
@@ -8098,7 +9453,7 @@
             "description": "Provides a structured process for converting a Request into a Response",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-kernel/tree/v5.4.16"
+                "source": "https://github.com/symfony/http-kernel/tree/v5.4.18"
             },
             "funding": [
                 {
@@ -8114,7 +9469,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-28T18:08:58+00:00"
+            "time": "2022-12-29T18:54:08+00:00"
         },
         {
             "name": "symfony/inflector",
@@ -8358,16 +9713,16 @@
         },
         {
             "name": "symfony/mailer",
-            "version": "v5.4.16",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mailer.git",
-                "reference": "501ac1c388b18390547aa138253de2c5e44e931e"
+                "reference": "fd816412b76447890efedaf9ddfe8632589ce10c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mailer/zipball/501ac1c388b18390547aa138253de2c5e44e931e",
-                "reference": "501ac1c388b18390547aa138253de2c5e44e931e",
+                "url": "https://api.github.com/repos/symfony/mailer/zipball/fd816412b76447890efedaf9ddfe8632589ce10c",
+                "reference": "fd816412b76447890efedaf9ddfe8632589ce10c",
                 "shasum": ""
             },
             "require": {
@@ -8414,7 +9769,7 @@
             "description": "Helps sending emails",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/mailer/tree/v5.4.16"
+                "source": "https://github.com/symfony/mailer/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -8430,20 +9785,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-04T07:37:26+00:00"
+            "time": "2022-12-14T15:45:23+00:00"
         },
         {
             "name": "symfony/messenger",
-            "version": "v5.4.16",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/messenger.git",
-                "reference": "ead27c3bcb125799a249b430ca0540ee0b3a4504"
+                "reference": "b6f91bc2732278f5d10ff21833db5ce7c2c4f8b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/messenger/zipball/ead27c3bcb125799a249b430ca0540ee0b3a4504",
-                "reference": "ead27c3bcb125799a249b430ca0540ee0b3a4504",
+                "url": "https://api.github.com/repos/symfony/messenger/zipball/b6f91bc2732278f5d10ff21833db5ce7c2c4f8b2",
+                "reference": "b6f91bc2732278f5d10ff21833db5ce7c2c4f8b2",
                 "shasum": ""
             },
             "require": {
@@ -8504,7 +9859,7 @@
             "description": "Helps applications send and receive messages to/from other applications or via message queues",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/messenger/tree/v5.4.16"
+                "source": "https://github.com/symfony/messenger/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -8520,20 +9875,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-14T10:09:38+00:00"
+            "time": "2022-12-12T15:54:21+00:00"
         },
         {
             "name": "symfony/mime",
-            "version": "v5.4.16",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
-                "reference": "46eeedb08f0832b1b61a84c612d945fc85ee4734"
+                "reference": "2a83d82efc91c3f03a23c8b47a896df168aa5c63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mime/zipball/46eeedb08f0832b1b61a84c612d945fc85ee4734",
-                "reference": "46eeedb08f0832b1b61a84c612d945fc85ee4734",
+                "url": "https://api.github.com/repos/symfony/mime/zipball/2a83d82efc91c3f03a23c8b47a896df168aa5c63",
+                "reference": "2a83d82efc91c3f03a23c8b47a896df168aa5c63",
                 "shasum": ""
             },
             "require": {
@@ -8588,7 +9943,7 @@
                 "mime-type"
             ],
             "support": {
-                "source": "https://github.com/symfony/mime/tree/v5.4.16"
+                "source": "https://github.com/symfony/mime/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -8604,20 +9959,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-26T16:45:22+00:00"
+            "time": "2022-12-13T09:59:55+00:00"
         },
         {
             "name": "symfony/monolog-bridge",
-            "version": "v5.4.10",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/monolog-bridge.git",
-                "reference": "b3b0890e76e7eb626f27b165a5c501f2754dfbbd"
+                "reference": "0280390d8232a5668b02e0d87e9fce0a535c4af9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/monolog-bridge/zipball/b3b0890e76e7eb626f27b165a5c501f2754dfbbd",
-                "reference": "b3b0890e76e7eb626f27b165a5c501f2754dfbbd",
+                "url": "https://api.github.com/repos/symfony/monolog-bridge/zipball/0280390d8232a5668b02e0d87e9fce0a535c4af9",
+                "reference": "0280390d8232a5668b02e0d87e9fce0a535c4af9",
                 "shasum": ""
             },
             "require": {
@@ -8672,7 +10027,7 @@
             "description": "Provides integration for Monolog with various Symfony components",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/monolog-bridge/tree/v5.4.10"
+                "source": "https://github.com/symfony/monolog-bridge/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -8688,7 +10043,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-19T12:03:50+00:00"
+            "time": "2022-12-13T10:55:04+00:00"
         },
         {
             "name": "symfony/monolog-bundle",
@@ -9792,16 +11147,16 @@
         },
         {
             "name": "symfony/property-info",
-            "version": "v5.4.16",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/property-info.git",
-                "reference": "9dd148c4fbfc231fa4bff00def8dc16a2cd89944"
+                "reference": "12e1f7b3d73b1f3690aa524b92b5de9937507361"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/property-info/zipball/9dd148c4fbfc231fa4bff00def8dc16a2cd89944",
-                "reference": "9dd148c4fbfc231fa4bff00def8dc16a2cd89944",
+                "url": "https://api.github.com/repos/symfony/property-info/zipball/12e1f7b3d73b1f3690aa524b92b5de9937507361",
+                "reference": "12e1f7b3d73b1f3690aa524b92b5de9937507361",
                 "shasum": ""
             },
             "require": {
@@ -9816,7 +11171,7 @@
                 "symfony/dependency-injection": "<4.4"
             },
             "require-dev": {
-                "doctrine/annotations": "^1.10.4",
+                "doctrine/annotations": "^1.10.4|^2",
                 "phpdocumentor/reflection-docblock": "^3.0|^4.0|^5.0",
                 "phpstan/phpdoc-parser": "^1.0",
                 "symfony/cache": "^4.4|^5.0|^6.0",
@@ -9863,7 +11218,7 @@
                 "validator"
             ],
             "support": {
-                "source": "https://github.com/symfony/property-info/tree/v5.4.16"
+                "source": "https://github.com/symfony/property-info/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -9879,7 +11234,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-19T17:41:50+00:00"
+            "time": "2022-12-20T11:10:57+00:00"
         },
         {
             "name": "symfony/proxy-manager-bridge",
@@ -10038,16 +11393,16 @@
         },
         {
             "name": "symfony/rate-limiter",
-            "version": "v5.4.11",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/rate-limiter.git",
-                "reference": "1a3a43eeb498290100e4a1559f4a48be14900bc2"
+                "reference": "a79d4fe5a330f95ca85a87b1321911bdeadb4db9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/rate-limiter/zipball/1a3a43eeb498290100e4a1559f4a48be14900bc2",
-                "reference": "1a3a43eeb498290100e4a1559f4a48be14900bc2",
+                "url": "https://api.github.com/repos/symfony/rate-limiter/zipball/a79d4fe5a330f95ca85a87b1321911bdeadb4db9",
+                "reference": "a79d4fe5a330f95ca85a87b1321911bdeadb4db9",
                 "shasum": ""
             },
             "require": {
@@ -10088,7 +11443,7 @@
                 "rate-limiter"
             ],
             "support": {
-                "source": "https://github.com/symfony/rate-limiter/tree/v5.4.11"
+                "source": "https://github.com/symfony/rate-limiter/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -10104,7 +11459,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-20T13:00:38+00:00"
+            "time": "2022-12-09T07:37:05+00:00"
         },
         {
             "name": "symfony/redis-messenger",
@@ -10175,16 +11530,16 @@
         },
         {
             "name": "symfony/routing",
-            "version": "v5.4.15",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/routing.git",
-                "reference": "5c9b129efe9abce9470e384bf65d8a7e262eee69"
+                "reference": "4ce2df9a469c19ba45ca6aca04fec1c358a6e791"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/routing/zipball/5c9b129efe9abce9470e384bf65d8a7e262eee69",
-                "reference": "5c9b129efe9abce9470e384bf65d8a7e262eee69",
+                "url": "https://api.github.com/repos/symfony/routing/zipball/4ce2df9a469c19ba45ca6aca04fec1c358a6e791",
+                "reference": "4ce2df9a469c19ba45ca6aca04fec1c358a6e791",
                 "shasum": ""
             },
             "require": {
@@ -10199,7 +11554,7 @@
                 "symfony/yaml": "<4.4"
             },
             "require-dev": {
-                "doctrine/annotations": "^1.12",
+                "doctrine/annotations": "^1.12|^2",
                 "psr/log": "^1|^2|^3",
                 "symfony/config": "^5.3|^6.0",
                 "symfony/dependency-injection": "^4.4|^5.0|^6.0",
@@ -10245,7 +11600,7 @@
                 "url"
             ],
             "support": {
-                "source": "https://github.com/symfony/routing/tree/v5.4.15"
+                "source": "https://github.com/symfony/routing/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -10261,7 +11616,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-13T14:10:41+00:00"
+            "time": "2022-12-20T11:10:57+00:00"
         },
         {
             "name": "symfony/security-core",
@@ -10430,16 +11785,16 @@
         },
         {
             "name": "symfony/serializer",
-            "version": "v5.4.15",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/serializer.git",
-                "reference": "e80871599f6f0929bb349afc3d9ecaba783e68bd"
+                "reference": "4ac4fae1cbad2655a0b05f327e7ce8ef310239fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/serializer/zipball/e80871599f6f0929bb349afc3d9ecaba783e68bd",
-                "reference": "e80871599f6f0929bb349afc3d9ecaba783e68bd",
+                "url": "https://api.github.com/repos/symfony/serializer/zipball/4ac4fae1cbad2655a0b05f327e7ce8ef310239fb",
+                "reference": "4ac4fae1cbad2655a0b05f327e7ce8ef310239fb",
                 "shasum": ""
             },
             "require": {
@@ -10451,7 +11806,7 @@
             "conflict": {
                 "doctrine/annotations": "<1.12",
                 "phpdocumentor/reflection-docblock": "<3.2.2",
-                "phpdocumentor/type-resolver": "<1.4.0",
+                "phpdocumentor/type-resolver": "<1.4.0|>=1.7.0",
                 "symfony/dependency-injection": "<4.4",
                 "symfony/property-access": "<5.4",
                 "symfony/property-info": "<5.3.13",
@@ -10459,7 +11814,7 @@
                 "symfony/yaml": "<4.4"
             },
             "require-dev": {
-                "doctrine/annotations": "^1.12",
+                "doctrine/annotations": "^1.12|^2",
                 "phpdocumentor/reflection-docblock": "^3.2|^4.0|^5.0",
                 "symfony/cache": "^4.4|^5.0|^6.0",
                 "symfony/config": "^4.4|^5.0|^6.0",
@@ -10513,7 +11868,7 @@
             "description": "Handles serializing and deserializing data structures, including object graphs, into array structures or other formats like XML and JSON.",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/serializer/tree/v5.4.15"
+                "source": "https://github.com/symfony/serializer/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -10529,7 +11884,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-23T09:52:07+00:00"
+            "time": "2022-12-20T11:10:57+00:00"
         },
         {
             "name": "symfony/service-contracts",
@@ -10674,16 +12029,16 @@
         },
         {
             "name": "symfony/string",
-            "version": "v5.4.15",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "571334ce9f687e3e6af72db4d3b2a9431e4fd9ed"
+                "reference": "55733a8664b8853b003e70251c58bc8cb2d82a6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/571334ce9f687e3e6af72db4d3b2a9431e4fd9ed",
-                "reference": "571334ce9f687e3e6af72db4d3b2a9431e4fd9ed",
+                "url": "https://api.github.com/repos/symfony/string/zipball/55733a8664b8853b003e70251c58bc8cb2d82a6b",
+                "reference": "55733a8664b8853b003e70251c58bc8cb2d82a6b",
                 "shasum": ""
             },
             "require": {
@@ -10740,7 +12095,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v5.4.15"
+                "source": "https://github.com/symfony/string/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -10756,7 +12111,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-05T15:16:54+00:00"
+            "time": "2022-12-12T15:54:21+00:00"
         },
         {
             "name": "symfony/translation",
@@ -10935,16 +12290,16 @@
         },
         {
             "name": "symfony/twig-bridge",
-            "version": "v5.4.16",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/twig-bridge.git",
-                "reference": "227d5030714c024bf4bc760b5762224070d4288c"
+                "reference": "5a35a669639ac25e4cb3d6d9c968924d96a7eae6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/twig-bridge/zipball/227d5030714c024bf4bc760b5762224070d4288c",
-                "reference": "227d5030714c024bf4bc760b5762224070d4288c",
+                "url": "https://api.github.com/repos/symfony/twig-bridge/zipball/5a35a669639ac25e4cb3d6d9c968924d96a7eae6",
+                "reference": "5a35a669639ac25e4cb3d6d9c968924d96a7eae6",
                 "shasum": ""
             },
             "require": {
@@ -10964,7 +12319,7 @@
                 "symfony/workflow": "<5.2"
             },
             "require-dev": {
-                "doctrine/annotations": "^1.12",
+                "doctrine/annotations": "^1.12|^2",
                 "egulias/email-validator": "^2.1.10|^3",
                 "phpdocumentor/reflection-docblock": "^3.0|^4.0|^5.0",
                 "symfony/asset": "^4.4|^5.0|^6.0",
@@ -11036,7 +12391,7 @@
             "description": "Provides integration for Twig with various Symfony components",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/twig-bridge/tree/v5.4.16"
+                "source": "https://github.com/symfony/twig-bridge/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -11052,20 +12407,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-04T07:37:26+00:00"
+            "time": "2022-12-20T11:10:57+00:00"
         },
         {
             "name": "symfony/twig-bundle",
-            "version": "v5.4.8",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/twig-bundle.git",
-                "reference": "c992b4474c3a31f3c40a1ca593d213833f91b818"
+                "reference": "ac21af4eff72ecd65680d2f3d163b5794ce82fc4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/twig-bundle/zipball/c992b4474c3a31f3c40a1ca593d213833f91b818",
-                "reference": "c992b4474c3a31f3c40a1ca593d213833f91b818",
+                "url": "https://api.github.com/repos/symfony/twig-bundle/zipball/ac21af4eff72ecd65680d2f3d163b5794ce82fc4",
+                "reference": "ac21af4eff72ecd65680d2f3d163b5794ce82fc4",
                 "shasum": ""
             },
             "require": {
@@ -11085,7 +12440,7 @@
                 "symfony/translation": "<5.0"
             },
             "require-dev": {
-                "doctrine/annotations": "^1.10.4",
+                "doctrine/annotations": "^1.10.4|^2",
                 "doctrine/cache": "^1.0|^2.0",
                 "symfony/asset": "^4.4|^5.0|^6.0",
                 "symfony/dependency-injection": "^5.3|^6.0",
@@ -11125,7 +12480,7 @@
             "description": "Provides a tight integration of Twig into the Symfony full-stack framework",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/twig-bundle/tree/v5.4.8"
+                "source": "https://github.com/symfony/twig-bundle/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -11141,20 +12496,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-03T13:03:10+00:00"
+            "time": "2022-12-20T11:10:57+00:00"
         },
         {
             "name": "symfony/validator",
-            "version": "v5.4.15",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/validator.git",
-                "reference": "0fb0c50f18f4517a8ea59d1cc87bff231402a7e3"
+                "reference": "621b820204a238d754f7f60241fcbdb1687641ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/validator/zipball/0fb0c50f18f4517a8ea59d1cc87bff231402a7e3",
-                "reference": "0fb0c50f18f4517a8ea59d1cc87bff231402a7e3",
+                "url": "https://api.github.com/repos/symfony/validator/zipball/621b820204a238d754f7f60241fcbdb1687641ea",
+                "reference": "621b820204a238d754f7f60241fcbdb1687641ea",
                 "shasum": ""
             },
             "require": {
@@ -11181,7 +12536,7 @@
                 "symfony/yaml": "<4.4"
             },
             "require-dev": {
-                "doctrine/annotations": "^1.13",
+                "doctrine/annotations": "^1.13|^2",
                 "doctrine/cache": "^1.11|^2.0",
                 "egulias/email-validator": "^2.1.10|^3",
                 "symfony/cache": "^4.4|^5.0|^6.0",
@@ -11238,7 +12593,7 @@
             "description": "Provides tools to validate values",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/validator/tree/v5.4.15"
+                "source": "https://github.com/symfony/validator/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -11254,20 +12609,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-27T08:04:35+00:00"
+            "time": "2022-12-21T19:20:17+00:00"
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v5.4.14",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "6894d06145fefebd9a4c7272baa026a1c394a430"
+                "reference": "ad74890513d07060255df2575703daf971de92c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/6894d06145fefebd9a4c7272baa026a1c394a430",
-                "reference": "6894d06145fefebd9a4c7272baa026a1c394a430",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/ad74890513d07060255df2575703daf971de92c7",
+                "reference": "ad74890513d07060255df2575703daf971de92c7",
                 "shasum": ""
             },
             "require": {
@@ -11327,7 +12682,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v5.4.14"
+                "source": "https://github.com/symfony/var-dumper/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -11343,20 +12698,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-07T08:01:20+00:00"
+            "time": "2022-12-22T10:31:03+00:00"
         },
         {
             "name": "symfony/var-exporter",
-            "version": "v5.4.10",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-exporter.git",
-                "reference": "8fc03ee75eeece3d9be1ef47d26d79bea1afb340"
+                "reference": "2adac0a9b55f9fb40b983b790509581dc3db0fff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/8fc03ee75eeece3d9be1ef47d26d79bea1afb340",
-                "reference": "8fc03ee75eeece3d9be1ef47d26d79bea1afb340",
+                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/2adac0a9b55f9fb40b983b790509581dc3db0fff",
+                "reference": "2adac0a9b55f9fb40b983b790509581dc3db0fff",
                 "shasum": ""
             },
             "require": {
@@ -11400,7 +12755,7 @@
                 "serialize"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-exporter/tree/v5.4.10"
+                "source": "https://github.com/symfony/var-exporter/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -11416,20 +12771,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-27T12:56:18+00:00"
+            "time": "2022-12-22T10:10:04+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v5.4.16",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "ebd37c71f62d5ec5f6e27de3e06fee492d4c6298"
+                "reference": "edcdc11498108f8967fe95118a7ec8624b94760e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/ebd37c71f62d5ec5f6e27de3e06fee492d4c6298",
-                "reference": "ebd37c71f62d5ec5f6e27de3e06fee492d4c6298",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/edcdc11498108f8967fe95118a7ec8624b94760e",
+                "reference": "edcdc11498108f8967fe95118a7ec8624b94760e",
                 "shasum": ""
             },
             "require": {
@@ -11475,7 +12830,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/yaml/tree/v5.4.16"
+                "source": "https://github.com/symfony/yaml/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -11491,7 +12846,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-25T16:04:03+00:00"
+            "time": "2022-12-13T09:57:04+00:00"
         },
         {
             "name": "tecnickcom/tcpdf",
@@ -11835,16 +13190,16 @@
         },
         {
             "name": "zircote/swagger-php",
-            "version": "3.3.6",
+            "version": "3.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zircote/swagger-php.git",
-                "reference": "5016342f966fca29dda84455de066c5c90d37941"
+                "reference": "e8c3bb316e385e93a0c7e8b2aa0681079244c381"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zircote/swagger-php/zipball/5016342f966fca29dda84455de066c5c90d37941",
-                "reference": "5016342f966fca29dda84455de066c5c90d37941",
+                "url": "https://api.github.com/repos/zircote/swagger-php/zipball/e8c3bb316e385e93a0c7e8b2aa0681079244c381",
+                "reference": "e8c3bb316e385e93a0c7e8b2aa0681079244c381",
                 "shasum": ""
             },
             "require": {
@@ -11902,9 +13257,9 @@
             ],
             "support": {
                 "issues": "https://github.com/zircote/swagger-php/issues",
-                "source": "https://github.com/zircote/swagger-php/tree/3.3.6"
+                "source": "https://github.com/zircote/swagger-php/tree/3.3.7"
             },
-            "time": "2022-05-21T01:52:14+00:00"
+            "time": "2023-01-03T21:17:10+00:00"
         }
     ],
     "packages-dev": [
@@ -11955,30 +13310,30 @@
         },
         {
             "name": "doctrine/instantiator",
-            "version": "1.4.1",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "10dcfce151b967d20fde1b34ae6640712c3891bc"
+                "reference": "0a0fa9780f5d4e507415a065172d26a98d02047b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/10dcfce151b967d20fde1b34ae6640712c3891bc",
-                "reference": "10dcfce151b967d20fde1b34ae6640712c3891bc",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/0a0fa9780f5d4e507415a065172d26a98d02047b",
+                "reference": "0a0fa9780f5d4e507415a065172d26a98d02047b",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1 || ^8.0"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^9",
+                "doctrine/coding-standard": "^9 || ^11",
                 "ext-pdo": "*",
                 "ext-phar": "*",
                 "phpbench/phpbench": "^0.16 || ^1",
                 "phpstan/phpstan": "^1.4",
                 "phpstan/phpstan-phpunit": "^1",
                 "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
-                "vimeo/psalm": "^4.22"
+                "vimeo/psalm": "^4.30 || ^5.4"
             },
             "type": "library",
             "autoload": {
@@ -12005,7 +13360,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/instantiator/issues",
-                "source": "https://github.com/doctrine/instantiator/tree/1.4.1"
+                "source": "https://github.com/doctrine/instantiator/tree/1.5.0"
             },
             "funding": [
                 {
@@ -12021,7 +13376,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-03T08:28:38+00:00"
+            "time": "2022-12-30T00:15:36+00:00"
         },
         {
             "name": "fakerphp/faker",
@@ -12863,16 +14218,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.5.26",
+            "version": "9.5.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "851867efcbb6a1b992ec515c71cdcf20d895e9d2"
+                "reference": "a2bc7ffdca99f92d959b3f2270529334030bba38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/851867efcbb6a1b992ec515c71cdcf20d895e9d2",
-                "reference": "851867efcbb6a1b992ec515c71cdcf20d895e9d2",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a2bc7ffdca99f92d959b3f2270529334030bba38",
+                "reference": "a2bc7ffdca99f92d959b3f2270529334030bba38",
                 "shasum": ""
             },
             "require": {
@@ -12945,7 +14300,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.26"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.27"
             },
             "funding": [
                 {
@@ -12961,7 +14316,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-28T06:00:21+00:00"
+            "time": "2022-12-09T07:31:23+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -14055,16 +15410,16 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v5.4.11",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "c1681789f059ab756001052164726ae88512ae3d"
+                "reference": "052ef49b660f9ad2a3adb311c555c9bc11ba61f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/c1681789f059ab756001052164726ae88512ae3d",
-                "reference": "c1681789f059ab756001052164726ae88512ae3d",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/052ef49b660f9ad2a3adb311c555c9bc11ba61f4",
+                "reference": "052ef49b660f9ad2a3adb311c555c9bc11ba61f4",
                 "shasum": ""
             },
             "require": {
@@ -14101,7 +15456,7 @@
             "description": "Converts CSS selectors to XPath expressions",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/css-selector/tree/v5.4.11"
+                "source": "https://github.com/symfony/css-selector/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -14117,20 +15472,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-27T16:58:25+00:00"
+            "time": "2022-12-23T11:40:44+00:00"
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v5.4.15",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
-                "reference": "b8fd0ff9a0f00d944f1534f6d21e84f92eda7258"
+                "reference": "32a07d910edc138a1dd5508c17c6b9bc1eb27a1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/b8fd0ff9a0f00d944f1534f6d21e84f92eda7258",
-                "reference": "b8fd0ff9a0f00d944f1534f6d21e84f92eda7258",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/32a07d910edc138a1dd5508c17c6b9bc1eb27a1b",
+                "reference": "32a07d910edc138a1dd5508c17c6b9bc1eb27a1b",
                 "shasum": ""
             },
             "require": {
@@ -14176,7 +15531,7 @@
             "description": "Eases DOM navigation for HTML and XML documents",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/dom-crawler/tree/v5.4.15"
+                "source": "https://github.com/symfony/dom-crawler/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -14192,20 +15547,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-27T08:04:35+00:00"
+            "time": "2022-12-22T10:31:03+00:00"
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v5.4.16",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
-                "reference": "5ea977eb24dd9926e2920078530985dc6942597c"
+                "reference": "2232d32115383602fd7702dfd51e81178364b679"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/5ea977eb24dd9926e2920078530985dc6942597c",
-                "reference": "5ea977eb24dd9926e2920078530985dc6942597c",
+                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/2232d32115383602fd7702dfd51e81178364b679",
+                "reference": "2232d32115383602fd7702dfd51e81178364b679",
                 "shasum": ""
             },
             "require": {
@@ -14259,7 +15614,7 @@
             "description": "Provides utilities for PHPUnit, especially user deprecation notices management",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/phpunit-bridge/tree/v5.4.16"
+                "source": "https://github.com/symfony/phpunit-bridge/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -14275,20 +15630,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-14T09:59:19+00:00"
+            "time": "2022-12-27T08:11:33+00:00"
         },
         {
             "name": "symfony/web-profiler-bundle",
-            "version": "v5.4.14",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/web-profiler-bundle.git",
-                "reference": "e41ebd5411908bc8afdc848ccf68918ecb243c02"
+                "reference": "6c7635fb150af892f6a79f016b6c5386ab112922"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/web-profiler-bundle/zipball/e41ebd5411908bc8afdc848ccf68918ecb243c02",
-                "reference": "e41ebd5411908bc8afdc848ccf68918ecb243c02",
+                "url": "https://api.github.com/repos/symfony/web-profiler-bundle/zipball/6c7635fb150af892f6a79f016b6c5386ab112922",
+                "reference": "6c7635fb150af892f6a79f016b6c5386ab112922",
                 "shasum": ""
             },
             "require": {
@@ -14339,7 +15694,7 @@
             "description": "Provides a development tool that gives detailed information about the execution of any request",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/web-profiler-bundle/tree/v5.4.14"
+                "source": "https://github.com/symfony/web-profiler-bundle/tree/v5.4.17"
             },
             "funding": [
                 {
@@ -14355,7 +15710,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-01T21:59:28+00:00"
+            "time": "2022-12-13T13:09:23+00:00"
         },
         {
             "name": "theseer/tokenizer",
@@ -14414,7 +15769,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.4.3 || ^8.0",
+        "php": "^8.0",
         "composer-runtime-api": "^2.0"
     },
     "platform-dev": {
@@ -14423,7 +15778,7 @@
         "ext-xmlwriter": "*"
     },
     "platform-overrides": {
-        "php": "7.4.3"
+        "php": "8.0"
     },
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.2.0"
 }
