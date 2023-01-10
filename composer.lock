@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ca0816a25d093e039058f4ee63bb2a58",
+    "content-hash": "bb0ce1c52755c17f9ce77830ef10fd4f",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.255.11",
+            "version": "3.256.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "e851af4d7d2d95b131db344430384ae7cc04758e"
+                "reference": "99d254413e0b4899feb53d4ad373fc630a9e089a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/e851af4d7d2d95b131db344430384ae7cc04758e",
-                "reference": "e851af4d7d2d95b131db344430384ae7cc04758e",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/99d254413e0b4899feb53d4ad373fc630a9e089a",
+                "reference": "99d254413e0b4899feb53d4ad373fc630a9e089a",
                 "shasum": ""
             },
             "require": {
@@ -146,9 +146,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.255.11"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.256.0"
             },
-            "time": "2023-01-06T19:22:07+00:00"
+            "time": "2023-01-09T19:23:53+00:00"
         },
         {
             "name": "brick/math",
@@ -7517,58 +7517,6 @@
                 }
             ],
             "description": "Shows the 'from' price on product listings"
-        },
-        {
-            "name": "store.shopware.com/premsindividualoffer6",
-            "version": "3.5.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FPremsIndividualOffer6%2Fbinaries%2F3.5.1"
-            },
-            "require": {
-                "shopware/administration": "*",
-                "shopware/core": ">=6.4.0",
-                "shopware/storefront": ">=6.4.0"
-            },
-            "replace": {
-                "prems/individual-offer6": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "Individuelles Angebot",
-                    "en-GB": "Individual Offer"
-                },
-                "copyright": "(c) by PremSoft",
-                "description": {
-                    "de-DE": "Individuelle Angebote in Shopware erstellen. Kunden können Anfragen im Warenkorb stellen, Angebote übersichtlich im Backend verwaltbar, individuelle Preise/ Mengen/ Artikel einstellbar.",
-                    "en-GB": "Create individual offers in Shopware. Customers can make inquiries in the shopping cart, offers can be managed in the backend, individual prices / quantities / items can be set."
-                },
-                "plugin-icon": "src/Resources/config/plugin.png",
-                "supportLink": {
-                    "de-DE": "https://premsoft.de/kontakt.html",
-                    "en-GB": "https://premsoft.de/kontakt.html"
-                },
-                "manufacturerLink": {
-                    "de-DE": "https://store.shopware.com/premsoft.html",
-                    "en-GB": "https://store.shopware.com/en/premsoft.html"
-                },
-                "shopware-plugin-class": "Prems\\Plugin\\PremsIndividualOffer6\\PremsIndividualOffer6"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Prems\\Plugin\\PremsIndividualOffer6\\": "src/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "PremSoft",
-                    "role": "Manufacturer",
-                    "homepage": "https://premsoft.de"
-                }
-            ],
-            "description": "Individual offer for Shopware 6"
         },
         {
             "name": "store.shopware.com/scopplatformredirecter",
