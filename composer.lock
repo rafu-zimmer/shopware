@@ -7412,10 +7412,10 @@
         },
         {
             "name": "store.shopware.com/neon6configurator",
-            "version": "1.8.1",
+            "version": "1.8.2",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FNeon6Configurator%2Fbinaries%2F1.8.1"
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FNeon6Configurator%2Fbinaries%2F1.8.2"
             },
             "require": {
                 "jwadhams/json-logic-php": "^1.5",
