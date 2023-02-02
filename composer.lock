@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.258.0",
+            "version": "3.258.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "96ed88ca45e54f74a158002411966a92891e8ead"
+                "reference": "7d7c4f89d2d0bd77c36cb8f3c8cd20b5aa8c0e6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/96ed88ca45e54f74a158002411966a92891e8ead",
-                "reference": "96ed88ca45e54f74a158002411966a92891e8ead",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/7d7c4f89d2d0bd77c36cb8f3c8cd20b5aa8c0e6d",
+                "reference": "7d7c4f89d2d0bd77c36cb8f3c8cd20b5aa8c0e6d",
                 "shasum": ""
             },
             "require": {
@@ -146,9 +146,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.258.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.258.1"
             },
-            "time": "2023-01-31T19:33:16+00:00"
+            "time": "2023-02-01T19:22:26+00:00"
         },
         {
             "name": "brick/math",
@@ -7267,10 +7267,10 @@
         },
         {
             "name": "store.shopware.com/moorlforms",
-            "version": "1.1.45",
+            "version": "1.1.47",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlForms%2Fbinaries%2F1.1.45"
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlForms%2Fbinaries%2F1.1.47"
             },
             "require": {
                 "shopware/core": "^6.4.14",
@@ -7315,10 +7315,10 @@
         },
         {
             "name": "store.shopware.com/moorlformsclassic",
-            "version": "1.2.6",
+            "version": "1.2.8",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlFormsClassic%2Fbinaries%2F1.2.6"
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlFormsClassic%2Fbinaries%2F1.2.8"
             },
             "require": {
                 "shopware/core": "6.4.*",
@@ -7629,10 +7629,10 @@
         },
         {
             "name": "store.shopware.com/swagpaypal",
-            "version": "5.4.3",
+            "version": "5.4.4",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FSwagPayPal%2Fbinaries%2F5.4.3"
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FSwagPayPal%2Fbinaries%2F5.4.4"
             },
             "require": {
                 "shopware/core": "~6.4.3 | 6.4.x-dev"
