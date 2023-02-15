@@ -4,27 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d4b5700c80ac5ecb735147c3f8daf9b",
+    "content-hash": "3975b9180c5dda9e0f14107d11a1ad04",
     "packages": [
         {
             "name": "aws/aws-crt-php",
-            "version": "v1.0.2",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/awslabs/aws-crt-php.git",
-                "reference": "3942776a8c99209908ee0b287746263725685732"
+                "reference": "f5c64ee7c5fce196e2519b3d9b7138649efe032d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/awslabs/aws-crt-php/zipball/3942776a8c99209908ee0b287746263725685732",
-                "reference": "3942776a8c99209908ee0b287746263725685732",
+                "url": "https://api.github.com/repos/awslabs/aws-crt-php/zipball/f5c64ee7c5fce196e2519b3d9b7138649efe032d",
+                "reference": "f5c64ee7c5fce196e2519b3d9b7138649efe032d",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35|^5.4.3"
+                "phpunit/phpunit": "^4.8.35|^5.6.3"
             },
             "type": "library",
             "autoload": {
@@ -52,26 +52,26 @@
             ],
             "support": {
                 "issues": "https://github.com/awslabs/aws-crt-php/issues",
-                "source": "https://github.com/awslabs/aws-crt-php/tree/v1.0.2"
+                "source": "https://github.com/awslabs/aws-crt-php/tree/v1.0.4"
             },
-            "time": "2021-09-03T22:57:30+00:00"
+            "time": "2023-01-31T23:08:25+00:00"
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.258.1",
+            "version": "3.258.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "7d7c4f89d2d0bd77c36cb8f3c8cd20b5aa8c0e6d"
+                "reference": "e164c9c5faf3965bd27ff2a4e9b7b3048ba8a337"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/7d7c4f89d2d0bd77c36cb8f3c8cd20b5aa8c0e6d",
-                "reference": "7d7c4f89d2d0bd77c36cb8f3c8cd20b5aa8c0e6d",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/e164c9c5faf3965bd27ff2a4e9b7b3048ba8a337",
+                "reference": "e164c9c5faf3965bd27ff2a4e9b7b3048ba8a337",
                 "shasum": ""
             },
             "require": {
-                "aws/aws-crt-php": "^1.0.2",
+                "aws/aws-crt-php": "^1.0.4",
                 "ext-json": "*",
                 "ext-pcre": "*",
                 "ext-simplexml": "*",
@@ -146,9 +146,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.258.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.258.10"
             },
-            "time": "2023-02-01T19:22:26+00:00"
+            "time": "2023-02-14T19:21:16+00:00"
         },
         {
             "name": "brick/math",
@@ -358,16 +358,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.2.18",
+            "version": "2.2.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "84175907664ca8b73f73f4883e67e886dfefb9f5"
+                "reference": "978198befc71de0b18fc1fc5a472c03b184b504a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/84175907664ca8b73f73f4883e67e886dfefb9f5",
-                "reference": "84175907664ca8b73f73f4883e67e886dfefb9f5",
+                "url": "https://api.github.com/repos/composer/composer/zipball/978198befc71de0b18fc1fc5a472c03b184b504a",
+                "reference": "978198befc71de0b18fc1fc5a472c03b184b504a",
                 "shasum": ""
             },
             "require": {
@@ -437,7 +437,7 @@
             "support": {
                 "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/composer/issues",
-                "source": "https://github.com/composer/composer/tree/2.2.18"
+                "source": "https://github.com/composer/composer/tree/2.2.21"
             },
             "funding": [
                 {
@@ -453,7 +453,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-08-20T09:33:38+00:00"
+            "time": "2023-02-15T12:07:40+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -1542,16 +1542,16 @@
         },
         {
             "name": "doctrine/persistence",
-            "version": "2.5.6",
+            "version": "2.5.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/persistence.git",
-                "reference": "7729fc2a7e5efc8bbfa408a3b8adeb8f5b84f5d1"
+                "reference": "e36f22765f4d10a7748228babbf73da5edfeed3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/persistence/zipball/7729fc2a7e5efc8bbfa408a3b8adeb8f5b84f5d1",
-                "reference": "7729fc2a7e5efc8bbfa408a3b8adeb8f5b84f5d1",
+                "url": "https://api.github.com/repos/doctrine/persistence/zipball/e36f22765f4d10a7748228babbf73da5edfeed3c",
+                "reference": "e36f22765f4d10a7748228babbf73da5edfeed3c",
                 "shasum": ""
             },
             "require": {
@@ -1624,7 +1624,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/persistence/issues",
-                "source": "https://github.com/doctrine/persistence/tree/2.5.6"
+                "source": "https://github.com/doctrine/persistence/tree/2.5.7"
             },
             "funding": [
                 {
@@ -1640,7 +1640,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-01T18:11:10+00:00"
+            "time": "2023-02-03T15:51:16+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -2417,16 +2417,16 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v6.3.2",
+            "version": "v6.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "ea7dda77098b96e666c5ef382452f94841e439cd"
+                "reference": "4dd1e007f22a927ac77da5a3fbb067b42d3bc224"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/ea7dda77098b96e666c5ef382452f94841e439cd",
-                "reference": "ea7dda77098b96e666c5ef382452f94841e439cd",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/4dd1e007f22a927ac77da5a3fbb067b42d3bc224",
+                "reference": "4dd1e007f22a927ac77da5a3fbb067b42d3bc224",
                 "shasum": ""
             },
             "require": {
@@ -2441,6 +2441,7 @@
                 "psr/http-factory": "^1.0"
             },
             "suggest": {
+                "ext-sodium": "Support EdDSA (Ed25519) signatures",
                 "paragonie/sodium_compat": "Support EdDSA (Ed25519) signatures when libsodium is not present"
             },
             "type": "library",
@@ -2473,9 +2474,9 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v6.3.2"
+                "source": "https://github.com/firebase/php-jwt/tree/v6.4.0"
             },
-            "time": "2022-12-19T17:10:46+00:00"
+            "time": "2023-02-09T21:01:23+00:00"
         },
         {
             "name": "friendsofphp/proxy-manager-lts",
@@ -2619,16 +2620,16 @@
         },
         {
             "name": "google/cloud-core",
-            "version": "v1.49.0",
+            "version": "v1.49.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-cloud-php-core.git",
-                "reference": "5db0d164b61440312e99e4af9b43a59823098a8d"
+                "reference": "aaa1a8d22ff38d0f0ae882ef14377b4c14a65a8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-cloud-php-core/zipball/5db0d164b61440312e99e4af9b43a59823098a8d",
-                "reference": "5db0d164b61440312e99e4af9b43a59823098a8d",
+                "url": "https://api.github.com/repos/googleapis/google-cloud-php-core/zipball/aaa1a8d22ff38d0f0ae882ef14377b4c14a65a8f",
+                "reference": "aaa1a8d22ff38d0f0ae882ef14377b4c14a65a8f",
                 "shasum": ""
             },
             "require": {
@@ -2679,9 +2680,9 @@
             ],
             "description": "Google Cloud PHP shared dependency, providing functionality useful to all components.",
             "support": {
-                "source": "https://github.com/googleapis/google-cloud-php-core/tree/v1.49.0"
+                "source": "https://github.com/googleapis/google-cloud-php-core/tree/v1.49.1"
             },
-            "time": "2023-01-27T18:26:22+00:00"
+            "time": "2023-02-10T16:10:50+00:00"
         },
         {
             "name": "google/cloud-storage",
@@ -4220,16 +4221,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "2.8.0",
+            "version": "2.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "720488632c590286b88b80e62aa3d3d551ad4a50"
+                "reference": "f259e2b15fb95494c83f52d3caad003bbf5ffaa1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/720488632c590286b88b80e62aa3d3d551ad4a50",
-                "reference": "720488632c590286b88b80e62aa3d3d551ad4a50",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/f259e2b15fb95494c83f52d3caad003bbf5ffaa1",
+                "reference": "f259e2b15fb95494c83f52d3caad003bbf5ffaa1",
                 "shasum": ""
             },
             "require": {
@@ -4244,7 +4245,7 @@
                 "doctrine/couchdb": "~1.0@dev",
                 "elasticsearch/elasticsearch": "^7 || ^8",
                 "ext-json": "*",
-                "graylog2/gelf-php": "^1.4.2",
+                "graylog2/gelf-php": "^1.4.2 || ^2@dev",
                 "guzzlehttp/guzzle": "^7.4",
                 "guzzlehttp/psr7": "^2.2",
                 "mongodb/mongodb": "^1.8",
@@ -4306,7 +4307,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/2.8.0"
+                "source": "https://github.com/Seldaek/monolog/tree/2.9.1"
             },
             "funding": [
                 {
@@ -4318,7 +4319,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-24T11:55:47+00:00"
+            "time": "2023-02-06T13:44:46+00:00"
         },
         {
             "name": "mtdowling/jmespath.php",
@@ -6040,21 +6041,21 @@
         },
         {
             "name": "shopware/administration",
-            "version": "6.4.18.1",
+            "version": "6.4.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "4edae27e5214e8e18f0047670a2634548215ce76"
+                "reference": "13cc334dfecca341fadb0eb20d47a1bb8f6b3b1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/4edae27e5214e8e18f0047670a2634548215ce76",
-                "reference": "4edae27e5214e8e18f0047670a2634548215ce76",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/13cc334dfecca341fadb0eb20d47a1bb8f6b3b1d",
+                "reference": "13cc334dfecca341fadb0eb20d47a1bb8f6b3b1d",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.4.3 || ^8.0",
-                "shopware/core": "v6.4.18.1",
+                "shopware/core": "v6.4.19.0",
                 "symfony/framework-bundle": "~5.4.1",
                 "symfony/http-foundation": "~5.4.1",
                 "symfony/mime": "~5.4.0",
@@ -6082,10 +6083,10 @@
                 "docs": "https://developer.shopware.com",
                 "forum": "https://forum.shopware.com",
                 "issues": "https://issues.shopware.com",
-                "source": "https://github.com/shopware/administration/tree/v6.4.18.1",
+                "source": "https://github.com/shopware/administration/tree/v6.4.19.0",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2023-01-12T09:30:49+00:00"
+            "time": "2023-02-07T09:31:50+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -6120,16 +6121,16 @@
         },
         {
             "name": "shopware/core",
-            "version": "6.4.18.1",
+            "version": "6.4.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/core.git",
-                "reference": "7e14f7706b85770cefa095d38a560d4e26eb251f"
+                "reference": "0dd2bab7c80520fd5c489281b0cd3dadf45fae3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/core/zipball/7e14f7706b85770cefa095d38a560d4e26eb251f",
-                "reference": "7e14f7706b85770cefa095d38a560d4e26eb251f",
+                "url": "https://api.github.com/repos/shopware/core/zipball/0dd2bab7c80520fd5c489281b0cd3dadf45fae3b",
+                "reference": "0dd2bab7c80520fd5c489281b0cd3dadf45fae3b",
                 "shasum": ""
             },
             "require": {
@@ -6291,23 +6292,23 @@
                 "docs": "https://developer.shopware.com",
                 "forum": "https://forum.shopware.com",
                 "issues": "https://issues.shopware.com",
-                "source": "https://github.com/shopware/core/tree/v6.4.18.1",
+                "source": "https://github.com/shopware/core/tree/v6.4.19.0",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2023-01-12T09:30:48+00:00"
+            "time": "2023-02-07T09:31:47+00:00"
         },
         {
             "name": "shopware/elasticsearch",
-            "version": "6.4.18.1",
+            "version": "6.4.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/elasticsearch.git",
-                "reference": "3ddf1e513e382be19b48f86458c95107b1b173f4"
+                "reference": "6141b45622cb4311a46fdc974560105c48196425"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/elasticsearch/zipball/3ddf1e513e382be19b48f86458c95107b1b173f4",
-                "reference": "3ddf1e513e382be19b48f86458c95107b1b173f4",
+                "url": "https://api.github.com/repos/shopware/elasticsearch/zipball/6141b45622cb4311a46fdc974560105c48196425",
+                "reference": "6141b45622cb4311a46fdc974560105c48196425",
                 "shasum": ""
             },
             "require": {
@@ -6316,7 +6317,7 @@
                 "ext-curl": "*",
                 "ongr/elasticsearch-dsl": "7.2.2",
                 "php": "^7.4.3 || ^8.0",
-                "shopware/core": "v6.4.18.1",
+                "shopware/core": "v6.4.19.0",
                 "symfony/http-foundation": "~5.4.1",
                 "symfony/messenger": "~5.4.0"
             },
@@ -6348,28 +6349,28 @@
                 "docs": "https://developer.shopware.com",
                 "forum": "https://forum.shopware.com",
                 "issues": "https://issues.shopware.com",
-                "source": "https://github.com/shopware/elasticsearch/tree/v6.4.18.1",
+                "source": "https://github.com/shopware/elasticsearch/tree/v6.4.19.0",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2023-01-12T09:30:48+00:00"
+            "time": "2023-02-07T09:31:48+00:00"
         },
         {
             "name": "shopware/recovery",
-            "version": "6.4.18.1",
+            "version": "6.4.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/recovery.git",
-                "reference": "1ec09446a1b1b2b2abdf02dd19a57cb8f0fd5784"
+                "reference": "e4922078aff75854b90c02227163fc0909f849cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/recovery/zipball/1ec09446a1b1b2b2abdf02dd19a57cb8f0fd5784",
-                "reference": "1ec09446a1b1b2b2abdf02dd19a57cb8f0fd5784",
+                "url": "https://api.github.com/repos/shopware/recovery/zipball/e4922078aff75854b90c02227163fc0909f849cb",
+                "reference": "e4922078aff75854b90c02227163fc0909f849cb",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.4.3 || ^8.0",
-                "shopware/core": "v6.4.18.1"
+                "shopware/core": "v6.4.19.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "~9.5.17"
@@ -6391,23 +6392,23 @@
                 "docs": "https://developer.shopware.com",
                 "forum": "https://forum.shopware.com",
                 "issues": "https://issues.shopware.com",
-                "source": "https://github.com/shopware/recovery/tree/v6.4.18.1",
+                "source": "https://github.com/shopware/recovery/tree/v6.4.19.0",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2023-01-12T09:30:48+00:00"
+            "time": "2023-02-07T09:31:48+00:00"
         },
         {
             "name": "shopware/storefront",
-            "version": "6.4.18.1",
+            "version": "6.4.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "b5fda9de0b6fa0dd5fb10fd4e55799e434442fee"
+                "reference": "56e582417ff69936687bcba0fdce83885966f13f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/b5fda9de0b6fa0dd5fb10fd4e55799e434442fee",
-                "reference": "b5fda9de0b6fa0dd5fb10fd4e55799e434442fee",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/56e582417ff69936687bcba0fdce83885966f13f",
+                "reference": "56e582417ff69936687bcba0fdce83885966f13f",
                 "shasum": ""
             },
             "require": {
@@ -6417,7 +6418,7 @@
                 "padaliyajay/php-autoprefixer": "1.3",
                 "php": "^7.4.3 || ^8.0",
                 "scssphp/scssphp": "v1.11.0",
-                "shopware/core": "v6.4.18.1",
+                "shopware/core": "v6.4.19.0",
                 "symfony/cache": "~5.4.0",
                 "symfony/cache-contracts": "v2.5.2",
                 "symfony/config": "~5.4.0",
@@ -6469,10 +6470,10 @@
                 "docs": "https://developer.shopware.com",
                 "forum": "https://forum.shopware.com",
                 "issues": "https://issues.shopware.com",
-                "source": "https://github.com/shopware/storefront/tree/v6.4.18.1",
+                "source": "https://github.com/shopware/storefront/tree/v6.4.19.0",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2023-01-12T09:30:50+00:00"
+            "time": "2023-02-07T09:31:52+00:00"
         },
         {
             "name": "shopwarelabs/dompdf",
@@ -6719,10 +6720,10 @@
         },
         {
             "name": "store.shopware.com/acriscountrytaxcs",
-            "version": "3.1.2",
+            "version": "3.1.4",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FAcrisCountryTaxCS%2Fbinaries%2F3.1.2"
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FAcrisCountryTaxCS%2Fbinaries%2F3.1.4"
             },
             "require": {
                 "shopware/core": ">=6.4.10.0"
@@ -7169,10 +7170,10 @@
         },
         {
             "name": "store.shopware.com/maxialistingvariants6",
-            "version": "1.4.8",
+            "version": "1.4.10",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMaxiaListingVariants6%2Fbinaries%2F1.4.8"
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMaxiaListingVariants6%2Fbinaries%2F1.4.10"
             },
             "require": {
                 "shopware/core": "~6.4",
@@ -7267,10 +7268,10 @@
         },
         {
             "name": "store.shopware.com/moorlforms",
-            "version": "1.1.47",
+            "version": "1.1.49",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlForms%2Fbinaries%2F1.1.47"
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlForms%2Fbinaries%2F1.1.49"
             },
             "require": {
                 "shopware/core": "^6.4.14",
@@ -7315,10 +7316,10 @@
         },
         {
             "name": "store.shopware.com/moorlformsclassic",
-            "version": "1.2.8",
+            "version": "1.2.9",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlFormsClassic%2Fbinaries%2F1.2.8"
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlFormsClassic%2Fbinaries%2F1.2.9"
             },
             "require": {
                 "shopware/core": "6.4.*",
@@ -7364,10 +7365,10 @@
         },
         {
             "name": "store.shopware.com/moorlfoundation",
-            "version": "1.4.1083",
+            "version": "1.4.1102",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlFoundation%2Fbinaries%2F1.4.1083"
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlFoundation%2Fbinaries%2F1.4.1102"
             },
             "require": {
                 "shopware/core": "^6.4.14"
@@ -7412,10 +7413,10 @@
         },
         {
             "name": "store.shopware.com/neon6configurator",
-            "version": "1.8.6",
+            "version": "1.8.8",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FNeon6Configurator%2Fbinaries%2F1.8.6"
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FNeon6Configurator%2Fbinaries%2F1.8.8"
             },
             "require": {
                 "jwadhams/json-logic-php": "^1.5",
@@ -7433,8 +7434,8 @@
                 },
                 "copyright": "(c) by neonlines GmbH",
                 "description": {
-                    "de-DE": "Verkaufe konfigurierbare Produkte, Produkte nach Maß, Maßanfertigungen, Meterware. Maximale Flexibilität dank durchdachter Preisberechnung und Validierungen.",
-                    "en-GB": "Allows to make customizable products"
+                    "de-DE": "Produkt Konfigurator. Verkaufe konfigurierbare Produkte, Produkte nach Maß, Maßanfertigungen, Meterware. Maximale Flexibilität dank durchdachter Preisberechnung und Validierungen.",
+                    "en-GB": "Sell configurable products, products made to measure, made to measure, yard goods. Maximum flexibility thanks to sophisticated price calculation and validations."
                 },
                 "plugin-icon": "src/Resources/config/plugin.png",
                 "supportLink": {
@@ -14684,16 +14685,16 @@
         },
         {
             "name": "sebastian/environment",
-            "version": "5.1.4",
+            "version": "5.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "1b5dff7bb151a4db11d49d90e5408e4e938270f7"
+                "reference": "830c43a844f1f8d5b7a1f6d6076b784454d8b7ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/1b5dff7bb151a4db11d49d90e5408e4e938270f7",
-                "reference": "1b5dff7bb151a4db11d49d90e5408e4e938270f7",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/830c43a844f1f8d5b7a1f6d6076b784454d8b7ed",
+                "reference": "830c43a844f1f8d5b7a1f6d6076b784454d8b7ed",
                 "shasum": ""
             },
             "require": {
@@ -14735,7 +14736,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/environment/issues",
-                "source": "https://github.com/sebastianbergmann/environment/tree/5.1.4"
+                "source": "https://github.com/sebastianbergmann/environment/tree/5.1.5"
             },
             "funding": [
                 {
@@ -14743,7 +14744,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-04-03T09:37:03+00:00"
+            "time": "2023-02-03T06:03:51+00:00"
         },
         {
             "name": "sebastian/exporter",
@@ -15057,16 +15058,16 @@
         },
         {
             "name": "sebastian/recursion-context",
-            "version": "4.0.4",
+            "version": "4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/recursion-context.git",
-                "reference": "cd9d8cf3c5804de4341c283ed787f099f5506172"
+                "reference": "e75bd0f07204fec2a0af9b0f3cfe97d05f92efc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/cd9d8cf3c5804de4341c283ed787f099f5506172",
-                "reference": "cd9d8cf3c5804de4341c283ed787f099f5506172",
+                "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/e75bd0f07204fec2a0af9b0f3cfe97d05f92efc1",
+                "reference": "e75bd0f07204fec2a0af9b0f3cfe97d05f92efc1",
                 "shasum": ""
             },
             "require": {
@@ -15105,10 +15106,10 @@
                 }
             ],
             "description": "Provides functionality to recursively process PHP variables",
-            "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
+            "homepage": "https://github.com/sebastianbergmann/recursion-context",
             "support": {
                 "issues": "https://github.com/sebastianbergmann/recursion-context/issues",
-                "source": "https://github.com/sebastianbergmann/recursion-context/tree/4.0.4"
+                "source": "https://github.com/sebastianbergmann/recursion-context/tree/4.0.5"
             },
             "funding": [
                 {
@@ -15116,7 +15117,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-10-26T13:17:30+00:00"
+            "time": "2023-02-03T06:07:39+00:00"
         },
         {
             "name": "sebastian/resource-operations",
@@ -15175,16 +15176,16 @@
         },
         {
             "name": "sebastian/type",
-            "version": "3.2.0",
+            "version": "3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/type.git",
-                "reference": "fb3fe09c5f0bae6bc27ef3ce933a1e0ed9464b6e"
+                "reference": "75e2c2a32f5e0b3aef905b9ed0b179b953b3d7c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/fb3fe09c5f0bae6bc27ef3ce933a1e0ed9464b6e",
-                "reference": "fb3fe09c5f0bae6bc27ef3ce933a1e0ed9464b6e",
+                "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/75e2c2a32f5e0b3aef905b9ed0b179b953b3d7c7",
+                "reference": "75e2c2a32f5e0b3aef905b9ed0b179b953b3d7c7",
                 "shasum": ""
             },
             "require": {
@@ -15219,7 +15220,7 @@
             "homepage": "https://github.com/sebastianbergmann/type",
             "support": {
                 "issues": "https://github.com/sebastianbergmann/type/issues",
-                "source": "https://github.com/sebastianbergmann/type/tree/3.2.0"
+                "source": "https://github.com/sebastianbergmann/type/tree/3.2.1"
             },
             "funding": [
                 {
@@ -15227,7 +15228,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-09-12T14:47:03+00:00"
+            "time": "2023-02-03T06:13:03+00:00"
         },
         {
             "name": "sebastian/version",
