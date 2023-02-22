@@ -89,7 +89,7 @@
         "store.shopware.com/klarnapayment": "^1.6",
         "store.shopware.com/ironmatomo": "^1.1",
         "store.shopware.com/acriscountrytaxcs": "^3.0",
-        "store.shopware.com/neon6configurator": "1.8.8",
+        "store.shopware.com/neon6configurator": "1.8.9",
         "store.shopware.com/kplngiproductorder": "^1.5",
         "store.shopware.com/scopplatformredirecter": "^1.1",
         "store.shopware.com/atlseourlmanager": "^1.1",
@@ -99,7 +99,8 @@
         "store.shopware.com/froshtools": "^0.2",
         "store.shopware.com/kielcodingplatformtrailingslash": "^1.5",
         "store.shopware.com/acrismailersaleschannelcs": "^3.2",
-        "store.shopware.com/maxialistingvariants6": "^1.2"
+        "store.shopware.com/maxialistingvariants6": "^1.2",
+	"store.shopware.com/acristaxcs": "^6.11"
     },
     "require-dev": {
         "ext-openssl": "*",
