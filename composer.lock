@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "167cd8698727114c4cf86e2058c74f6f",
+    "content-hash": "bc325f646e484c2121c7941ce045816c",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -6816,55 +6816,6 @@
                 }
             ],
             "description": "ACRIS Mailer Sales Channel"
-        },
-        {
-            "name": "store.shopware.com/acristaxcs",
-            "version": "6.11.9",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FAcrisTaxCS%2Fbinaries%2F6.11.9"
-            },
-            "require": {
-                "shopware/core": ">=6.4.9.0"
-            },
-            "replace": {
-                "acris/tax": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "Steuern",
-                    "en-GB": "Tax"
-                },
-                "copyright": "(c) by ACRIS E-Commerce GmbH",
-                "description": {
-                    "de-DE": "Ermöglicht die Konfiguration der Steuerdarstellung (Brutto / Netto) Steuern für Kundengruppen basierend auf Regeln. Ermöglicht es eine steuerfreie Lieferung für Länder aufgrund von Regeln zu konfigurieren. Fügt Bedingungen für Ust-Id in den Rule Builder ein.",
-                    "en-GB": "Allows you to configure the tax display (gross/net) for customer groups based on rules. Allows you to configure tax-free delivery for countries based on rules. Add conditions for vat id in the Rule Builder."
-                },
-                "plugin-icon": "src/Resources/config/plugin.png",
-                "supportLink": {
-                    "de-DE": "https://www.acris.at/kontakt/",
-                    "en-GB": "https://www.acris.at/en/contact"
-                },
-                "manufacturerLink": {
-                    "de-DE": "https://www.acris.at",
-                    "en-GB": "https://www.acris.at/en"
-                },
-                "shopware-plugin-class": "Acris\\Tax\\AcrisTaxCS"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Acris\\Tax\\": "src/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "ACRIS E-Commerce GmbH",
-                    "homepage": "https://www.acris-ecommerce.at/"
-                }
-            ],
-            "description": "ACRIS Steuern"
         },
         {
             "name": "store.shopware.com/atlseourlmanager",
