@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c4be19b0aa07538f2d8c189a231fdab3",
+    "content-hash": "ffe681ece1d20f662c2299da02e482bf",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -7174,14 +7174,14 @@
         },
         {
             "name": "store.shopware.com/maxialistingvariants6",
-            "version": "1.4.15",
+            "version": "1.4.10",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMaxiaListingVariants6%2Fbinaries%2F1.4.15"
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMaxiaListingVariants6%2Fbinaries%2F1.4.10"
             },
             "require": {
-                "shopware/core": "^6.4.11.0",
-                "shopware/storefront": "^6.4.11.0"
+                "shopware/core": "~6.4",
+                "shopware/storefront": "~6.4"
             },
             "replace": {
                 "maxia/maxia-listing-variants-6": "self.version"
