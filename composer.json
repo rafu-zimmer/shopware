@@ -79,7 +79,7 @@
         "shopware/elasticsearch": "~v6.4.0",
         "shopware/recovery": "~v6.4.0",
         "shopware/storefront": "~v6.4.0",
-	"store.shopware.com/swagpaypal": "*",
+	"store.shopware.com/swagpaypal": "5.4.5",
 	"store.shopware.com/swagpublisher": "^1.1",
         "store.shopware.com/phpschmiedfromprice": "^1.2",
         "store.shopware.com/moorlformsclassic": "1.2.6",

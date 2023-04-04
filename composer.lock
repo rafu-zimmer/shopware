@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ffe681ece1d20f662c2299da02e482bf",
+    "content-hash": "14750b2dbcf24304fbb007f9ee2f2e45",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -7634,13 +7634,13 @@
         },
         {
             "name": "store.shopware.com/swagpaypal",
-            "version": "6.0.2",
+            "version": "5.4.5",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FSwagPayPal%2Fbinaries%2F6.0.2"
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FSwagPayPal%2Fbinaries%2F5.4.5"
             },
             "require": {
-                "shopware/core": "~6.4.14 | 6.4.x-dev"
+                "shopware/core": "~6.4.3 | 6.4.x-dev"
             },
             "replace": {
                 "swag/paypal": "self.version"
