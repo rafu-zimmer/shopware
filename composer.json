@@ -99,7 +99,7 @@
         "store.shopware.com/froshtools": "^0.2",
         "store.shopware.com/kielcodingplatformtrailingslash": "^1.5",
         "store.shopware.com/acrismailersaleschannelcs": "^3.2",
-        "store.shopware.com/maxialistingvariants6": "^1.2"
+        "store.shopware.com/maxialistingvariants6": "^1.4.10"
     },
     "require-dev": {
         "ext-openssl": "*",
