@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "14750b2dbcf24304fbb007f9ee2f2e45",
+    "content-hash": "0a077d94c062e1f69d18d8d17ae3a725",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -7417,15 +7417,15 @@
         },
         {
             "name": "store.shopware.com/neon6configurator",
-            "version": "1.8.6",
+            "version": "1.15.0",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FNeon6Configurator%2Fbinaries%2F1.8.6"
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FNeon6Configurator%2Fbinaries%2F1.15.0"
             },
             "require": {
                 "jwadhams/json-logic-php": "^1.5",
                 "php": ">=7.4",
-                "shopware/core": ">=6.4.0.0"
+                "shopware/core": ">=6.4.0.0 <6.5.0.0"
             },
             "replace": {
                 "neon/configurator": "self.version"
@@ -7438,8 +7438,8 @@
                 },
                 "copyright": "(c) by neonlines GmbH",
                 "description": {
-                    "de-DE": "Verkaufe konfigurierbare Produkte, Produkte nach Maß, Maßanfertigungen, Meterware. Maximale Flexibilität dank durchdachter Preisberechnung und Validierungen.",
-                    "en-GB": "Allows to make customizable products"
+                    "de-DE": "Produkt Konfigurator. Verkaufe konfigurierbare Produkte, Produkte nach Maß, Maßanfertigungen, Meterware. Maximale Flexibilität dank durchdachter Preisberechnung und Validierungen.",
+                    "en-GB": "Sell configurable products, products made to measure, made to measure, yard goods. Maximum flexibility thanks to sophisticated price calculation and validations."
                 },
                 "plugin-icon": "src/Resources/config/plugin.png",
                 "supportLink": {
