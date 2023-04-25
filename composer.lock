@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a077d94c062e1f69d18d8d17ae3a725",
+    "content-hash": "1218d431a097a0974f4e5c71aabc9bf3",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.263.9",
+            "version": "3.268.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "539a5fa9d27017120db16c7a0e5fc345858835d4"
+                "reference": "3a8fbbe9512aa007b231f3c838c7ead3680740b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/539a5fa9d27017120db16c7a0e5fc345858835d4",
-                "reference": "539a5fa9d27017120db16c7a0e5fc345858835d4",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3a8fbbe9512aa007b231f3c838c7ead3680740b4",
+                "reference": "3a8fbbe9512aa007b231f3c838c7ead3680740b4",
                 "shasum": ""
             },
             "require": {
@@ -81,7 +81,7 @@
                 "ext-simplexml": "*",
                 "guzzlehttp/guzzle": "^6.5.8 || ^7.4.5",
                 "guzzlehttp/promises": "^1.4.0",
-                "guzzlehttp/psr7": "^1.8.5 || ^2.3",
+                "guzzlehttp/psr7": "^1.9.1 || ^2.4.5",
                 "mtdowling/jmespath.php": "^2.6",
                 "php": ">=5.5"
             },
@@ -100,6 +100,7 @@
                 "paragonie/random_compat": ">= 2",
                 "phpunit/phpunit": "^4.8.35 || ^5.6.3 || ^9.5",
                 "psr/cache": "^1.0",
+                "psr/http-message": "^1.0",
                 "psr/simple-cache": "^1.0",
                 "sebastian/comparator": "^1.2.3 || ^4.0",
                 "yoast/phpunit-polyfills": "^1.0"
@@ -150,32 +151,31 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.263.9"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.268.17"
             },
-            "time": "2023-04-12T18:22:17+00:00"
+            "time": "2023-04-24T18:22:00+00:00"
         },
         {
             "name": "brick/math",
-            "version": "0.10.2",
+            "version": "0.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brick/math.git",
-                "reference": "459f2781e1a08d52ee56b0b1444086e038561e3f"
+                "reference": "0ad82ce168c82ba30d1c01ec86116ab52f589478"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brick/math/zipball/459f2781e1a08d52ee56b0b1444086e038561e3f",
-                "reference": "459f2781e1a08d52ee56b0b1444086e038561e3f",
+                "url": "https://api.github.com/repos/brick/math/zipball/0ad82ce168c82ba30d1c01ec86116ab52f589478",
+                "reference": "0ad82ce168c82ba30d1c01ec86116ab52f589478",
                 "shasum": ""
             },
             "require": {
-                "ext-json": "*",
-                "php": "^7.4 || ^8.0"
+                "php": "^8.0"
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "^2.2",
                 "phpunit/phpunit": "^9.0",
-                "vimeo/psalm": "4.25.0"
+                "vimeo/psalm": "5.0.0"
             },
             "type": "library",
             "autoload": {
@@ -200,7 +200,7 @@
             ],
             "support": {
                 "issues": "https://github.com/brick/math/issues",
-                "source": "https://github.com/brick/math/tree/0.10.2"
+                "source": "https://github.com/brick/math/tree/0.11.0"
             },
             "funding": [
                 {
@@ -208,7 +208,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-08-10T22:54:19+00:00"
+            "time": "2023-01-15T23:15:59+00:00"
         },
         {
             "name": "cocur/slugify",
@@ -2624,16 +2624,16 @@
         },
         {
             "name": "google/cloud-core",
-            "version": "v1.49.4",
+            "version": "v1.50.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-cloud-php-core.git",
-                "reference": "6723a3fde6cc7a307a21ddbf7fce9cf6fab61833"
+                "reference": "2cb01dbf61e5818cc4a19f1289839223d074018e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-cloud-php-core/zipball/6723a3fde6cc7a307a21ddbf7fce9cf6fab61833",
-                "reference": "6723a3fde6cc7a307a21ddbf7fce9cf6fab61833",
+                "url": "https://api.github.com/repos/googleapis/google-cloud-php-core/zipball/2cb01dbf61e5818cc4a19f1289839223d074018e",
+                "reference": "2cb01dbf61e5818cc4a19f1289839223d074018e",
                 "shasum": ""
             },
             "require": {
@@ -2642,20 +2642,19 @@
                 "guzzlehttp/promises": "^1.3",
                 "guzzlehttp/psr7": "^1.7|^2.0",
                 "monolog/monolog": "^1.1|^2.0|^3.0",
-                "php": ">=5.6",
+                "php": ">=7.4",
                 "psr/http-message": "^1.0",
                 "rize/uri-template": "~0.3"
             },
             "require-dev": {
                 "erusev/parsedown": "^1.6",
-                "google/cloud-common-protos": "^0.3",
+                "google/cloud-common-protos": "^0.4",
                 "google/gax": "^1.9",
                 "opis/closure": "^3",
-                "phpdocumentor/reflection": "^3.0||^4.0||^5.3",
-                "phpspec/prophecy": "^1.10.3",
-                "phpunit/phpunit": "^4.8|^5.0|^8.0",
-                "squizlabs/php_codesniffer": "2.*",
-                "yoast/phpunit-polyfills": "^1.0"
+                "phpdocumentor/reflection": "^5.0",
+                "phpspec/prophecy-phpunit": "^2.0",
+                "phpunit/phpunit": "^9.0",
+                "squizlabs/php_codesniffer": "2.*"
             },
             "suggest": {
                 "opis/closure": "May be used to serialize closures to process jobs in the batch daemon. Please require version ^3.",
@@ -2684,9 +2683,9 @@
             ],
             "description": "Google Cloud PHP shared dependency, providing functionality useful to all components.",
             "support": {
-                "source": "https://github.com/googleapis/google-cloud-php-core/tree/v1.49.4"
+                "source": "https://github.com/googleapis/google-cloud-php-core/tree/v1.50.0"
             },
-            "time": "2023-04-07T21:48:59+00:00"
+            "time": "2023-04-21T22:21:40+00:00"
         },
         {
             "name": "google/cloud-storage",
@@ -2998,16 +2997,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.9.0",
+            "version": "1.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "e98e3e6d4f86621a9b75f623996e6bbdeb4b9318"
+                "reference": "e4490cabc77465aaee90b20cfc9a770f8c04be6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/e98e3e6d4f86621a9b75f623996e6bbdeb4b9318",
-                "reference": "e98e3e6d4f86621a9b75f623996e6bbdeb4b9318",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/e4490cabc77465aaee90b20cfc9a770f8c04be6b",
+                "reference": "e4490cabc77465aaee90b20cfc9a770f8c04be6b",
                 "shasum": ""
             },
             "require": {
@@ -3026,11 +3025,6 @@
                 "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.9-dev"
-                }
-            },
             "autoload": {
                 "files": [
                     "src/functions_include.php"
@@ -3088,7 +3082,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/1.9.0"
+                "source": "https://github.com/guzzle/psr7/tree/1.9.1"
             },
             "funding": [
                 {
@@ -3104,60 +3098,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-20T21:43:03+00:00"
-        },
-        {
-            "name": "jawira/plantuml-encoding",
-            "version": "v1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jawira/plantuml-encoding.git",
-                "reference": "cec097dfc062e7e13655d9594eacce5f9df639ad"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jawira/plantuml-encoding/zipball/cec097dfc062e7e13655d9594eacce5f9df639ad",
-                "reference": "cec097dfc062e7e13655d9594eacce5f9df639ad",
-                "shasum": ""
-            },
-            "require": {
-                "ext-zlib": "*",
-                "php": ">=7.0"
-            },
-            "require-dev": {
-                "jawira/skeleton": "^2.14",
-                "phpstan/phpstan": "^1.0",
-                "vimeo/psalm": "^4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/plantuml_functions.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jawira Portugal",
-                    "homepage": "https://jawira.com"
-                }
-            ],
-            "description": "PlantUML encoding functions",
-            "keywords": [
-                "encodep",
-                "encoding",
-                "functions",
-                "plantuml",
-                "uml"
-            ],
-            "support": {
-                "issues": "https://github.com/jawira/plantuml-encoding/issues",
-                "source": "https://github.com/jawira/plantuml-encoding/tree/v1.1.0"
-            },
-            "time": "2022-05-31T18:58:21+00:00"
+            "time": "2023-04-17T16:00:37+00:00"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -4695,26 +4636,26 @@
         },
         {
             "name": "php-http/message-factory",
-            "version": "v1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/message-factory.git",
-                "reference": "a478cb11f66a6ac48d8954216cfed9aa06a501a1"
+                "reference": "4d8778e1c7d405cbb471574821c1ff5b68cc8f57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/message-factory/zipball/a478cb11f66a6ac48d8954216cfed9aa06a501a1",
-                "reference": "a478cb11f66a6ac48d8954216cfed9aa06a501a1",
+                "url": "https://api.github.com/repos/php-http/message-factory/zipball/4d8778e1c7d405cbb471574821c1ff5b68cc8f57",
+                "reference": "4d8778e1c7d405cbb471574821c1ff5b68cc8f57",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4",
-                "psr/http-message": "^1.0"
+                "psr/http-message": "^1.0 || ^2.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.x-dev"
                 }
             },
             "autoload": {
@@ -4743,9 +4684,9 @@
             ],
             "support": {
                 "issues": "https://github.com/php-http/message-factory/issues",
-                "source": "https://github.com/php-http/message-factory/tree/master"
+                "source": "https://github.com/php-http/message-factory/tree/1.1.0"
             },
-            "time": "2015-12-19T14:08:53+00:00"
+            "time": "2023-04-14T14:16:17+00:00"
         },
         {
             "name": "psr/cache",
@@ -5419,20 +5360,20 @@
         },
         {
             "name": "ramsey/uuid",
-            "version": "4.7.3",
+            "version": "4.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "433b2014e3979047db08a17a205f410ba3869cf2"
+                "reference": "60a4c63ab724854332900504274f6150ff26d286"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/433b2014e3979047db08a17a205f410ba3869cf2",
-                "reference": "433b2014e3979047db08a17a205f410ba3869cf2",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/60a4c63ab724854332900504274f6150ff26d286",
+                "reference": "60a4c63ab724854332900504274f6150ff26d286",
                 "shasum": ""
             },
             "require": {
-                "brick/math": "^0.8.8 || ^0.9 || ^0.10",
+                "brick/math": "^0.8.8 || ^0.9 || ^0.10 || ^0.11",
                 "ext-json": "*",
                 "php": "^8.0",
                 "ramsey/collection": "^1.2 || ^2.0"
@@ -5495,7 +5436,7 @@
             ],
             "support": {
                 "issues": "https://github.com/ramsey/uuid/issues",
-                "source": "https://github.com/ramsey/uuid/tree/4.7.3"
+                "source": "https://github.com/ramsey/uuid/tree/4.7.4"
             },
             "funding": [
                 {
@@ -5507,7 +5448,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-12T18:13:24+00:00"
+            "time": "2023-04-15T23:01:58+00:00"
         },
         {
             "name": "react/promise",
@@ -6044,21 +5985,21 @@
         },
         {
             "name": "shopware/administration",
-            "version": "6.4.20.0",
+            "version": "6.4.20.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "0389230eb8415a55b6e09a4691855bae8cb282b8"
+                "reference": "2bade4f0b875312561268b1ec63044aca72120be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/0389230eb8415a55b6e09a4691855bae8cb282b8",
-                "reference": "0389230eb8415a55b6e09a4691855bae8cb282b8",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/2bade4f0b875312561268b1ec63044aca72120be",
+                "reference": "2bade4f0b875312561268b1ec63044aca72120be",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.4.3 || ^8.0",
-                "shopware/core": "v6.4.20.0",
+                "shopware/core": "v6.4.20.1",
                 "symfony/framework-bundle": "~5.4.1",
                 "symfony/http-foundation": "~5.4.1",
                 "symfony/mime": "~5.4.0",
@@ -6086,10 +6027,10 @@
                 "docs": "https://developer.shopware.com",
                 "forum": "https://forum.shopware.com",
                 "issues": "https://issues.shopware.com",
-                "source": "https://github.com/shopware/administration/tree/v6.4.20.0",
+                "source": "https://github.com/shopware/administration/tree/v6.4.20.1",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2023-02-22T03:09:34+00:00"
+            "time": "2023-04-17T00:14:27+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -6124,16 +6065,16 @@
         },
         {
             "name": "shopware/core",
-            "version": "6.4.20.0",
+            "version": "6.4.20.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/core.git",
-                "reference": "d5bd15a56b0f08e867f273d2c624871534195850"
+                "reference": "89a3ccbe4a45ab055822586f3d251b4f19aa6bce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/core/zipball/d5bd15a56b0f08e867f273d2c624871534195850",
-                "reference": "d5bd15a56b0f08e867f273d2c624871534195850",
+                "url": "https://api.github.com/repos/shopware/core/zipball/89a3ccbe4a45ab055822586f3d251b4f19aa6bce",
+                "reference": "89a3ccbe4a45ab055822586f3d251b4f19aa6bce",
                 "shasum": ""
             },
             "require": {
@@ -6295,23 +6236,23 @@
                 "docs": "https://developer.shopware.com",
                 "forum": "https://forum.shopware.com",
                 "issues": "https://issues.shopware.com",
-                "source": "https://github.com/shopware/core/tree/v6.4.20.0",
+                "source": "https://github.com/shopware/core/tree/v6.4.20.1",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2023-02-22T03:09:31+00:00"
+            "time": "2023-04-17T00:14:25+00:00"
         },
         {
             "name": "shopware/elasticsearch",
-            "version": "6.4.20.0",
+            "version": "6.4.20.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/elasticsearch.git",
-                "reference": "03d4ae8cd907c66841b12efff6324b48387cad4f"
+                "reference": "7a30126ad2b1b03ef8e935e6b0a824e9b8372f0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/elasticsearch/zipball/03d4ae8cd907c66841b12efff6324b48387cad4f",
-                "reference": "03d4ae8cd907c66841b12efff6324b48387cad4f",
+                "url": "https://api.github.com/repos/shopware/elasticsearch/zipball/7a30126ad2b1b03ef8e935e6b0a824e9b8372f0c",
+                "reference": "7a30126ad2b1b03ef8e935e6b0a824e9b8372f0c",
                 "shasum": ""
             },
             "require": {
@@ -6320,7 +6261,7 @@
                 "ext-curl": "*",
                 "ongr/elasticsearch-dsl": "7.2.2",
                 "php": "^7.4.3 || ^8.0",
-                "shopware/core": "v6.4.20.0",
+                "shopware/core": "v6.4.20.1",
                 "symfony/http-foundation": "~5.4.1",
                 "symfony/messenger": "~5.4.0"
             },
@@ -6352,28 +6293,28 @@
                 "docs": "https://developer.shopware.com",
                 "forum": "https://forum.shopware.com",
                 "issues": "https://issues.shopware.com",
-                "source": "https://github.com/shopware/elasticsearch/tree/v6.4.20.0",
+                "source": "https://github.com/shopware/elasticsearch/tree/v6.4.20.1",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2023-02-22T03:09:31+00:00"
+            "time": "2023-04-17T00:14:25+00:00"
         },
         {
             "name": "shopware/recovery",
-            "version": "6.4.20.0",
+            "version": "6.4.20.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/recovery.git",
-                "reference": "a709e2ca218fe0117de32dd7f3faae84192275b8"
+                "reference": "288427058084bc4d5a52e475331db135e4ee1a9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/recovery/zipball/a709e2ca218fe0117de32dd7f3faae84192275b8",
-                "reference": "a709e2ca218fe0117de32dd7f3faae84192275b8",
+                "url": "https://api.github.com/repos/shopware/recovery/zipball/288427058084bc4d5a52e475331db135e4ee1a9c",
+                "reference": "288427058084bc4d5a52e475331db135e4ee1a9c",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.4.3 || ^8.0",
-                "shopware/core": "v6.4.20.0"
+                "shopware/core": "v6.4.20.1"
             },
             "require-dev": {
                 "phpunit/phpunit": "~9.5.17"
@@ -6395,24 +6336,24 @@
                 "docs": "https://developer.shopware.com",
                 "forum": "https://forum.shopware.com",
                 "issues": "https://issues.shopware.com",
-                "source": "https://github.com/shopware/recovery/tree/v6.4.20.0",
+                "source": "https://github.com/shopware/recovery/tree/v6.4.20.1",
                 "wiki": "https://developer.shopware.com"
             },
             "abandoned": true,
-            "time": "2023-02-22T03:09:31+00:00"
+            "time": "2023-04-17T00:14:25+00:00"
         },
         {
             "name": "shopware/storefront",
-            "version": "6.4.20.0",
+            "version": "6.4.20.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "bf6af57de93e63a73bc73c7825b6112c6e262c75"
+                "reference": "aa639bf870056212d88fcce257a7d8c43235399d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/bf6af57de93e63a73bc73c7825b6112c6e262c75",
-                "reference": "bf6af57de93e63a73bc73c7825b6112c6e262c75",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/aa639bf870056212d88fcce257a7d8c43235399d",
+                "reference": "aa639bf870056212d88fcce257a7d8c43235399d",
                 "shasum": ""
             },
             "require": {
@@ -6422,7 +6363,7 @@
                 "padaliyajay/php-autoprefixer": "1.3",
                 "php": "^7.4.3 || ^8.0",
                 "scssphp/scssphp": "v1.11.0",
-                "shopware/core": "v6.4.20.0",
+                "shopware/core": "v6.4.20.1",
                 "symfony/cache": "~5.4.0",
                 "symfony/cache-contracts": "v2.5.2",
                 "symfony/config": "~5.4.0",
@@ -6474,10 +6415,10 @@
                 "docs": "https://developer.shopware.com",
                 "forum": "https://forum.shopware.com",
                 "issues": "https://issues.shopware.com",
-                "source": "https://github.com/shopware/storefront/tree/v6.4.20.0",
+                "source": "https://github.com/shopware/storefront/tree/v6.4.20.1",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2023-02-22T03:09:35+00:00"
+            "time": "2023-04-17T00:14:28+00:00"
         },
         {
             "name": "shopwarelabs/dompdf",
@@ -6911,13 +6852,12 @@
         },
         {
             "name": "store.shopware.com/froshtools",
-            "version": "0.2.13",
+            "version": "0.2.17",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FFroshTools%2Fbinaries%2F0.2.13"
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FFroshTools%2Fbinaries%2F0.2.17"
             },
             "require": {
-                "jawira/plantuml-encoding": "~1.1.0",
                 "shopware/core": "~6.4.11"
             },
             "replace": {
@@ -7417,10 +7357,10 @@
         },
         {
             "name": "store.shopware.com/neon6configurator",
-            "version": "1.15.0",
+            "version": "1.15.1",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FNeon6Configurator%2Fbinaries%2F1.15.0"
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FNeon6Configurator%2Fbinaries%2F1.15.1"
             },
             "require": {
                 "jwadhams/json-logic-php": "^1.5",
@@ -7474,10 +7414,10 @@
         },
         {
             "name": "store.shopware.com/phpschmiedfromprice",
-            "version": "1.3.2",
+            "version": "1.3.3",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FphpSchmiedFromPrice%2Fbinaries%2F1.3.2"
+                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FphpSchmiedFromPrice%2Fbinaries%2F1.3.3"
             },
             "require": {
                 "shopware/core": "*",
