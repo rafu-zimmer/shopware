@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1218d431a097a0974f4e5c71aabc9bf3",
+    "content-hash": "62e778df671e8870f44d73febdee5786",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -6849,53 +6849,6 @@
                 }
             ],
             "description": "Plugin to create and manage multiple staging environments in no time!"
-        },
-        {
-            "name": "store.shopware.com/froshtools",
-            "version": "0.2.17",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FFroshTools%2Fbinaries%2F0.2.17"
-            },
-            "require": {
-                "shopware/core": "~6.4.11"
-            },
-            "replace": {
-                "frosh/tools": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "Tools",
-                    "en-GB": "Tools"
-                },
-                "description": {
-                    "de-DE": "Die kostenlose Shopware 6 App beinhaltet mehrere Werkzeuge um den Shop besser zu verwalten. Optimierter Cache Manager, Log Viewer um die Logeinträge zu sehen oder Tasks auszuführen.",
-                    "en-GB": "The free Shopware 6 app include several tools to manage the store much better like a cache manager, log viewer to see the log entries, run the tasks or see the system status."
-                },
-                "supportLink": {
-                    "de-DE": "https://github.com/FriendsOfShopware/FroshTools/issues",
-                    "en-GB": "https://github.com/FriendsOfShopware/FroshTools/issues"
-                },
-                "manufacturerLink": {
-                    "de-DE": "https://github.com/FriendsOfShopware/FroshTools",
-                    "en-GB": "https://github.com/FriendsOfShopware/FroshTools"
-                },
-                "shopware-plugin-class": "Frosh\\Tools\\FroshTools"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Frosh\\Tools\\": "src/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "FriendsOfShopware",
-                    "homepage": "https://friendsofshopware.com"
-                }
-            ],
-            "description": "Provides some basic things for managing the Shopware Installation"
         },
         {
             "name": "store.shopware.com/ironmatomo",
@@ -15725,5 +15678,5 @@
     "platform-overrides": {
         "php": "8.0"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
