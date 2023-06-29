@@ -2,28 +2,21 @@
 version: "3.7"
 
 services:
-
-  nginx:
-    image: nginx
-    ports:
-      - "80:8000"
-    environment:
-      - NGINX_HOST=rafu.de.localhost
-      - NGINX_PORT=80
-    links:
-      - app
-    volumes:
-      - ./config/etc/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
-      - ./:/var/www/
-
-  app:
+  app_server:
+    image: shopware-production:local
     build: .
     depends_on:
       - mysql
       - elasticsearch
+    ports:
+      - 8000:8000
+      - 8005:8000
+    extra_hosts:
+      - "docker.vm:127.0.0.1"
     environment:
-      - APP_DEBUG=1
-      - APP_URL=http://rafu.de.localhost
+      # define yourself
+      #- DATABASE_URL
+      - APP_URL=http://docker.vm:8000
       - INSTANCE_ID=
       - SHOPWARE_ES_ENABLED=1
       - SHOPWARE_ES_HOSTS=elasticsearch:9200
@@ -32,28 +25,21 @@ services:
       - SHOPWARE_CDN_STRATEGY_DEFAULT=id
       - MAILER_URL=smtp://localhost:25?encryption=&auth_mode=
     volumes:
-      - ./config/etc/php8/conf.d/php.ini:/usr/local/etc/php/conf.d/php.ini:ro
-      - ./config/etc/php8/php-fpm.d/fpm-pool.conf:/usr/local/etc/php/php-fpm.d/fpm-pool.conf:ro
-      - ./:/var/www/
-    links:
-      - mysql
+      - "./config/jwt:/sw6/config/jwt"
+      - "./public/bundles:/sw6/public/bundles"
+      - "./public/media:/sw6/public/media"
+      - "./public/sitemap:/sw6/public/sitemap"
+      - "./public/theme:/sw6/public/theme"
+      - "./public/thumbnail:/sw6/public/thumbnail"
+      - "./var:/sw6/var"
 
   mysql:
-    image: mysql:8.0
-    command: --default-authentication-plugin=mysql_native_password --character-set-server=utf8mb4
+    image: mysql:5.7
     environment:
-      - MYSQL_ROOT_PASSWORD=shopware
-    volumes:
-      - db-data:/var/lib/mysql
-    ports:
-      - "3306:3306"
+      - MYSQL_ROOT_PASSWORD=root
 
   elasticsearch:
     image: elastic/elasticsearch:7.8.0
     environment:
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
       - discovery.type=single-node
-
-
-volumes:
-  db-data:
