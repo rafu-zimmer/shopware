@@ -10,7 +10,8 @@
         "sort-packages": true,
         "allow-plugins": {
             "composer/package-versions-deprecated": true,
-            "pickware/dependency-loader": true
+            "pickware/dependency-loader": true,
+            "cweagans/composer-patches": true
         }
     },
     "prefer-stable": true,
@@ -65,6 +66,7 @@
     "require": {
         "php": "^8.0",
         "composer-runtime-api": "^2.0",
+        "cweagans/composer-patches": "^1.7",
         "rafu/project-jupiter": "^1.7",
         "shopware/administration": "~v6.4.0",
         "shopware/core": "~v6.4.0",
@@ -89,13 +91,23 @@
         "phpunit/phpunit": "~9.5.17",
         "smalot/pdfparser": "~0.14.0",
         "symfony/browser-kit": "~4.4 || ~5.2.3 || ~5.3.0 || ~5.4.0",
-        "symfony/dependency-injection": "~4.4 || ~5.2.3 || ~5.3.0 || ~5.4.0",
         "symfony/css-selector": "^5.3",
+        "symfony/dependency-injection": "~4.4 || ~5.2.3 || ~5.3.0 || ~5.4.0",
         "symfony/dom-crawler": "~4.4 || ~5.2.3 || ~5.3.0 || ~5.4.0",
         "symfony/phpunit-bridge": "~4.4 || ~5.2.3 || ~5.3.0 || ~5.4.0",
         "symfony/stopwatch": "~4.4 || ~5.2.3 || ~5.3.0 || ~5.4.0",
         "symfony/var-dumper": "~4.4 || ~5.2.3 || ~5.3.0 || ~5.4.0",
-        "symfony/web-profiler-bundle": "~4.4 || ~5.2.3 || ~5.3.0 || ~5.4.0"
+        "symfony/web-profiler-bundle": "~4.4 || ~5.2.3 || ~5.3.0 || ~5.4.0",
+        "symplify/vendor-patches": "^11.2"
+    },
+    "extra": {
+        "patches": {
+            "shopware/core": [
+                "patches/shopware-core-defaults-php.patch"
+            ],
+            "shopware/administration": [
+                "patches/shopware-administration-resources-app-administration-src-core-shopware-ts.patch"
+            ]
+        }
     }
 }
-

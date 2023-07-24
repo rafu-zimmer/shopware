@@ -19,6 +19,8 @@ RUN docker-php-ext-install mysqli pdo_mysql \
 
 RUN docker-php-ext-configure intl && docker-php-ext-install intl
 
+RUN apk add bash npm
+
 # Copy system configs
 COPY config/etc /etc
 

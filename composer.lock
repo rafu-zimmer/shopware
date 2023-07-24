@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "62e778df671e8870f44d73febdee5786",
+    "content-hash": "8d10b7b3ce9c2a4e36d591ac5bc2c309",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -825,6 +825,54 @@
                 }
             ],
             "time": "2022-02-25T21:32:43+00:00"
+        },
+        {
+            "name": "cweagans/composer-patches",
+            "version": "1.7.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cweagans/composer-patches.git",
+                "reference": "e190d4466fe2b103a55467dfa83fc2fecfcaf2db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/e190d4466fe2b103a55467dfa83fc2fecfcaf2db",
+                "reference": "e190d4466fe2b103a55467dfa83fc2fecfcaf2db",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "composer/composer": "~1.0 || ~2.0",
+                "phpunit/phpunit": "~4.6"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "cweagans\\Composer\\Patches"
+            },
+            "autoload": {
+                "psr-4": {
+                    "cweagans\\Composer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Cameron Eagans",
+                    "email": "me@cweagans.net"
+                }
+            ],
+            "description": "Provides a way to patch Composer packages.",
+            "support": {
+                "issues": "https://github.com/cweagans/composer-patches/issues",
+                "source": "https://github.com/cweagans/composer-patches/tree/1.7.3"
+            },
+            "time": "2022-12-20T22:53:13+00:00"
         },
         {
             "name": "defuse/php-encryption",
@@ -3223,49 +3271,6 @@
                 "source": "https://github.com/justinrainbow/json-schema/tree/5.2.12"
             },
             "time": "2022-04-13T08:02:27+00:00"
-        },
-        {
-            "name": "jwadhams/json-logic-php",
-            "version": "1.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jwadhams/json-logic-php.git",
-                "reference": "e4ea3a46f44d3d34740276f7a21f8f052b029743"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jwadhams/json-logic-php/zipball/e4ea3a46f44d3d34740276f7a21f8f052b029743",
-                "reference": "e4ea3a46f44d3d34740276f7a21f8f052b029743",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^9.3.3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "JWadhams": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jeremy Wadhams",
-                    "email": "jwadhams@dealerinspire.com"
-                }
-            ],
-            "description": "Build rules with complex comparisons and boolean operators, serialized as JSON, and execute them in PHP",
-            "support": {
-                "issues": "https://github.com/jwadhams/json-logic-php/issues",
-                "source": "https://github.com/jwadhams/json-logic-php/tree/1.5.0"
-            },
-            "time": "2022-03-02T21:44:10+00:00"
         },
         {
             "name": "laminas/laminas-code",
@@ -6662,1084 +6667,6 @@
                 "source": "https://github.com/stella-maris-solutions/clock/tree/0.1.7"
             },
             "time": "2022-11-25T16:15:06+00:00"
-        },
-        {
-            "name": "store.shopware.com/acriscountrytaxcs",
-            "version": "3.1.6",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FAcrisCountryTaxCS%2Fbinaries%2F3.1.6"
-            },
-            "require": {
-                "shopware/core": ">=6.4.10.0"
-            },
-            "replace": {
-                "acris/country-tax": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "MwSt. je Land in Preis berücksichtigen (Netto + Mwst des Landes)",
-                    "en-GB": " Tax - Consider VAT per country in price (net + VAT of the country)"
-                },
-                "copyright": "(c) by ACRIS E-Commerce GmbH",
-                "description": {
-                    "de-DE": "Es wird ermöglicht je nach Liefeland Bruttopreise ausgehend vom Nettopreis eines Artikels zu berechnen.",
-                    "en-GB": "Depending on the country of delivery, it is possible to calculate gross prices based on the net price of an product."
-                },
-                "plugin-icon": "src/Resources/config/plugin.png",
-                "supportLink": {
-                    "de-DE": "https://www.acris.at/kontakt/",
-                    "en-GB": "https://www.acris.at/en/contact"
-                },
-                "manufacturerLink": {
-                    "de-DE": "https://www.acris.at",
-                    "en-GB": "https://www.acris.at/en"
-                },
-                "shopware-plugin-class": "Acris\\CountryTax\\AcrisCountryTaxCS"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Acris\\CountryTax\\": "src/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "ACRIS E-Commerce GmbH",
-                    "homepage": "https://www.acris-ecommerce.at/"
-                }
-            ],
-            "description": "ACRIS Country Tax"
-        },
-        {
-            "name": "store.shopware.com/acrismailersaleschannelcs",
-            "version": "3.2.9",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FAcrisMailerSalesChannelCS%2Fbinaries%2F3.2.9"
-            },
-            "require": {
-                "shopware/core": ">=6.4.6.0"
-            },
-            "replace": {
-                "acris/mailer-sales-channel": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "Mailer Verkaufskanäle",
-                    "en-GB": "Mailer Sales Channel"
-                },
-                "copyright": "(c) by ACRIS E-Commerce GmbH",
-                "description": {
-                    "de-DE": "Das Plugin ermöglicht es für unterschiedliche Verkaufskanäle unterschiedliche Mailer Konfigurationen (z.B. SMTP-Einstellungen) zu wählen.",
-                    "en-GB": "The plugin allows you to select different mailer configurations (e.g. SMTP settings) for different sales channels."
-                },
-                "plugin-icon": "src/Resources/config/plugin.png",
-                "supportLink": {
-                    "de-DE": "https://www.acris.at/kontakt/",
-                    "en-GB": "https://www.acris.at/en/contact"
-                },
-                "manufacturerLink": {
-                    "de-DE": "https://www.acris.at",
-                    "en-GB": "https://www.acris.at/en"
-                },
-                "shopware-plugin-class": "Acris\\MailerSalesChannel\\AcrisMailerSalesChannelCS"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Acris\\MailerSalesChannel\\": "src/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "ACRIS E-Commerce GmbH",
-                    "homepage": "https://www.acris-ecommerce.at/"
-                }
-            ],
-            "description": "ACRIS Mailer Sales Channel"
-        },
-        {
-            "name": "store.shopware.com/atlseourlmanager",
-            "version": "1.3.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FAtlSeoUrlManager%2Fbinaries%2F1.3.0"
-            },
-            "require": {
-                "shopware/core": "~6.4.0"
-            },
-            "replace": {
-                "atl/seo-url-manager": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "SEO URL Manager",
-                    "en-GB": "SEO URL Manager"
-                },
-                "copyright": "(c) by Atloss",
-                "description": {
-                    "de-DE": "Verbessere deine SEO URL Basis in wenigen Klicks.",
-                    "en-GB": "Improve your SEO URL basis in a few clicks."
-                },
-                "plugin-icon": "src/Resources/config/plugin.png",
-                "shopware-plugin-class": "Atl\\SeoUrlManager\\AtlSeoUrlManager"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Atl\\SeoUrlManager\\": "src/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "Atloss GmbH",
-                    "role": "Agency"
-                }
-            ],
-            "description": "SEO URL Manager"
-        },
-        {
-            "name": "store.shopware.com/emzplatformstagingenvironment",
-            "version": "1.4.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FEmzPlatformStagingEnvironment%2Fbinaries%2F1.4.1"
-            },
-            "require": {
-                "shopware/core": "~6.4"
-            },
-            "replace": {
-                "emz/staging-environment": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "Staging Umgebung",
-                    "en-GB": "Staging environment"
-                },
-                "copyright": "(c) by 8mylez GmbH",
-                "description": {
-                    "de-DE": "Plugin um mehrere Staging Umgebungen zu erstellen und zu verwalten.",
-                    "en-GB": "Plugin to create and manage multiple staging environments in no time!"
-                },
-                "plugin-icon": "src/Resources/config/plugin.png",
-                "supportLink": {
-                    "de-DE": "https://8mylez.com",
-                    "en-GB": "https://8mylez.com"
-                },
-                "manufacturerLink": {
-                    "de-DE": "https://store.shopware.com/8mylez.html",
-                    "en-GB": "https://store.shopware.com/en/8mylez.html"
-                },
-                "shopware-plugin-class": "Emz\\StagingEnvironment\\EmzPlatformStagingEnvironment"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Emz\\StagingEnvironment\\": "src/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "8mylez GmbH"
-                }
-            ],
-            "description": "Plugin to create and manage multiple staging environments in no time!"
-        },
-        {
-            "name": "store.shopware.com/ironmatomo",
-            "version": "1.2.2",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FIronMatomo%2Fbinaries%2F1.2.2"
-            },
-            "require": {
-                "shopware/core": "^6.4.11.0",
-                "shopware/storefront": "*"
-            },
-            "replace": {
-                "iron/matomo": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "Matomo Tracking",
-                    "en-GB": "Matomo Tracking"
-                },
-                "copyright": "(c) by Martin Eisenführer",
-                "description": {
-                    "de-DE": "Integration von Matomo Webanalytik in Ihrem Shop",
-                    "en-GB": "Integration of Matomo Webanalytics in your shop"
-                },
-                "plugin-icon": "src/Resources/config/plugin.png",
-                "supportLink": {
-                    "de-DE": "https://store.shopware.com/martin-eisenfuehrer.html",
-                    "en-GB": "https://store.shopware.com/martin-eisenfuehrer.html"
-                },
-                "manufacturerLink": {
-                    "de-DE": "https://store.shopware.com/martin-eisenfuehrer.html",
-                    "en-GB": "https://store.shopware.com/martin-eisenfuehrer.html"
-                },
-                "shopware-plugin-class": "IronMatomo\\IronMatomo"
-            },
-            "autoload": {
-                "psr-4": {
-                    "IronMatomo\\": "src/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "Martin Eisenführer"
-                }
-            ],
-            "description": "Matomo plugin for shopware 6"
-        },
-        {
-            "name": "store.shopware.com/kielcodingplatformtrailingslash",
-            "version": "1.5.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FKielCodingPlatformTrailingSlash%2Fbinaries%2F1.5.1"
-            },
-            "require": {
-                "php": ">= 7.4",
-                "shopware/core": "~6.4.0",
-                "shopware/storefront": "~6.4.0"
-            },
-            "replace": {
-                "kielcoding/trailing-slash": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "Trailing Slash Weiterleitung",
-                    "en-GB": "Trailing Slash Redirect"
-                },
-                "description": {
-                    "de-DE": "Automatische Weiterleitung von Kategorie-URLs auf die korrekte URL-Variante. Unterstützt URL-Schemata mit oder ohne \"/\" am Ende und korrigiert jeweils die andere Schreibweise.",
-                    "en-GB": "Automatic forwarding of category URLs to the correct URL variant. Supports URL schemes with or without \"/\" at the end and corrects the other spelling."
-                },
-                "supportLink": {
-                    "de-DE": "https://store.shopware.com/kielcoding-ug.html",
-                    "en-GB": "https://store.shopware.com/en/kielcoding-ug.html"
-                },
-                "manufacturerLink": {
-                    "de-DE": "https://store.shopware.com/kielcoding-ug.html",
-                    "en-GB": "https://store.shopware.com/en/kielcoding-ug.html"
-                },
-                "shopware-plugin-class": "KielCodingPlatformTrailingSlash\\KielCodingPlatformTrailingSlash"
-            },
-            "autoload": {
-                "psr-4": {
-                    "KielCodingPlatformTrailingSlash\\": "src/"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "KielCodingPlatformTrailingSlash\\Tests\\": "tests/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "KielCoding",
-                    "role": "Manufacturer"
-                }
-            ],
-            "description": "Trailing Slash Redirect"
-        },
-        {
-            "name": "store.shopware.com/klarnapayment",
-            "version": "1.7.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FKlarnaPayment%2Fbinaries%2F1.7.0"
-            },
-            "require": {
-                "ext-curl": "*",
-                "ext-json": "*",
-                "ext-mbstring": "*",
-                "php": ">=7.2 || <=8.1",
-                "shopware/administration": ">= 6.3.0.0",
-                "shopware/core": ">= 6.3.0.0",
-                "shopware/storefront": ">= 6.3.0.0"
-            },
-            "replace": {
-                "klarna/payment": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "Klarna Checkout und Klarna Payments",
-                    "en-GB": "Klarna Checkout and Klarna Payments"
-                },
-                "copyright": "(c) Klarna Bank AB (publ)",
-                "description": {
-                    "de-DE": "Nutzen Sie die Zahlungsarten von Klarna mit Jetzt bezahlen (Kreditkarte, Sofortüberweisung und Lastschrift), Rechnung und Finanzierung für Shopware 6.",
-                    "en-GB": "Use the payment methods from Klarna including Pay now (Credit card, Online bank transfer and direct debit), invoice and monthly financing for Shopware 6."
-                },
-                "supportLink": {
-                    "de-DE": "http://bit.ly/klarna-shopware-6-installationguide-de",
-                    "en-GB": "http://bit.ly/klarna-shopware-6-installationguide-en"
-                },
-                "manufacturerLink": {
-                    "de-DE": "https://www.klarna.com/de/",
-                    "en-GB": "https://www.klarna.com/international/"
-                },
-                "shopware-plugin-class": "KlarnaPayment\\KlarnaPayment"
-            },
-            "autoload": {
-                "psr-4": {
-                    "KlarnaPayment\\": "src/"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "KlarnaPayment\\Test\\": "tests/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "Klarna Bank AB (publ)",
-                    "homepage": "https://www.klarna.com/"
-                },
-                {
-                    "name": "Kellerkinder GmbH",
-                    "role": "Contributor",
-                    "email": "hallo@kellerkinder.de",
-                    "homepage": "https://www.kellerkinder.de"
-                }
-            ],
-            "description": "Klarna Checkout and Klarna Payments for Shopware 6"
-        },
-        {
-            "name": "store.shopware.com/kplngiproductorder",
-            "version": "1.5.9",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FKplngiProductOrder%2Fbinaries%2F1.5.9"
-            },
-            "require": {
-                "shopware/core": "~6.4"
-            },
-            "replace": {
-                "kplngi/product-order": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "Produkte anordnen",
-                    "en-GB": "Product sorting"
-                },
-                "description": {
-                    "de-DE": "Die Reihenfolge von Produkten in einer Kategorie kann im Administrationsbereich sortiert werden. Die Artikel erscheinen dann in der sortierten Reihenfolge im Shop.",
-                    "en-GB": "The order of products in a category can be sorted in the administration area. The products then appear in the chosen order in the shop category to draw the customers attention."
-                },
-                "supportLink": {
-                    "de-DE": "https://www.kiplingi.de",
-                    "en-GB": "https://www.kiplingi.de"
-                },
-                "manufacturerLink": {
-                    "de-DE": "https://www.kiplingi.de",
-                    "en-GB": "https://www.kiplingi.de"
-                },
-                "shopware-plugin-class": "Kplngi\\ProductOrder\\KplngiProductOrder"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Kplngi\\ProductOrder\\": "src/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "Kiplingi",
-                    "homepage": "https://www.kiplingi.de"
-                }
-            ],
-            "description": "Set productorder for categories"
-        },
-        {
-            "name": "store.shopware.com/maxialistingvariants6",
-            "version": "1.4.10",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMaxiaListingVariants6%2Fbinaries%2F1.4.10"
-            },
-            "require": {
-                "shopware/core": "~6.4",
-                "shopware/storefront": "~6.4"
-            },
-            "replace": {
-                "maxia/maxia-listing-variants-6": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "Varianten im Listing",
-                    "en-GB": "Variants in listing"
-                },
-                "copyright": "(c) 2020 Maxi Klaassen",
-                "description": {
-                    "de-DE": "Zeigt die Produktvarianten bereits im Kategorie-Listing an.\nOptional mit Schnellkauf-Funktion: Produkte können aus dem Listing heraus in den Warenkorb gelegt werden.",
-                    "en-GB": "Shows product variants in the category listing.\nOptionally with quick buy function: Products can be placed in the shopping cart from the listing."
-                },
-                "plugin-icon": "src/Resources/config/plugin.png",
-                "supportLink": {
-                    "de-DE": "https://metaroom.net",
-                    "en-GB": "https://metaroom.net"
-                },
-                "installer-name": "MaxiaListingVariants6",
-                "manufacturerLink": {
-                    "de-DE": "https://store.shopware.com/metaroom.html",
-                    "en-GB": "https://store.shopware.com/en/metaroom.html"
-                },
-                "shopware-plugin-class": "Maxia\\MaxiaListingVariants6\\MaxiaListingVariants6"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Maxia\\MaxiaListingVariants6\\": "src/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "Maxi Klaassen",
-                    "email": "info@metaroom.net"
-                }
-            ],
-            "description": "Shows variants in product listings."
-        },
-        {
-            "name": "store.shopware.com/moorlcmstwig",
-            "version": "1.4.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlCmsTwig%2Fbinaries%2F1.4.3"
-            },
-            "require": {
-                "shopware/core": "6.4.*"
-            },
-            "replace": {
-                "moorl/moorl-cms-twig": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "CMS Element - HTML/Twig",
-                    "en-GB": "CMS Element - HTML/Twig"
-                },
-                "copyright": "(c) by moori",
-                "description": {
-                    "de-DE": "CMS Element - HTML/Twig",
-                    "en-GB": "CMS Element - HTML/Twig"
-                },
-                "supportLink": {
-                    "de-DE": "https://docs.moori.net/",
-                    "en-GB": "https://docs.moori.net/"
-                },
-                "manufacturerLink": {
-                    "de-DE": "https://docs.moori.net/",
-                    "en-GB": "https://docs.moori.net/"
-                },
-                "shopware-plugin-class": "MoorlCmsTwig\\MoorlCmsTwig"
-            },
-            "autoload": {
-                "psr-4": {
-                    "MoorlCmsTwig\\": "src/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "moori"
-                }
-            ],
-            "description": "CMS Element - HTML/Twig"
-        },
-        {
-            "name": "store.shopware.com/moorlforms",
-            "version": "1.1.53",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlForms%2Fbinaries%2F1.1.53"
-            },
-            "require": {
-                "shopware/core": "^6.4.14",
-                "store.shopware.com/moorlfoundation": "1.4.*"
-            },
-            "replace": {
-                "moorl/forms": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "Formular Baukasten 2 | Basis",
-                    "en-GB": "Form builder 2 | Base"
-                },
-                "copyright": "(c) by moori",
-                "description": {
-                    "de-DE": "Baue Formulare nach deinen Bedürfnissen",
-                    "en-GB": "Build forms according to your needs"
-                },
-                "supportLink": {
-                    "de-DE": "https://docs.moori.net/",
-                    "en-GB": "https://docs.moori.net/"
-                },
-                "manufacturerLink": {
-                    "de-DE": "https://docs.moori.net/",
-                    "en-GB": "https://docs.moori.net/"
-                },
-                "shopware-plugin-class": "MoorlForms\\MoorlForms"
-            },
-            "autoload": {
-                "psr-4": {
-                    "MoorlForms\\": "src/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "moori"
-                }
-            ],
-            "description": "Form builder 2"
-        },
-        {
-            "name": "store.shopware.com/moorlformsclassic",
-            "version": "1.2.6",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlFormsClassic%2Fbinaries%2F1.2.6"
-            },
-            "require": {
-                "shopware/core": "6.4.*",
-                "store.shopware.com/moorlforms": "*",
-                "store.shopware.com/moorlfoundation": "1.4.*"
-            },
-            "replace": {
-                "moorl/forms-classic": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "Formular Baukasten 2 | Classic Add-On",
-                    "en-GB": "Form builder 2 | Classic Add-On"
-                },
-                "copyright": "(c) by moori",
-                "description": {
-                    "de-DE": "Formular Baukasten 2 | Classic Add-On",
-                    "en-GB": "Form builder 2 | Classic Add-On"
-                },
-                "supportLink": {
-                    "de-DE": "https://docs.moori.net/",
-                    "en-GB": "https://docs.moori.net/"
-                },
-                "manufacturerLink": {
-                    "de-DE": "https://docs.moori.net/",
-                    "en-GB": "https://docs.moori.net/"
-                },
-                "shopware-plugin-class": "MoorlFormsClassic\\MoorlFormsClassic"
-            },
-            "autoload": {
-                "psr-4": {
-                    "MoorlFormsClassic\\": "src/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "moori"
-                }
-            ],
-            "description": "Form builder 2 | Classic Add-On"
-        },
-        {
-            "name": "store.shopware.com/moorlfoundation",
-            "version": "1.4.2006",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FMoorlFoundation%2Fbinaries%2F1.4.2006"
-            },
-            "require": {
-                "shopware/core": "^6.4.14"
-            },
-            "replace": {
-                "moorl/foundation": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "Foundation",
-                    "en-GB": "Foundation"
-                },
-                "copyright": "(c) by moori",
-                "description": {
-                    "de-DE": "Das moori Basis Plugin",
-                    "en-GB": "The moori basic plugin"
-                },
-                "supportLink": {
-                    "de-DE": "https://docs.moori.net/",
-                    "en-GB": "https://docs.moori.net/"
-                },
-                "manufacturerLink": {
-                    "de-DE": "https://docs.moori.net/",
-                    "en-GB": "https://docs.moori.net/"
-                },
-                "shopware-plugin-class": "MoorlFoundation\\MoorlFoundation"
-            },
-            "autoload": {
-                "psr-4": {
-                    "DeepL\\": "libs/vendor/deeplcom/deepl-php/src/",
-                    "MoorlFoundation\\": "src/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "moori"
-                }
-            ],
-            "description": "Moorl Foundation"
-        },
-        {
-            "name": "store.shopware.com/neon6configurator",
-            "version": "1.15.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FNeon6Configurator%2Fbinaries%2F1.15.1"
-            },
-            "require": {
-                "jwadhams/json-logic-php": "^1.5",
-                "php": ">=7.4",
-                "shopware/core": ">=6.4.0.0 <6.5.0.0"
-            },
-            "replace": {
-                "neon/configurator": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "neonlines Konfigurator",
-                    "en-GB": "neonlines Configurator"
-                },
-                "copyright": "(c) by neonlines GmbH",
-                "description": {
-                    "de-DE": "Produkt Konfigurator. Verkaufe konfigurierbare Produkte, Produkte nach Maß, Maßanfertigungen, Meterware. Maximale Flexibilität dank durchdachter Preisberechnung und Validierungen.",
-                    "en-GB": "Sell configurable products, products made to measure, made to measure, yard goods. Maximum flexibility thanks to sophisticated price calculation and validations."
-                },
-                "plugin-icon": "src/Resources/config/plugin.png",
-                "supportLink": {
-                    "de-DE": "https://neonlines.de",
-                    "en-GB": "https://neonlines.de"
-                },
-                "manufacturerLink": {
-                    "de-DE": "https://store.shopware.com/neonlines-gmbh.html",
-                    "en-GB": "https://store.shopware.com/en/neonlines-gmbh.html"
-                },
-                "shopware-plugin-class": "Neon\\Configurator\\Neon6Configurator"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Neon\\Configurator\\": "src/"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "Neon\\Configurator\\Test\\": "tests/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "neonlines GmbH",
-                    "role": "Manufacturer",
-                    "homepage": "https://neonlines.de"
-                }
-            ],
-            "description": "The product configurator by neonlines"
-        },
-        {
-            "name": "store.shopware.com/phpschmiedfromprice",
-            "version": "1.3.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FphpSchmiedFromPrice%2Fbinaries%2F1.3.3"
-            },
-            "require": {
-                "shopware/core": "*",
-                "shopware/storefront": "*"
-            },
-            "replace": {
-                "phpschmied/fromprice": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "Zeigt den 'ab' Preis von Varianten in Produktlisten",
-                    "en-GB": "Shows the 'from' price of variants in product lists"
-                },
-                "copyright": "(c) PHP-Schmiede",
-                "description": {
-                    "de-DE": "Dieses Plugin zeigt die 'ab' Preise in Produktlisten an.",
-                    "en-GB": "This plugin shows the 'from' prices in product lists."
-                },
-                "plugin-icon": "src/Resources/config/plugin.png",
-                "supportLink": {
-                    "de-DE": "https://www.php-schmide.com",
-                    "en-GB": "https://www.php-schmide.com"
-                },
-                "manufacturerLink": {
-                    "de-DE": "https://store.shopware.com/php-schmiede.html",
-                    "en-GB": "https://store.shopware.com/en/php-schmiede.html"
-                },
-                "shopware-plugin-class": "phpSchmied\\FromPrice\\phpSchmiedFromPrice"
-            },
-            "autoload": {
-                "psr-4": {
-                    "phpSchmied\\FromPrice\\": "src/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "PHP-Schmiede",
-                    "role": "Manufacturer",
-                    "homepage": "https://www.php-schmiede.com"
-                }
-            ],
-            "description": "Shows the 'from' price on product listings"
-        },
-        {
-            "name": "store.shopware.com/scopplatformredirecter",
-            "version": "1.2.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FScopPlatformRedirecter%2Fbinaries%2F1.2.0"
-            },
-            "require": {
-                "shopware/core": "6.*"
-            },
-            "replace": {
-                "scop/scopplatformredirecter": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "SEO Redirect Plugin",
-                    "en-GB": "SEO Redirect plugin"
-                },
-                "copyright": "(c) scope01 GmbH",
-                "description": {
-                    "de-DE": "Administration von Weiterleitungen // scope01 // Shopware // Frankfurt // SEO Redirect Plugin von scope01. Infos & FAQ: https://scope01.com/shopware-redirect-plugin/",
-                    "en-GB": "Administration of redirects // scope01 // Shopware // Frankfurt // SEO Redirect Plugin from scope01. Information & FAQ at: https://scope01.com/shopware-redirect-plugin/"
-                },
-                "supportLink": {
-                    "de-DE": "https://scope01.com/internetagentur-frankfurt/",
-                    "en-GB": "https://scope01.com/internetagentur-frankfurt/"
-                },
-                "manufacturerLink": {
-                    "de-DE": "https://scope01.com/",
-                    "en-GB": "https://scope01.com/"
-                },
-                "shopware-plugin-class": "Scop\\PlatformRedirecter\\ScopPlatformRedirecter"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Scop\\PlatformRedirecter\\": "src/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "scope01 GmbH",
-                    "role": "Manufacturer",
-                    "homepage": "https://scope01.com/"
-                }
-            ],
-            "description": "With the redirect plugin of the agency scope01 from frankfurt(m) (https://scope01.com/) you are able to create and manage redirects from the admin area of shopware 6"
-        },
-        {
-            "name": "store.shopware.com/stripeshopwarepayment",
-            "version": "1.10.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FStripeShopwarePayment%2Fbinaries%2F1.10.0"
-            },
-            "require": {
-                "ext-json": "*",
-                "ext-mbstring": "*",
-                "php": ">=7.4",
-                "shopware/core": "6.4.* >= 6.4.5",
-                "shopware/storefront": "6.4.*",
-                "stripe/stripe-php": "^9.9.0",
-                "symfony/config": "^5.2.3",
-                "symfony/dependency-injection": "^5.2.3",
-                "symfony/http-foundation": "^5.2.3"
-            },
-            "replace": {
-                "stripe/shopware-payment": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "Stripe Payment",
-                    "en-GB": "Stripe Payment"
-                },
-                "description": {
-                    "de-DE": "Das Plugin \"Stripe Payment\" ermöglicht die Zahlungsabwicklung über Stripe.",
-                    "en-GB": "The Plugin \"Stripe Payment\" enables payment processing via Stripe."
-                },
-                "supportLink": {
-                    "de-DE": "https://stripe.com/de",
-                    "en-GB": "https://stripe.com"
-                },
-                "manufacturerLink": {
-                    "de-DE": "https://stripe.com/de",
-                    "en-GB": "https://stripe.com"
-                },
-                "shopware-plugin-class": "Stripe\\ShopwarePayment\\StripeShopwarePayment",
-                "ci-min-supported-shopware-version": "6.4.8.0"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Stripe\\ShopwarePayment\\": "src/"
-                },
-                "exclude-from-classmap": [
-                    "**.unit.php",
-                    "**.integration.php"
-                ]
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "Stripe Payments Europe, Ltd.",
-                    "email": "support@stripe.com"
-                }
-            ],
-            "description": "Stripe payment processing for Shopware 6"
-        },
-        {
-            "name": "store.shopware.com/swagpaypal",
-            "version": "5.4.5",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FSwagPayPal%2Fbinaries%2F5.4.5"
-            },
-            "require": {
-                "shopware/core": "~6.4.3 | 6.4.x-dev"
-            },
-            "replace": {
-                "swag/paypal": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "PayPal-Produkte für Shopware 6",
-                    "en-GB": "PayPal Products for Shopware 6"
-                },
-                "copyright": "(c) by shopware AG",
-                "description": {
-                    "de-DE": "Bieten Sie Ihren Kunden Deutschlands beliebteste Bezahlmöglichkeiten mit nur einer Integration: Das neue PayPal-Modul bietet PayPal PLUS, Kauf auf Rechnung, Ratenzahlung & den Expressbutton",
-                    "en-GB": "Get access to over 100 currencies and 200 markets worldwide with the payment module PayPal for your Shopware shop. Experience an easy and comfortable way of payment."
-                },
-                "supportLink": {
-                    "de-DE": "https://issues.shopware.com/",
-                    "en-GB": "https://issues.shopware.com/"
-                },
-                "manufacturerLink": {
-                    "de-DE": "https://store.shopware.com/shopware-ag.html",
-                    "en-GB": "https://store.shopware.com/en/shopware-ag.html"
-                },
-                "shopware-plugin-class": "Swag\\PayPal\\SwagPayPal"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Swag\\PayPal\\": "src/"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "Swag\\PayPal\\Test\\": "tests/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "Shopware"
-                }
-            ],
-            "description": "PayPal integration for Shopware 6"
-        },
-        {
-            "name": "store.shopware.com/swagpublisher",
-            "version": "1.1.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FSwagPublisher%2Fbinaries%2F1.1.0"
-            },
-            "require": {
-                "shopware/administration": "~6.4.16",
-                "shopware/core": "~6.4.16",
-                "shopware/storefront": "~6.4.16"
-            },
-            "replace": {
-                "shopware/publisher": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "Shopware Publisher",
-                    "en-GB": "Shopware Publisher"
-                },
-                "copyright": "(c) by shopware AG",
-                "description": {
-                    "de-DE": "Benutzerdefinierter Veröffentlichung für Erlebniswelten: Speichere CMS-Seiten als Entwurf, rufe eine Storefront-Vorschau aus dem Modul heraus auf und veröffentliche sie später.",
-                    "en-GB": "Custom publishing workflow for Shopping Experiences: Save CMS page changes as drafts, get a Storefront preview from within the module and publish them later."
-                },
-                "supportLink": {
-                    "de-DE": "https://issues.shopware.com/",
-                    "en-GB": "https://issues.shopware.com/"
-                },
-                "manufacturerLink": {
-                    "de-DE": "https://www.shopware.com/de/",
-                    "en-GB": "https://www.shopware.com/en/"
-                },
-                "shopware-plugin-class": "SwagPublisher\\SwagPublisher"
-            },
-            "autoload": {
-                "psr-4": {
-                    "SwagPublisher\\": "src/"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "SwagPublisherTest\\": "tests/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "shopware AG",
-                    "role": "Manufacturer"
-                }
-            ],
-            "description": "Publisher"
-        },
-        {
-            "name": "store.shopware.com/trustamiseller",
-            "version": "1.0.6",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.shopware.com/download?downloadUrl=%2Fpackages%2Fplugins%2FTrustamiSeller%2Fbinaries%2F1.0.6"
-            },
-            "require": {
-                "shopware/core": "*",
-                "shopware/storefront": "*"
-            },
-            "replace": {
-                "trustami/seller": "self.version"
-            },
-            "type": "shopware-platform-plugin",
-            "extra": {
-                "label": {
-                    "de-DE": "Siegel für Shop Bewertungen + Google Sterne | Trustami",
-                    "en-GB": "Badge for Shop Reviews + Google Stars | Trustami"
-                },
-                "copyright": "(c) by Trustami GmbH",
-                "description": {
-                    "de-DE": "Mit dem Vertrauenssiegel von Trustami sammeln Sie alle Ihre existierenden Bewertungen an einem Ort aus allen Quellen. Trustami bietet einen einzigartigen Service, bei dem die verstreuten Bewertungen eines Händlers automatisch verknüpft, aktualisiert und verifiziert werden.",
-                    "en-GB": "Trustami's trust badge enables users to collect ratings and reviews from all networks and display them in the form of trust badges. Trustami collects, analyzes and presents a user's distributed social media data in a standardized and user-friendly format to fill the need for trust in online interactions."
-                },
-                "supportLink": {
-                    "de-DE": "https://www.trustami.com/",
-                    "en-GB": "https://www.trustami.com/en/"
-                },
-                "manufacturerLink": {
-                    "de-DE": "https://www.trustami.com/",
-                    "en-GB": "https://www.trustami.com/en/"
-                },
-                "shopware-plugin-class": "Trustami\\Seller\\TrustamiSeller"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Trustami\\Seller\\": "src/"
-                }
-            },
-            "notification-url": "https://packages.shopware.com/downloads/",
-            "authors": [
-                {
-                    "name": "Trustami GmbH"
-                }
-            ],
-            "description": "Mit dem Vertrauenssiegel von Trustami sammeln Sie alle Ihre existierenden Bewertungen an einem Ort aus allen Quellen."
-        },
-        {
-            "name": "stripe/stripe-php",
-            "version": "v9.9.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "479b5c2136fde0debb93d290ceaf20dd161c358f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/479b5c2136fde0debb93d290ceaf20dd161c358f",
-                "reference": "479b5c2136fde0debb93d290ceaf20dd161c358f",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "ext-json": "*",
-                "ext-mbstring": "*",
-                "php": ">=5.6.0"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "3.5.0",
-                "php-coveralls/php-coveralls": "^2.5",
-                "phpstan/phpstan": "^1.2",
-                "phpunit/phpunit": "^5.7 || ^9.0",
-                "squizlabs/php_codesniffer": "^3.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Stripe\\": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Stripe and contributors",
-                    "homepage": "https://github.com/stripe/stripe-php/contributors"
-                }
-            ],
-            "description": "Stripe PHP Library",
-            "homepage": "https://stripe.com/",
-            "keywords": [
-                "api",
-                "payment processing",
-                "stripe"
-            ],
-            "support": {
-                "issues": "https://github.com/stripe/stripe-php/issues",
-                "source": "https://github.com/stripe/stripe-php/tree/v9.9.0"
-            },
-            "time": "2022-11-08T20:25:52+00:00"
         },
         {
             "name": "superbalist/flysystem-google-storage",
@@ -15611,6 +14538,49 @@
             "time": "2023-02-17T16:59:45+00:00"
         },
         {
+            "name": "symplify/vendor-patches",
+            "version": "11.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symplify/vendor-patches.git",
+                "reference": "793c5d0f995988af690e2a278d0133df41638528"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symplify/vendor-patches/zipball/793c5d0f995988af690e2a278d0133df41638528",
+                "reference": "793c5d0f995988af690e2a278d0133df41638528",
+                "shasum": ""
+            },
+            "require": {
+                "cweagans/composer-patches": "^1.7",
+                "php": ">=7.2"
+            },
+            "bin": [
+                "bin/vendor-patches"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Generate vendor patches for packages with single command",
+            "support": {
+                "issues": "https://github.com/symplify/vendor-patches/issues",
+                "source": "https://github.com/symplify/vendor-patches/tree/11.2.3"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/rectorphp",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/tomasvotruba",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-02-07T11:23:54+00:00"
+        },
+        {
             "name": "theseer/tokenizer",
             "version": "1.2.1",
             "source": {
@@ -15680,4 +14650,3 @@
     },
     "plugin-api-version": "2.3.0"
 }
-
