@@ -4,8 +4,8 @@
      /**
       * Don't depend on this being en-GB, the underlying language can be overwritten by the installer!
       */
--    public const LANGUAGE_SYSTEM = '7586b51f54c5466bb3a1ef0a3e7e67c7';
-+    public const LANGUAGE_SYSTEM = '2fbb5fe2e29a4d70aa5854ce7ce3e20b';
+-    public const LANGUAGE_SYSTEM = '2fbb5fe2e29a4d70aa5854ce7ce3e20b';
++    public const LANGUAGE_SYSTEM = '7586b51f54c5466bb3a1ef0a3e7e67c7';
 
      /**
       * @deprecated tag:v6.5.0 - Use sales channel default customer group instead

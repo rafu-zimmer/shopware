@@ -24,6 +24,8 @@ RUN apk add bash npm
 # Copy system configs
 COPY config/etc /etc
 
+COPY --from=composer/composer:2-bin /composer /usr/bin/composer
+
 WORKDIR /var/www
 
 #RUN APP_URL="http://localhost" DATABASE_URL="" bin/console assets:install \

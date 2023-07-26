@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8d10b7b3ce9c2a4e36d591ac5bc2c309",
+    "content-hash": "cb2ea27275474dc71642035cee73b9e5",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -5194,11 +5194,11 @@
         },
         {
             "name": "rafu/project-jupiter",
-            "version": "1.9.1",
+            "version": "1.9.5",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:rafu-zimmer/projectjupiter.git",
-                "reference": "ad11fa0228e35c19d7b4fb31ccd7a95592a8ae4c"
+                "reference": "eb550224f499b9564f4182fc7e2e12d1516dab60"
             },
             "require": {
                 "php": "^8.0",
@@ -5227,7 +5227,7 @@
                 }
             ],
             "description": "Project Jupiter",
-            "time": "2023-04-13T07:08:23+00:00"
+            "time": "2023-07-24T12:50:26+00:00"
         },
         {
             "name": "ralouphie/getallheaders",

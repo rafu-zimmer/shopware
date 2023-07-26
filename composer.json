@@ -67,7 +67,7 @@
         "php": "^8.0",
         "composer-runtime-api": "^2.0",
         "cweagans/composer-patches": "^1.7",
-        "rafu/project-jupiter": "^1.7",
+        "rafu/project-jupiter": "v1.9.5",
         "shopware/administration": "~v6.4.0",
         "shopware/core": "~v6.4.0",
         "shopware/elasticsearch": "~v6.4.0",
