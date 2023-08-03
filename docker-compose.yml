@@ -25,10 +25,6 @@ services:
       - APP_DEBUG=1
       - APP_URL=http://rafu.de.localhost
       - INSTANCE_ID=
-      - SHOPWARE_ES_ENABLED=1
-      - SHOPWARE_ES_HOSTS=elasticsearch:9200
-      - SHOPWARE_ES_INDEXING_ENABLED=1
-      - SHOPWARE_ES_INDEX_PREFIX=sw
       - SHOPWARE_CDN_STRATEGY_DEFAULT=id
       - MAILER_URL=smtp://localhost:25?encryption=&auth_mode=
     volumes:
@@ -49,7 +45,7 @@ services:
       - "3306:3306"
 
   elasticsearch:
-    image: elastic/elasticsearch:7.8.0
+    image: elastic/elasticsearch:7.17.10
     environment:
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
       - discovery.type=single-node
