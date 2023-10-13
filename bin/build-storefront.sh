@@ -4,6 +4,7 @@ CWD="$(cd -P -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
 
 set -euo pipefail
 
+export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 export PROJECT_ROOT="${PROJECT_ROOT:-"$(dirname "$CWD")"}"
 STOREFRONT_ROOT="${STOREFRONT_ROOT:-"${PROJECT_ROOT}/vendor/shopware/storefront"}"
 
@@ -19,7 +20,7 @@ fi
 
 # build storefront
 [[ ${SHOPWARE_SKIP_BUNDLE_DUMP-""} ]] || "${BIN_TOOL}" bundle:dump
-DATABASE_URL="" "${BIN_TOOL}" feature:dump
+[[ ${SHOPWARE_SKIP_FEATURE_DUMP-""} ]] || "${BIN_TOOL}" feature:dump
 
 if [[ $(command -v jq) ]]; then
     OLDPWD=$(pwd)
@@ -32,14 +33,16 @@ if [[ $(command -v jq) ]]; then
         path=$(dirname "$srcPath")
         name=$(echo "$config" | jq -r '.technicalName' )
 
+        skippingEnvVarName="SKIP_$(echo "$name" | sed -e 's/\([a-z]\)/\U\1/g' -e 's/-/_/g')"
+
+        if [[ ${!skippingEnvVarName-""} ]]; then
+            continue
+        fi
+
         if [[ -f "$path/package.json" && ! -d "$path/node_modules" && $name != "storefront" ]]; then
             echo "=> Installing npm dependencies for ${name}"
 
-            if [[ -f "$path/package-lock.json" ]]; then
-                npm clean-install --prefix "$path"
-            else
-                npm install --prefix "$path"
-            fi
+            npm install --prefix "$path" --no-audit --prefer-offline
         fi
     done
     cd "$OLDPWD" || exit
@@ -47,7 +50,7 @@ else
     echo "Cannot check extensions for required npm installations as jq is not installed"
 fi
 
-npm --prefix "${STOREFRONT_ROOT}"/Resources/app/storefront clean-install
+npm --prefix "${STOREFRONT_ROOT}"/Resources/app/storefront install --no-audit --prefer-offline
 node "${STOREFRONT_ROOT}"/Resources/app/storefront/copy-to-vendor.js
 npm --prefix "${STOREFRONT_ROOT}"/Resources/app/storefront run production
 [[ ${SHOPWARE_SKIP_ASSET_COPY-""} ]] ||"${BIN_TOOL}" assets:install

@@ -5,7 +5,7 @@ ENV ARTIFACTS_DIR=/artifacts
 ENV LD_PRELOAD=/usr/lib/preloadable_libiconv.so
 
 RUN apk --no-cache add \
-        supervisor curl zip rsync xz coreutils icu-dev \
+        supervisor curl zip libzip-dev rsync xz coreutils icu-dev \
         php-ctype php-curl php-dom php-fileinfo php-gd \
         php-iconv php-json php-mbstring \
         php-openssl \
@@ -17,9 +17,30 @@ RUN apk --no-cache add \
 RUN docker-php-ext-install mysqli pdo_mysql \
     && docker-php-ext-enable mysqli pdo_mysql
 
-RUN docker-php-ext-configure intl && docker-php-ext-install intl
+RUN apk --no-cache add pcre-dev ${PHPIZE_DEPS} \
+  && pecl install redis \
+  && docker-php-ext-enable redis \
+  && apk del pcre-dev ${PHPIZE_DEPS} \
+  && rm -rf /tmp/pear \
+
+
+RUN docker-php-ext-configure intl zip && docker-php-ext-install intl zip
 
 RUN apk add bash npm
+
+# nvm environment variables
+ENV NVM_DIR=/usr/local/nvm
+ENV NODE_VERSION=18
+
+# install nvm
+# https://github.com/creationix/nvm#install-script
+RUN mkdir $NVM_DIR && curl --silent -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+
+# install node and npm
+RUN source $NVM_DIR/nvm.sh \
+    && nvm install $NODE_VERSION \
+    && nvm alias default $NODE_VERSION \
+    && nvm use --delete-prefix default
 
 # Copy system configs
 COPY config/etc /etc
