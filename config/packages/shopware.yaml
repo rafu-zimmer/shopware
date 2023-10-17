@@ -9,7 +9,7 @@ shopware:
 #        default_redis_provider: 'redis://localhost:6379'
 #        app: cache.adapter.redis
 
-admin:
-    url: 'admin'
-    asset_path: 'assets'
-    uri: 'https://rafu-zentaurus.de/admin'
+#admin:
+#    url: 'admin'
+#    asset_path: 'assets'
+#    uri: 'https://rafu-zentaurus.de/admin'

@@ -72,7 +72,8 @@
         "php": "^8.2",
         "composer-runtime-api": "^2.0",
         "cweagans/composer-patches": "^1.7",
-        "rafu/project-jupiter": "v1.9.*",
+        "moorl/forms": "~1.5.4",
+        "rafu/project-jupiter": "~1.9.11",
         "shopware/administration": "~v6.5.0",
         "shopware/core": "~v6.5.0",
         "shopware/elasticsearch": "~v6.5.0",
@@ -86,8 +87,12 @@
                 "patches/shopware-core-defaults-php.patch"
             ],
             "shopware/administration": [
-                "patches/shopware-administration-resources-app-administration-src-core-shopware-ts.patch"
+                "patches/shopware-administration-resources-app-administration-src-core-shopware-ts.patch",
+                "patches/shopware-administration-component-sw-media-quickinfo.patch"
             ]
         }
+    },
+    "require-dev": {
+        "symfony/web-profiler-bundle": "^6.3"
     }
 }

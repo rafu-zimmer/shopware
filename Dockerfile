@@ -24,7 +24,9 @@ RUN apk --no-cache add pcre-dev ${PHPIZE_DEPS} \
   && rm -rf /tmp/pear \
 
 
-RUN docker-php-ext-configure intl zip && docker-php-ext-install intl zip
+RUN docker-php-ext-configure intl zip pcntl && docker-php-ext-install intl zip pcntl
+
+RUN apk add --no-cache libpng libpng-dev && docker-php-ext-install gd && apk del libpng-dev
 
 RUN apk add bash npm
 
