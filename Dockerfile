@@ -4,6 +4,22 @@ ENV COMPOSER_HOME=/var/cache/composer
 ENV ARTIFACTS_DIR=/artifacts
 ENV LD_PRELOAD=/usr/lib/preloadable_libiconv.so
 
+RUN apk add bash npm jq make g++ make py3-pip
+
+# nvm environment variables
+ENV NVM_DIR=/usr/local/nvm
+ENV NODE_VERSION=18
+
+# install nvm
+# https://github.com/creationix/nvm#install-script
+RUN mkdir $NVM_DIR && curl --silent -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+
+# install node and npm
+RUN source $NVM_DIR/nvm.sh \
+    && nvm install $NODE_VERSION \
+    && nvm alias default $NODE_VERSION \
+    && nvm use --delete-prefix default \
+
 RUN apk --no-cache add \
         supervisor curl zip libzip-dev rsync xz coreutils icu-dev \
         php-ctype php-curl php-dom php-fileinfo php-gd \
@@ -27,22 +43,6 @@ RUN apk --no-cache add pcre-dev ${PHPIZE_DEPS} \
 RUN docker-php-ext-configure intl zip pcntl && docker-php-ext-install intl zip pcntl
 
 RUN apk add --no-cache libpng libpng-dev && docker-php-ext-install gd && apk del libpng-dev
-
-RUN apk add bash npm
-
-# nvm environment variables
-ENV NVM_DIR=/usr/local/nvm
-ENV NODE_VERSION=18
-
-# install nvm
-# https://github.com/creationix/nvm#install-script
-RUN mkdir $NVM_DIR && curl --silent -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
-
-# install node and npm
-RUN source $NVM_DIR/nvm.sh \
-    && nvm install $NODE_VERSION \
-    && nvm alias default $NODE_VERSION \
-    && nvm use --delete-prefix default
 
 # Copy system configs
 COPY config/etc /etc
