@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "22030a65eaaff9c3b37707dc32067aff",
+    "content-hash": "673142924e1122dfa153b9345ede7e27",
     "packages": [
         {
             "name": "async-aws/core",
@@ -2797,6 +2797,49 @@
             "time": "2023-09-26T02:20:38+00:00"
         },
         {
+            "name": "jwadhams/json-logic-php",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jwadhams/json-logic-php.git",
+                "reference": "e4ea3a46f44d3d34740276f7a21f8f052b029743"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jwadhams/json-logic-php/zipball/e4ea3a46f44d3d34740276f7a21f8f052b029743",
+                "reference": "e4ea3a46f44d3d34740276f7a21f8f052b029743",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "JWadhams": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeremy Wadhams",
+                    "email": "jwadhams@dealerinspire.com"
+                }
+            ],
+            "description": "Build rules with complex comparisons and boolean operators, serialized as JSON, and execute them in PHP",
+            "support": {
+                "issues": "https://github.com/jwadhams/json-logic-php/issues",
+                "source": "https://github.com/jwadhams/json-logic-php/tree/1.5.0"
+            },
+            "time": "2022-03-02T21:44:10+00:00"
+        },
+        {
             "name": "laminas/laminas-code",
             "version": "4.13.0",
             "source": {
@@ -3930,11 +3973,11 @@
         },
         {
             "name": "moorl/forms",
-            "version": "1.5.17",
+            "version": "1.5.18",
             "dist": {
                 "type": "path",
                 "url": "custom/plugins/MoorlForms",
-                "reference": "98e2f991378c2cedfcc97fa1cf794948fc96d401"
+                "reference": "0da7f13f5c1d2284e6a5234355d43b55e029941b"
             },
             "require": {
                 "moorl/foundation": "1.5.*",
@@ -4027,6 +4070,70 @@
                 }
             ],
             "description": "Foundation",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
+            "name": "neon/configurator",
+            "version": "v1.22.0",
+            "dist": {
+                "type": "path",
+                "url": "custom/plugins/Neon6Configurator",
+                "reference": "c3a1ab1dd90bae6e4c7cef9f00e49900cec5f9ca"
+            },
+            "require": {
+                "jwadhams/json-logic-php": "^1.5",
+                "php": ">=7.4",
+                "shopware/core": ">=6.5.0.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.8"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "shopware-plugin-class": "Neon\\Configurator\\Neon6Configurator",
+                "plugin-icon": "src/Resources/config/plugin.png",
+                "copyright": "(c) by neonlines GmbH",
+                "label": {
+                    "de-DE": "neonlines Produkt Konfigurator",
+                    "en-GB": "neonlines Product Configurator"
+                },
+                "description": {
+                    "de-DE": "Produkt Konfigurator. Verkaufe konfigurierbare Produkte, Produkte nach Maß, Maßanfertigungen, Meterware. Maximale Flexibilität dank durchdachter Preisberechnung und Validierungen.",
+                    "en-GB": "Sell configurable products, products made to measure, made to measure, yard goods. Maximum flexibility thanks to sophisticated price calculation and validations."
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://store.shopware.com/neonlines-gmbh.html",
+                    "en-GB": "https://store.shopware.com/en/neonlines-gmbh.html"
+                },
+                "supportLink": {
+                    "de-DE": "https://neonlines.de",
+                    "en-GB": "https://neonlines.de"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Neon\\Configurator\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Neon\\Configurator\\Test\\": "tests/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "neonlines GmbH",
+                    "homepage": "https://neonlines.de",
+                    "role": "Manufacturer"
+                }
+            ],
+            "description": "The product configurator by neonlines",
             "transport-options": {
                 "symlink": true,
                 "relative": true
@@ -4491,6 +4598,61 @@
             "time": "2023-04-28T14:10:22+00:00"
         },
         {
+            "name": "phpschmied/fromprice",
+            "version": "v1.3.31",
+            "dist": {
+                "type": "path",
+                "url": "custom/plugins/phpSchmiedFromPrice",
+                "reference": "991f6f3693002c69cc784c47991c0c240411afb4"
+            },
+            "require": {
+                "shopware/core": "6.4.* || 6.5.*",
+                "shopware/storefront": "*"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "shopware-plugin-class": "phpSchmied\\FromPrice\\phpSchmiedFromPrice",
+                "label": {
+                    "de-DE": "Zeigt den 'ab' Preis von Varianten in Produktlisten",
+                    "en-GB": "Shows the 'from' price of variants in product lists"
+                },
+                "plugin-icon": "src/Resources/config/plugin.png",
+                "description": {
+                    "de-DE": "Dieses Plugin zeigt die 'ab' Preise in Produktlisten an.",
+                    "en-GB": "This plugin shows the 'from' prices in product lists."
+                },
+                "manufacturerLink": {
+                    "de-DE": "https://store.shopware.com/php-schmiede.html",
+                    "en-GB": "https://store.shopware.com/en/php-schmiede.html"
+                },
+                "supportLink": {
+                    "de-DE": "https://www.php-schmide.com",
+                    "en-GB": "https://www.php-schmide.com"
+                },
+                "copyright": "(c) PHP-Schmiede"
+            },
+            "autoload": {
+                "psr-4": {
+                    "phpSchmied\\FromPrice\\": "src/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-Schmiede",
+                    "role": "Manufacturer",
+                    "homepage": "https://www.php-schmiede.com"
+                }
+            ],
+            "description": "Shows the 'from' price on product listings",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
             "name": "psr/cache",
             "version": "3.0.0",
             "source": {
@@ -4902,14 +5064,16 @@
         },
         {
             "name": "rafu/project-jupiter",
-            "version": "2.0.1",
+            "version": "2.1.3",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:rafu-zimmer/projectjupiter.git",
-                "reference": "b40da9f30ebd7ca25d069bef75f8eca426f147b4"
+                "reference": "479db91860285e835b4a2d9848f2ec386ec3dacb"
             },
             "require": {
+                "neon/configurator": "^1.22.0",
                 "php": "^8.0",
+                "phpschmied/fromprice": "^1.3.0",
                 "shopware/core": "^6.4",
                 "shopware/storefront": "^6.4"
             },
@@ -4935,7 +5099,7 @@
                 }
             ],
             "description": "Project Jupiter",
-            "time": "2023-11-30T15:07:56+00:00"
+            "time": "2024-01-22T12:15:34+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -11705,5 +11869,5 @@
     "platform-overrides": {
         "php": "8.2"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }

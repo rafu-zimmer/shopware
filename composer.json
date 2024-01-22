@@ -73,7 +73,7 @@
         "composer-runtime-api": "^2.0",
         "cweagans/composer-patches": "^1.7",
         "moorl/forms": "~1.5.4",
-        "rafu/project-jupiter": "~2.0.0",
+        "rafu/project-jupiter": "^2.1",
         "shopware/administration": "~v6.5.0",
         "shopware/core": "~v6.5.0",
         "shopware/elasticsearch": "~v6.5.0",
